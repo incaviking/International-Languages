@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>NGX Template</title>
+  <meta name="description" content="Ngx Template">
+  <meta name="author" content="Machina">
+  <style>
+    body {
+      margin: 0px;
+      background-color: white;
+    }
+
+    h1 {
+      margin: 0px;
+      font-weight: inherit;
+    }
+
+    h2 {
+      font-weight: inherit;
+    }
+
+    .background {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+    }
+
+    .background div:nth-of-type(1) {
+      width: 69%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px;
+      box-sizing: border-box;
+      background-color: #ebeef0;
+      clip-path: polygon(0 0, 76.5% 0, 100% 122%, 0 100%);
+    }
+
+    .background div:nth-of-type(2) {
+      width: 31%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .wrapper h1 {
+      font-family: "Rubik-Regular";
+      font-size: 20px;
+      max-width: 500px;
+      color: #141414;
+      font-weight: 100;
+      line-height: 23px;
+      z-index: 10;
+    }
+
+    .wrapper a {
+      font-family: "Open Sans";
+      color: #6c7e90;
+      font-size: 19px;
+      margin-top: 20px;
+      z-index: 10;
+      color: rgb(54, 86, 164);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div></div>
+    <div></div>
+  </div>
+  <section class="wrapper">
+    <h1>This Internet Browser is not currently supported. For the best experience please use Google Chrome</h1>
+    <a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a>
+  </section>
+</body>
+
+</html>
