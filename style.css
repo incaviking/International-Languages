@@ -220,7 +220,7 @@ p {
     display: flex;
     margin: auto 11% auto 0;
     justify-content: space-between;
-    width: 600px;
+    width: fit-content;
 }
 
 .nlb {
@@ -239,7 +239,7 @@ p {
     font-weight: 600;
     line-height: 1em;
     margin: 2em auto 1em;
-    padding: 1em 21%;
+    padding: 1rem 1rem;
 }
 
 .nav-link-button {
