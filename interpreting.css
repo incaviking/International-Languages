@@ -89,7 +89,7 @@ table {
 /* something */
 
 h1 {
-    font-size: 36px;
+    font-size: 35px;
     text-transform: uppercase;
     font-family: gotham;
     font-weight: 100;
@@ -244,6 +244,17 @@ p {
     padding: 1rem 1rem;
 }
 
+.nav-link-current {
+    text-decoration: none;
+    color: #9E3E49;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1rem 1rem;
+}
+
 .nav-link-button {
     text-decoration: none;
     background-color: #345079;
@@ -341,7 +352,7 @@ p {
 
 .sub-header {
     font-size: 14px;
-    color: #BCAD96;
+    color: #95B7A4;
 }
 
 .main-text {
@@ -354,8 +365,8 @@ p {
 }
 
 
-.tan-line {
-    background: linear-gradient(to right, #C1B39E, #BCAD96);
+.green-line1 {
+    background: linear-gradient(to right, #ACD1BC, #95B8A4);
     height: 3px;
     width: 60px;
     margin: 0 0 1.5rem 0;
@@ -365,26 +376,27 @@ p {
 /* Section 1 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
     .main-img {
-        height: 300px;
-        width: 100%;
+        height: 400px;
+        width: 800px;
         background: url(./assets/img/education@2x.png);
-        background-position: center;
+        background-position: left;
         background-size: 100%;
         background-repeat: no-repeat;
         position: relative;
-        z-index: -1;
+        z-index: 0;
         object-fit: cover;
-        margin: 0 auto;
+        margin: 4rem 0 0 6%;
+        box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
     }
 
     .main-text {
         height: fit-content;
-        width: 90%;
-        padding: 2rem 10% 3rem;
-        margin: -70px auto 6rem 0;
+        width: 47%;
+        padding: 3rem 3rem 6rem;
+        margin: -310px 10% 6rem auto;
         background-color: white;
         text-align: left;
         position: relative;
@@ -418,7 +430,7 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 .section2 {
-    background-color: #F7F7F8;
+    background-color: white;
     height: fit-content;
     width: 100%;
     padding: 6rem 0;
@@ -496,40 +508,40 @@ p {
     margin-bottom: 0;
 }
 
-.img-healthcare {
-    background: url(./assets/icons/1.svg) no-repeat center center;
+.on-site {
+    background: url(./assets/icons/on-site.svg) no-repeat center center;
     width: 100%;
     height: 150px;
     object-fit: cover;
     margin-right: auto;
 }
 
-.img-legal {
-    background: url(./assets/icons/2.svg) no-repeat center center;
+.opi {
+    background: url(./assets/icons/opi.svg) no-repeat center center;
     width: 100%;
     height: 150px;
     object-fit: cover;
     margin-right: auto;
 }
 
-.img-education {
-    background: url(./assets/icons/3.svg) no-repeat center center;
+.vri {
+    background: url(./assets/icons/vri.svg) no-repeat center center;
     width: 100%;
     height: 150px;
     object-fit: cover;
     margin-right: auto;
 }
 
-.img-government {
-    background: url(./assets/icons/4.svg) no-repeat center center;
+.escort {
+    background: url(./assets/icons/escort.svg) no-repeat center center;
     width: 100%;
     height: 150px;
     object-fit: cover;
     margin-right: auto;
 }
 
-.img-insurance {
-    background: url(./assets/icons/5.svg) no-repeat center center;
+.conference {
+    background: url(./assets/icons/conference.svg) no-repeat center center;
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -606,6 +618,14 @@ p {
     color: white;
 }
 
+.titles-bold {
+    font-weight: 700;
+    line-height: 1.25em;
+    font-size: 28px;
+    font-family: 'Source Sans Pro';
+    color: #345079;
+}
+
 .p-white {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -620,12 +640,12 @@ p {
 
 .h1bold {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 35px;
 }
 
 .box-gradient-green {
     height: fit-content;
-    padding: 8rem 25%;
+    padding: 6rem 25%;
     margin: auto;
     text-align: center;
 }
@@ -636,6 +656,7 @@ p {
 /* Section 4 ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+
 .section4 {
     background-color: white;
     height: fit-content;
@@ -643,6 +664,58 @@ p {
     padding: 6rem 0 1rem;
     text-align: center;
 }
+
+.interpretation-image {
+    background: url(./assets/img/interpreting-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 450px;
+    position: relative;
+    z-index: 2;
+    margin: 0 0 0 10%;
+}
+
+.grey-box {
+    background-color: #F7F7F8;
+    padding: 135px 8% 8% 12%;
+    margin: -630px 0 8% 50%;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    height: fit-content;
+}
+
+.icon {
+    margin: 10px 0 30px 0;
+}
+
+.h6-red {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    color: #9E3E49;
+    margin-bottom: 1.5em;
+}
+
+.button-outline-blue {
+    background-color: #F7F7F8;
+    color: #345079;
+    border: 2px solid #345079;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3em auto 0;
+    padding: 1em 0;
+    width: 100%;
+}
+
+
+
+
+
 
 .green-line {
     background: linear-gradient(to right, #ACD1BC, #95B8A4);
@@ -699,6 +772,44 @@ p {
         grid-auto-rows: 1fr;
         grid-gap: 120px;
     }
+
+    .interpretation-image {
+        background: url(./assets/img/interpreting-image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 45%;
+        height: 450px;
+        position: relative;
+        z-index: 2;
+        margin: 3rem 0 0 9%;
+        padding: 2rem 0 0;
+    }
+    
+    .grey-box {
+        background-color: #F7F7F8;
+        padding: 4rem 8% 4rem 10%;
+        margin: -530px 0 8% 50%;
+        position: relative;
+        z-index: 1;
+        width: 40%;
+        height: fit-content;
+        text-align: left;
+    }
+    
+    .icon {
+        margin: 10px 0 30px 0;
+    }
+    
+    .h6-red {
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        line-height: 1em;
+        color: #9E3E49;
+        margin-bottom: 1.5em;
+    }
+
     }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1161,7 +1272,7 @@ p {
 
     height: fit-content;
     width: 100%;
-    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/healthcare-2.jpg");
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/interpreting-2.jpg");
     background-position: center;
     background-size: cover;
     display: flex;

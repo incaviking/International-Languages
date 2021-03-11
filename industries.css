@@ -325,27 +325,6 @@ p {
     margin: 0 auto 8%;
 }
 
-.grid-container {
-    width: 80%;
-    margin: 0 auto 6rem;
-}
-
-.industries-grid {
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 60px 40px;
-}
-
-.industries-card {
-    display: flex;
-    flex-direction: column;
-    width: 1fr;
-    height: fit-content;
-    justify-content: space-between;
-}
 
 .button-red {
     background-image: linear-gradient(to right, #B2595D, #9E3E49);
@@ -395,100 +374,146 @@ p {
     text-decoration: none;
 }
 
+.grid-container {
+    width: 80%;
+    margin: 0 auto 6rem;
+}
+
+.industries-grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 60px 40px;
+}
+
+.industries-card {
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    height: 1fr;
+    justify-content: space-between;
+}
+
 .img-healthcare {
-    background: url(./assets/img/health-care@2x.png) no-repeat center center;
+    background-image: url(./assets/img/healthcare-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-legal {
-    background: url(./assets/img/legal@2x.png) no-repeat center center;
+    background-image: url(./assets/img/legal-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-government {
-    background: url(./assets/img/government@2x.png) no-repeat center center;
+    background-image: url(./assets/img/government-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-insurance {
-    background: url(./assets/img/insurance@2x.png) no-repeat center center;
+    background-image: url(./assets/img/insurance-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-finance {
-    background: url(./assets/img/finance@2x.png) no-repeat center center;
+    background-image: url(./assets/img/finance-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-manufacturing {
-    background: url(./assets/img/manufacturing@2x.png) no-repeat center center;
+    background-image: url(./assets/img/manufacturing-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-marketing {
-    background: url(./assets/img/marketing@2x.png) no-repeat center center;
+    background-image: url(./assets/img/manufacturing-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
-
+   
 .img-software {
-    background: url(./assets/img/software@2x.png) no-repeat center center;
+    background-image: url(./assets/img/software-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-travel {
-    background: url(./assets/img/travel@2x.png) no-repeat center center;
+    background-image: url(./assets/img/travel-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-media {
-    background: url(./assets/img/media@2x.png) no-repeat center center;
+    background-image: url(./assets/img/media-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-ecommerce {
-    background: url(./assets/img/ecommerce@2x.png) no-repeat center center;
+    background-image: url(./assets/img/ecommerce-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 .img-education {
-    background: url(./assets/img/education@2x.png) no-repeat center center;
+    background-image: url(./assets/img/education-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     width: 100%;
     height: 230px;
     object-fit: cover;
-    margin-right: auto;
 }
 
 
