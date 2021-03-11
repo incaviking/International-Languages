@@ -272,7 +272,7 @@ p {
 .main-img {
     height: 600px;
     width: 80%;
-    background: url(./assets/img/headway-F2KRf_QfCqw-unsplash.jpg);
+    background: url(./assets/img/industries-main.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -296,7 +296,7 @@ p {
     .main-img {
         height: 300px;
         width: 100%;
-        background: url(./assets/img/headway-F2KRf_QfCqw-unsplash.jpg);
+        background: url(./assets/img/industries-main.jpg);
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -344,7 +344,7 @@ p {
     flex-direction: column;
     width: 1fr;
     height: fit-content;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .button-red {
@@ -354,11 +354,13 @@ p {
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
-    padding: 1em 0;
+    padding: 1rem 3rem;
     width: 210px;
     border: none;
     margin-bottom: 0;
     align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
 }
 
 .button-tan {
@@ -368,10 +370,13 @@ p {
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
-    padding: 1em 0;
+    padding: 1rem 3rem;
     width: 210px;
     border: none;
     margin-bottom: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
 }
 
 .button-green {
@@ -381,10 +386,13 @@ p {
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
-    padding: 1em 0;
+    padding: 1rem 3rem;
     width: 210px;
     border: none;
     margin-bottom: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
 }
 
 .img-healthcare {

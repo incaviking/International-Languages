@@ -985,7 +985,7 @@ padding: 1em 0 2em 0;
 
 .mobile-buttons-sec4 {
     text-align: left;
-    width: 100%;
+    width: 240px;
     margin: 3rem 0 0 0;
 }
 
@@ -997,9 +997,10 @@ padding: 1em 0 2em 0;
     font-size: 14px;
     font-weight: 700;
     margin: 0 0 0 0;
-    padding: 1em 0;
+    padding: 1rem 2rem;
     width: 240px;
     height: 48px;
+    text-decoration: none;
 }
 
 
@@ -1046,9 +1047,10 @@ padding: 1em 0 2em 0;
     font-size: 14px;
     font-weight: 700;
     margin: 0 0 0 0;
-    padding: 1em 0;
+    padding: 1em 4rem;
     width: 240px;
     height: 48px;
+    text-decoration: none;
 }
 
 .container2 {

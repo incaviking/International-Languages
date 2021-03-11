@@ -136,8 +136,6 @@ p {
     color: #444444
 }
 
-
-
 /*---------------------------------------------------------------------------------------------*/
 /* NAV-----------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -269,6 +267,65 @@ p {
     width: 100%;
 }
 
+.breadcrumbs {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .breadcrumbs {
+        height: 14px;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: relative;
+        z-index: 3;
+        margin-left: 10.5%;
+        margin-top: 130px;
+        margin-bottom: -40px;
+    }
+    
+    .home-icon {
+        height: 100%;
+        width: 30px;
+        background: url(./assets/icons/Home.svg);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+    
+    .arrow {
+        height: 100%;
+        width: 12px;
+        background: url(./assets/icons/Angle-right.svg);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+    
+    .breadcrumb-link {
+        text-decoration: none;
+        color: #848484;
+        font-family: 'source-sans-pro';
+        font-size: 14px;
+        bottom: 0;
+        width: fit-content;
+        height: 100%;
+        flex-grow: 1;
+    }
+    
+    .current-page {
+        color: #848484;
+        font-family: 'source-sans-pro';
+        font-size: 14px;
+        bottom: 0;
+        width: fit-content;
+        height: 100%;
+        line-height: 1rem;
+        flex-grow: 1;
+    }
+
+}
+
 .main-img {
     height: 600px;
     width: 50%;
@@ -296,12 +353,24 @@ p {
     text-align: left;
 }
 
+
+.tan-line {
+    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    height: 3px;
+    width: 60px;
+    margin: 0 0 1.5rem 0;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 1 DESKTOP----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 1024px) {
 
     .main-img {
         height: 300px;
         width: 100%;
-        background: url(./assets/img/headway-F2KRf_QfCqw-unsplash.jpg);
+        background: url(./assets/img/education@2x.png);
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -314,24 +383,35 @@ p {
     .main-text {
         height: fit-content;
         width: 90%;
-        padding: 2rem 10% 1rem;
-        margin: -55px auto 0;
+        padding: 2rem 10% 3rem;
+        margin: -70px auto 6rem 0;
         background-color: white;
-        text-align: center;
+        text-align: left;
         position: relative;
         z-index: 2;
     }
+
+    .tan-line {
+        background: linear-gradient(to right, #C1B39E, #BCAD96);
+        height: 3px;
+        width: 60px;
+        margin: 0 auto 1.5rem 0;
+    }
+
+    .h1bold2 {
+        font-weight: 700;
+        text-align: center;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+
+    .h1bold {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
 }
-
-.tan-line {
-    background: linear-gradient(to right, #C1B39E, #BCAD96);
-    height: 3px;
-    width: 60px;
-    margin: 0 0 1.5rem 0;
-}
-
-
-
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 2 ----------------------------------------------------------------------------------*/
@@ -343,11 +423,6 @@ p {
     width: 100%;
     padding: 6rem 0;
     margin-top: -160px;
-
-}
-
-.h1bold2 {
-    font-weight: 700;
     text-align: center;
 }
 
@@ -355,12 +430,12 @@ p {
     background: linear-gradient(to right, #B2595D, #9E3E49);
     height: 3px;
     width: 60px;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 3rem;
 }
 
 .grid-container {
     width: 80%;
-    margin: 0 auto 6rem;
+    margin: 0 auto 1rem;
 }
 
 .services-grid {
@@ -492,7 +567,7 @@ p {
 
 .box-gradient-green {
     height: fit-content;
-    padding: 13% 12.5%;
+    padding: 13% 5%;
     margin: auto;
     text-align: center;
 }
@@ -534,6 +609,315 @@ p {
 .p-white {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 3 DESKTOP----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+.h1bold {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.box-gradient-green {
+    height: fit-content;
+    padding: 8rem 25%;
+    margin: auto;
+    text-align: center;
+}
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 4 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.section4 {
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    padding: 6rem 0 1rem;
+    text-align: center;
+}
+
+.green-line {
+    background: linear-gradient(to right, #ACD1BC, #95B8A4);
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 5rem;
+}
+
+.green-check {
+    background: url(./assets/icons/green-check.svg) no-repeat center center;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-right: auto;
+}
+
+.services-grid2 {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 30px;
+}
+
+.services-card2 {
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    height: fit-content;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 4 DESKTOP ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    .section4 {
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        padding: 8rem 0 1rem;
+        text-align: center;
+    }
+
+    .services-grid2 {
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 120px;
+    }
+    }
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 5 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.section5 {
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    padding: 5rem 0 0 3rem;
+    text-align: center;
+}
+
+.blue-line {
+    background: linear-gradient(to right, #4B6893, #345079);
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 3rem;
+}
+
+.grid-container2 {
+    width: 90%;
+    margin: 0 auto 6rem;
+}
+
+.customer-grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 40px;
+}
+
+.customer-card {
+    display: flex;
+    flex-direction: row;
+    width: 1fr;
+    height: fit-content;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.customer-logo1 {
+    background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.customer-logo2 {
+    background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.customer-logo3 {
+    background: url(./assets/img/aurora-logo@2x.png) no-repeat center center;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.customer-logo4 {
+    background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 5 DESKTOP ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1024px) {
+
+    .section5 {
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        padding: 5rem 0 0 2rem;
+        text-align: center;
+    }
+
+    .customer-grid {
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 80px;
+    }
+
+    .customer-logo1 {
+        background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    
+    }
+    
+    .customer-logo2 {
+        background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+    
+    .customer-logo3 {
+        background: url(./assets/img/aurora-logo@2x.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+    
+    .customer-logo4 {
+        background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+    
+.blue-line {
+    background: linear-gradient(to right, #4B6893, #345079);
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 1rem;
+}
+
+    }
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 6 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+
+.section6 {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/education-footer-img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-gradient {
+    height: 700px;
+    padding: 2rem 4rem;
+    margin: auto auto;
+    text-align: center;
+}
+
+
+
+.half-globe {
+    margin: 1.5rem auto;
+}
+
+.white-line {
+    background-color: white;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto 4%;
+}
+
+.button-white {
+    background-color: white;
+    color: #345079;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    border: none;
+    width: 180px;
+}
+
+.carousel-bars-footer {
+    height: 6px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.titles-white {
+    color: white;
+}
+
+.p-white {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 6 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+    .titles-white {
+        color: white;
+        font-size: 25px;
+    }
+    .box-gradient {
+        height: fit-content;
+        padding: 0;
+        margin: 4rem 20%;
+        text-align: center;
+    }
+
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -671,4 +1055,697 @@ p {
     padding: 1em 0;
 }
 
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*//*---------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+/*-------DIFFERENT SUB-INDUSTRIES PAGES IMAGES--------------------------------------------------------------------------------------*/
+
+
+/*-------LEGAL--------------------------------------------------------------------------------------*/
+
+.main-img2 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/legal-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3b {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/legal-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6b {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/education-footer-img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/legal-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/*------HEALTHCARE--------------------------------------------------------------------------------------*/
+
+.main-img1 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/healthcare-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3a {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/legal-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6a {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/education-footer-img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img1 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/legal-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+/*------GOVERNMENT--------------------------------------------------------------------------------------*/
+
+.main-img4 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/government-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3d {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/government-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6d {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/government-3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img4 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/government-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*------INSURANCE--------------------------------------------------------------------------------------*/
+
+.main-img5 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/insurance-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3e {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/insurance-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6e {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/insurance-3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img5 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/insurance-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/*------FINANCE--------------------------------------------------------------------------------------*/
+
+.main-img6 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/finance-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3f {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/finance-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6f {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/finance-3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img6 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/finance-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+/*------MANUFACTURING--------------------------------------------------------------------------------------*/
+
+.main-img7 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/manufacturing-3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3g {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/manufacturing-main.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6g {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/manufacturing-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img7 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/manufacturing-3.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+/*------MARKETING --------------------------------------------------------------------------------------*/
+
+.main-img8 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/healthcare-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3h {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/legal-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6h {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/education-footer-img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img8 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/legal-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*------SOFTWARE & TECHNOLOGY--------------------------------------------------------------------------------------*/
+
+.main-img9 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/software-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3i {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/software-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6i {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/software-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img9 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/software-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/*------TRAVEL --------------------------------------------------------------------------------------*/
+
+.main-img10 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/travel-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3j {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/travel-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6j {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/travel-3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img10 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/travel-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+/*------MEDIA--------------------------------------------------------------------------------------*/
+
+.main-img11 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/media-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3k {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/media-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6k {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/media-3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img11 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/media-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/*------ECOMMERCE--------------------------------------------------------------------------------------*/
+
+.main-img12 {
+    height: 600px;
+    width: 50%;
+    background: url(./assets/img/ecommerce-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 0 0 40%;
+    margin-top: 0;
+}
+
+.section3l {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/ecommerce-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section6l {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/ecommerce-2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-img12 {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/ecommerce-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
 }
