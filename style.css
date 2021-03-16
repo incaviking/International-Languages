@@ -25,6 +25,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ol, ul {
@@ -45,15 +47,17 @@ table {
     border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 /* END CSS RESET ---------- */
 
 
 
 
 
-* {
-    box-sizing: border-box;
-}
 
 
 
@@ -86,7 +90,6 @@ table {
     font-weight: 700;
     }
 
-/* something */
 
 h1 {
     font-size: 30px;
