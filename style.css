@@ -223,15 +223,15 @@ p {
     display: flex;
     margin: auto 11% auto 0;
     justify-content: space-between;
-    width: fit-content;
+
 }
 
 .nlb {
-    width: fit-content;
+
 }
 
 .nlb-button {
-    width: fit-content;
+
 }
 
 .nav-link {
@@ -266,7 +266,7 @@ p {
 
 
 .section1 {
-    height: fit-content;
+
     width: 100%;
     background-color: #345079;
     margin-top: 90px;
@@ -473,7 +473,7 @@ padding: 1em 0 2em 0;
 
     .box1 {
         background: linear-gradient(#314A72 35%, rgba(49, 74, 114, 0) 100%) ;
-        height: fit-content;
+
         width: 600px;
         margin: -100px 0 0 10%;
         padding: 50px 50px 70px 50px;
@@ -495,7 +495,7 @@ padding: 1em 0 2em 0;
         display: flex;
         flex-direction: row-reverse;
         text-align: right;
-        height: fit-content;
+ 
         width: 90%;
         justify-content: right;
         margin: -160px 0 0;
@@ -714,7 +714,7 @@ padding: 1em 0 2em 0;
     position: relative;
     z-index: 1;
     width: 40%;
-    height: fit-content;
+
 }
 
 .icon {
@@ -767,7 +767,7 @@ padding: 1em 0 2em 0;
     position: relative;
     z-index: 1;
     width: 40%;
-    height: fit-content;
+
 }
 
 .more-services-box {
@@ -944,7 +944,7 @@ padding: 1em 0 2em 0;
 
 .section4a {
     margin: 3rem 0 0;
-    height: fit-content;
+
 }
 
 .image-center {
@@ -981,7 +981,7 @@ padding: 1em 0 2em 0;
 
   .redbox {
     background-image:linear-gradient(to right, #B2595D, #9E3E49);
-    height: fit-content;
+
     margin: 35px 7%;
     padding: 16% 8%;
 }
@@ -1022,7 +1022,7 @@ padding: 1em 0 2em 0;
 
 .section4a {
     margin: 10rem 0 0 45%;
-    height: fit-content;
+
     width: 50%;
 }
 
@@ -1119,7 +1119,7 @@ padding: 1em 0 2em 0;
 
 .greybox2 {
     background-color: #F7F7F8;
-    height: fit-content;
+
     margin: 40px 8%;
     padding: 16% 8%;
 }
