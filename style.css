@@ -554,7 +554,7 @@ padding: 1em 0 2em 0;
 
 
     .section2 {
-        height: fit-content;
+
         width: 100%;
         background-color: white;
     }
@@ -668,7 +668,7 @@ padding: 1em 0 2em 0;
 @media screen and (min-width: 1024px) {
 
 .section2 {
-    height: fit-content;
+
     width: 100%;
     background-color: white;
 }
@@ -800,7 +800,7 @@ padding: 1em 0 2em 0;
 
 
 .section3 {
-    height: fit-content;
+
     width: 100%;
     background-color: #F7F7F8;
     padding: 0px 0px 2rem;
@@ -861,7 +861,7 @@ padding: 1em 0 2em 0;
 @media screen and (min-width: 1024px) {
 
 .section3 {
-    height: fit-content;
+
     width: 100%;
     background-color: #f7f7f8;
     padding: 5rem 0 15rem;
@@ -937,7 +937,7 @@ padding: 1em 0 2em 0;
 
 
 .section4 {
-    height: fit-content;
+
     width: 100%;
     background-color: white;
 }
@@ -1091,7 +1091,7 @@ padding: 1em 0 2em 0;
 
 .section5 {
 
-    height: fit-content;
+
     width: 100%;
     background-color: white;
     display: block;
@@ -1331,7 +1331,7 @@ padding: 1em 0 2em 0;
 
 .section6 {
 
-    height: fit-content;
+
     width: 100%;
     background-color: white;
     display: flex;
@@ -1341,7 +1341,7 @@ padding: 1em 0 2em 0;
 
 .section6a {
 
-    height: fit-content;
+
     width: 85%;
     background-color: white;
     display: block;
@@ -1406,7 +1406,7 @@ padding: 1em 0 2em 0;
 
 .section6 {
 
-    height: fit-content;
+
     width: 90%;
     background-color: white;
     display: flex;
@@ -1418,7 +1418,7 @@ padding: 1em 0 2em 0;
 
 .section6a {
 
-    height: fit-content;
+
     width: 90%;
     background-color: white;
     display: block;
@@ -1497,7 +1497,7 @@ padding: 1em 0 2em 0;
 }
 
 .box-gradient {
-    height: fit-content;
+
     padding: 8% 8%;
     margin: auto;
     text-align: center;
@@ -1545,7 +1545,6 @@ padding: 1em 0 2em 0;
 }
 
 .box-gradient {
-    height: fit-content;
     padding: 8% 25%;
     margin: auto;
     text-align: center;
@@ -1592,11 +1591,11 @@ padding: 1em 0 2em 0;
 .footer-bg {
     background-color: #F7F7F8;
     width: 100%;
-    height: fit-content;
+
 }
 
 .footer {
-    height: fit-content;
+
     width: 100%;
     background-color: #F7F7F8;
     display: flex;
@@ -1657,7 +1656,7 @@ padding: 1em 0 2em 0;
 }
 
 .footer {
-    height: fit-content;
+
     width: 90%;
     background-color: #F7F7F8;
     display: flex;
