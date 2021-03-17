@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274.941" height="206.452" viewBox="0 0 274.941 206.452">
+  <defs>
+    <filter id="Path_8463" x="0" y="7.123" width="172.176" height="199.329" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_8463-2" x="97.411" y="0" width="177.529" height="206.452" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_782" data-name="Group 782" transform="translate(-586.21 -3876.213)">
+    <g id="Group_705" data-name="Group 705" transform="translate(624.979 3883.514)">
+      <path id="Path_8475" data-name="Path 8475" d="M93,0A93,93,0,1,1,0,93,93,93,0,0,1,93,0Z" transform="translate(-0.466 0.486)" fill="#f7f7f8"/>
+      <g id="Group_702" data-name="Group 702" transform="translate(81.632 38.822) rotate(90)">
+        <g transform="matrix(0, -1, 1, 0, -46.12, 120.4)" filter="url(#Path_8463)">
+          <path id="Path_8463-3" data-name="Path 8463" d="M109.329,82.176H0V21.459L21.559,0h87.77Z" transform="translate(127.18 46.12) rotate(90)" fill="#496c9f"/>
+        </g>
+        <path id="Path_8190" data-name="Path 8190" d="M21.534,0H0V21.534" transform="translate(21.534 14.758) rotate(180)" fill="#8ea2bc"/>
+      </g>
+      <g id="Group_719" data-name="Group 719" transform="translate(191.173 31.699) rotate(90)">
+        <g transform="matrix(0, -1, 1, 0, -39, 229.94)" filter="url(#Path_8463-2)">
+          <path id="Path_8463-4" data-name="Path 8463" d="M116.452,87.529H0V22.857L22.964,0h93.488Z" transform="translate(229.94 39) rotate(90)" fill="#95b7a4"/>
+        </g>
+        <path id="Path_8190-2" data-name="Path 8190" d="M22.937,0H0V22.936" transform="translate(22.937 22.936) rotate(180)" fill="#caded3"/>
+      </g>
+    </g>
+    <path id="Path_8472" data-name="Path 8472" d="M416.525,365.585a2.488,2.488,0,0,1-2.486-2.485V331.029a2.489,2.489,0,0,1,2.486-2.486h.28a2.489,2.489,0,0,1,2.486,2.486v11.664h3.564a2.486,2.486,0,0,1,0,4.972h-3.564V363.1a2.489,2.489,0,0,1-2.486,2.486Z" transform="translate(263.861 3633.234)" fill="#fff"/>
+    <path id="Path_8473" data-name="Path 8473" d="M335.1,364.7a2.494,2.494,0,0,1-2.058-1.082l-.212-.31a2.484,2.484,0,0,1,.857-3.584,29.428,29.428,0,0,0,3.83-2.488,23.933,23.933,0,0,0,4.165-4.073,21.821,21.821,0,0,0,2.972-4.973,18.983,18.983,0,0,0,.992-2.979l.266-1.086H335.215a2.486,2.486,0,0,1,0-4.972h13.711a2.49,2.49,0,0,1,2.48,2.677,26.062,26.062,0,0,1-4.6,13.1,29.668,29.668,0,0,1-4.923,5.453,38.6,38.6,0,0,1-5.522,3.972A2.453,2.453,0,0,1,335.1,364.7Z" transform="translate(321.617 3625.731)" fill="#fff"/>
+    <path id="Path_8471" data-name="Path 8471" d="M97.415,97.488a2.622,2.622,0,0,1-2.446-1.7l-3.021-8.106H80.2L77.26,95.769a2.616,2.616,0,0,1-2.452,1.717h-1.19a2.608,2.608,0,0,1-2.44-3.533L82.916,63.011a2.621,2.621,0,0,1,2.439-1.683h1.582a2.624,2.624,0,0,1,2.441,1.688l11.674,30.941a2.609,2.609,0,0,1-2.441,3.53ZM85.206,73.8c-.773,2.185-1.619,4.577-2.364,6.663l-.44,1.232h7.362L86.071,71.354Z" transform="translate(686.16 3897.87)" fill="#fff"/>
+  </g>
+</svg>
