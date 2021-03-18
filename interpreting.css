@@ -91,6 +91,14 @@ table {
 }
 
 @font-face {
+    font-family: 'source-sans-pro-italic';
+    src: url(./assets/fonts/SourceSansPro-BoldItalic.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+@font-face {
     font-family: 'font-awesome';
     src: url(./assets/fonts/fa-regular-400.ttf);
     font-style: normal;
@@ -1032,7 +1040,15 @@ p {
     margin-right: auto;
 }
 
-.section4 {
+.section4-2 {
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    padding: 4rem 0 1rem;
+    text-align: center;
+}
+
+.section4-2 {
     background-color: white;
     height: fit-content;
     width: 100%;
@@ -1186,7 +1202,7 @@ p {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -1597,6 +1613,171 @@ p {
 
 
 /*---------------------------------------------------------------------------------------------*/
+/* Section 7 DESKTOP ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+.section7 {
+    background-color: white;
+    width: 80%;
+    padding: 8rem 0 1rem;
+    margin: 2rem auto;
+}
+
+.section7-title {
+    width: 70%;
+    margin-left: 0%;
+    text-justify: auto;
+}
+
+.h1light3 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.h1light4 {
+    font-weight: 100;
+    text-align: left;
+    font-size: 36px;
+}
+
+.h1bold5 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 36px;
+}
+
+.red-line2 {
+    background: linear-gradient(to right, #B2595D, #9E3E49);
+    height: 3px;
+    width: 250px;
+    margin: 2rem auto 2rem 0;
+}
+
+.t-blurb-wrapper {
+    position: relative;
+}
+
+.number-icons {
+    width: 300px;
+    height: 300px;
+    margin: -90px auto 0 -270px;
+    position: absolute;
+
+}
+
+.grey-box3 {
+    background-color: #F7F7F8;
+    padding: 4rem 6rem 4rem 12%;
+    margin: 4rem 0 2rem auto;
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    height: fit-content;
+    text-align: left;
+}
+
+.titles-human-translation {
+    font-family: 'source-sans-pro';
+    font-size: 24px;
+    font-weight: bold;
+    color: #924546;
+}
+
+.translation-tech-blurb {
+    margin-bottom: 3rem;
+}
+
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 8 MOBILE ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 8 DESKTOP ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    .section8 {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .tan-line {
+        background: linear-gradient(to right, #C1B39E, #BCAD96);
+        height: 3px;
+        width: 180px;
+        margin: 0 auto 1.5rem 0;
+    }
+
+    .testimonial-image {
+        background: url(./assets/img/testimonial.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 55%;
+        height: 500px;
+        position: relative;
+        z-index: 2;
+        margin: 8rem 0 0 0;
+        padding: 2rem 0 0;
+    }
+    }
+
+    .tan-box {
+        background: linear-gradient(to right, #C1B39E, #BCAD96);
+        padding: 4rem 8% 4rem 12.5%;
+        margin: -600px 0 200px auto;
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        height: fit-content;
+        text-align: left;
+    }
+
+    .icon2 {
+        margin: 10px 0 10px -50px;
+    }
+
+    .titles-bold-white {
+        font-weight: 700;
+        line-height: 1.25em;
+        font-size: 24px;
+        font-family: 'source-sans-pro-italic';
+        font-style: normal;
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .p-white-bold2 {
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .p-white2 {
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        padding-left: 8px;
+    }
+
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
 /* Contact Form MOBILE ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
@@ -1658,12 +1839,6 @@ p {
     text-align: center;
     font-size: 25px;
     margin: 0 auto;
-}
-
-.h1light3 {
-    font-weight: 100;
-    text-align: center;
-    font-size: 25px;
 }
 
 .form {
@@ -2048,12 +2223,6 @@ p {
         text-align: center;
         font-size: 36px;
         margin: 0 auto;
-    }
-
-    .h1light3 {
-        font-weight: 100;
-        text-align: center;
-        font-size: 36px;
     }
 
     .button-outline-red {
