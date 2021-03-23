@@ -359,9 +359,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 3em auto 0;
-    padding: 1em 0;
-    width: 100%;
+    margin: 2rem auto 0;
+    padding: 1em 3rem;
+    text-decoration: none;
+    position: absolute;
 }
 
 .button-outline-tan {
@@ -371,9 +372,11 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 3em auto 0;
-    padding: 1em 0;
-    width: 90%;
+    margin: 2rem auto 0;
+    padding: 1em 3rem;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
 }
 
 .button-green {
@@ -452,10 +455,9 @@ p {
 }
 
 .carousel-dots {
-display: flex;
-align-content: center;
+position: absolute;
 justify-content: space-evenly;
-padding: 1em 0 2em 0;
+padding: 0 0 2em 0;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -709,7 +711,7 @@ padding: 1em 0 2em 0;
 
 .grey-box {
     background-color: #F7F7F8;
-    padding: 135px 8% 8% 12%;
+    padding: 135px 8% 12rem 12%;
     margin: -630px 0 8% 50%;
     position: relative;
     z-index: 1;
@@ -763,7 +765,7 @@ padding: 1em 0 2em 0;
 .white-box {
     background-color: white;
     padding: 80px 8% 8%;
-    margin: -525px 0 8% 8%;
+    margin: -525px 0 12rem 8%;
     position: relative;
     z-index: 1;
     width: 40%;
@@ -1431,6 +1433,7 @@ padding: 1em 0 2em 0;
 
 .image-center-contact {
     width: 90%;
+    margin: 0 auto 0 0
 }
 
 .white-box2 {
