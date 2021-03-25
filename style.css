@@ -9,6 +9,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -17,6 +25,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ol, ul {
@@ -37,54 +47,55 @@ table {
     border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 /* END CSS RESET ---------- */
 
 
 
 
 
-* {
-    box-sizing: border-box;
-}
 
 
 
-/* 
-@font-face {
+    
+    @font-face {
     font-family: 'gotham';
     src: url(./assets/fonts/Gotham-Light.otf);
     font-style: normal;
-    font-weight: 200;
-}
+    font-weight: 100;
+    }
 
-@font-face {
+    @font-face {
     font-family: 'gotham';
     src: url(./assets/fonts/Gotham-Bold.otf);
     font-style: normal;
     font-weight: 700;
-}
+    }
 
-@font-face {
+    @font-face {
     font-family: 'source-sans-pro';
     src: url(./assets/fonts/SourceSansPro-Regular.ttf);
     font-style: normal;
     font-weight: 400;
-}
+    }
 
-@font-face {
+    @font-face {
     font-family: 'source-sans-pro';
     src: url(./assets/fonts/SourceSansPro-Bold.ttf);
     font-style: normal;
     font-weight: 700;
-} */
-
+    }
 
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: gotham;
-    font-weight: 200;
+    font-weight: 100;
     margin: 0 0 20px;
 }
 
@@ -212,15 +223,15 @@ p {
     display: flex;
     margin: auto 11% auto 0;
     justify-content: space-between;
-    width: 600px;
+
 }
 
 .nlb {
-    width: fit-content;
+
 }
 
 .nlb-button {
-    width: fit-content;
+
 }
 
 .nav-link {
@@ -231,7 +242,7 @@ p {
     font-weight: 600;
     line-height: 1em;
     margin: 2em auto 1em;
-    padding: 1em 21%;
+    padding: 1rem 1rem;
 }
 
 .nav-link-button {
@@ -255,7 +266,7 @@ p {
 
 
 .section1 {
-    height: fit-content;
+
     width: 100%;
     background-color: #345079;
     margin-top: 90px;
@@ -348,9 +359,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 3em auto 0;
-    padding: 1em 0;
-    width: 100%;
+    margin: 2rem auto 0;
+    padding: 1em 3rem;
+    text-decoration: none;
+    position: absolute;
 }
 
 .button-outline-tan {
@@ -360,9 +372,11 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 3em auto 0;
-    padding: 1em 0;
-    width: 90%;
+    margin: 2rem auto 0;
+    padding: 1em 3rem;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
 }
 
 .button-green {
@@ -441,10 +455,9 @@ p {
 }
 
 .carousel-dots {
-display: flex;
-align-content: center;
+position: absolute;
 justify-content: space-evenly;
-padding: 1em 0 2em 0;
+padding: 0 0 2em 0;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -462,7 +475,7 @@ padding: 1em 0 2em 0;
 
     .box1 {
         background: linear-gradient(#314A72 35%, rgba(49, 74, 114, 0) 100%) ;
-        height: fit-content;
+
         width: 600px;
         margin: -100px 0 0 10%;
         padding: 50px 50px 70px 50px;
@@ -484,7 +497,7 @@ padding: 1em 0 2em 0;
         display: flex;
         flex-direction: row-reverse;
         text-align: right;
-        height: fit-content;
+ 
         width: 90%;
         justify-content: right;
         margin: -160px 0 0;
@@ -543,7 +556,7 @@ padding: 1em 0 2em 0;
 
 
     .section2 {
-        height: fit-content;
+
         width: 100%;
         background-color: white;
     }
@@ -657,7 +670,7 @@ padding: 1em 0 2em 0;
 @media screen and (min-width: 1024px) {
 
 .section2 {
-    height: fit-content;
+
     width: 100%;
     background-color: white;
 }
@@ -698,12 +711,12 @@ padding: 1em 0 2em 0;
 
 .grey-box {
     background-color: #F7F7F8;
-    padding: 135px 8% 8% 12%;
+    padding: 135px 8% 12rem 12%;
     margin: -630px 0 8% 50%;
     position: relative;
     z-index: 1;
     width: 40%;
-    height: fit-content;
+
 }
 
 .icon {
@@ -752,11 +765,11 @@ padding: 1em 0 2em 0;
 .white-box {
     background-color: white;
     padding: 80px 8% 8%;
-    margin: -525px 0 8% 8%;
+    margin: -525px 0 12rem 8%;
     position: relative;
     z-index: 1;
     width: 40%;
-    height: fit-content;
+
 }
 
 .more-services-box {
@@ -789,7 +802,7 @@ padding: 1em 0 2em 0;
 
 
 .section3 {
-    height: fit-content;
+
     width: 100%;
     background-color: #F7F7F8;
     padding: 0px 0px 2rem;
@@ -850,7 +863,7 @@ padding: 1em 0 2em 0;
 @media screen and (min-width: 1024px) {
 
 .section3 {
-    height: fit-content;
+
     width: 100%;
     background-color: #f7f7f8;
     padding: 5rem 0 15rem;
@@ -926,14 +939,14 @@ padding: 1em 0 2em 0;
 
 
 .section4 {
-    height: fit-content;
+
     width: 100%;
     background-color: white;
 }
 
 .section4a {
     margin: 3rem 0 0;
-    height: fit-content;
+
 }
 
 .image-center {
@@ -970,14 +983,14 @@ padding: 1em 0 2em 0;
 
   .redbox {
     background-image:linear-gradient(to right, #B2595D, #9E3E49);
-    height: fit-content;
+
     margin: 35px 7%;
     padding: 16% 8%;
 }
 
 .mobile-buttons-sec4 {
     text-align: left;
-    width: 100%;
+    width: 240px;
     margin: 3rem 0 0 0;
 }
 
@@ -989,9 +1002,10 @@ padding: 1em 0 2em 0;
     font-size: 14px;
     font-weight: 700;
     margin: 0 0 0 0;
-    padding: 1em 0;
+    padding: 1rem 2rem;
     width: 240px;
     height: 48px;
+    text-decoration: none;
 }
 
 
@@ -1010,7 +1024,7 @@ padding: 1em 0 2em 0;
 
 .section4a {
     margin: 10rem 0 0 45%;
-    height: fit-content;
+
     width: 50%;
 }
 
@@ -1038,9 +1052,10 @@ padding: 1em 0 2em 0;
     font-size: 14px;
     font-weight: 700;
     margin: 0 0 0 0;
-    padding: 1em 0;
+    padding: 1em 4rem;
     width: 240px;
     height: 48px;
+    text-decoration: none;
 }
 
 .container2 {
@@ -1078,7 +1093,7 @@ padding: 1em 0 2em 0;
 
 .section5 {
 
-    height: fit-content;
+
     width: 100%;
     background-color: white;
     display: block;
@@ -1106,7 +1121,7 @@ padding: 1em 0 2em 0;
 
 .greybox2 {
     background-color: #F7F7F8;
-    height: fit-content;
+
     margin: 40px 8%;
     padding: 16% 8%;
 }
@@ -1318,7 +1333,7 @@ padding: 1em 0 2em 0;
 
 .section6 {
 
-    height: fit-content;
+
     width: 100%;
     background-color: white;
     display: flex;
@@ -1328,7 +1343,7 @@ padding: 1em 0 2em 0;
 
 .section6a {
 
-    height: fit-content;
+
     width: 85%;
     background-color: white;
     display: block;
@@ -1393,7 +1408,7 @@ padding: 1em 0 2em 0;
 
 .section6 {
 
-    height: fit-content;
+
     width: 90%;
     background-color: white;
     display: flex;
@@ -1405,7 +1420,7 @@ padding: 1em 0 2em 0;
 
 .section6a {
 
-    height: fit-content;
+
     width: 90%;
     background-color: white;
     display: block;
@@ -1418,6 +1433,7 @@ padding: 1em 0 2em 0;
 
 .image-center-contact {
     width: 90%;
+    margin: 0 auto 0 0
 }
 
 .white-box2 {
@@ -1484,7 +1500,7 @@ padding: 1em 0 2em 0;
 }
 
 .box-gradient {
-    height: fit-content;
+
     padding: 8% 8%;
     margin: auto;
     text-align: center;
@@ -1532,7 +1548,6 @@ padding: 1em 0 2em 0;
 }
 
 .box-gradient {
-    height: fit-content;
     padding: 8% 25%;
     margin: auto;
     text-align: center;
@@ -1579,11 +1594,11 @@ padding: 1em 0 2em 0;
 .footer-bg {
     background-color: #F7F7F8;
     width: 100%;
-    height: fit-content;
+
 }
 
 .footer {
-    height: fit-content;
+
     width: 100%;
     background-color: #F7F7F8;
     display: flex;
@@ -1644,7 +1659,7 @@ padding: 1em 0 2em 0;
 }
 
 .footer {
-    height: fit-content;
+
     width: 90%;
     background-color: #F7F7F8;
     display: flex;

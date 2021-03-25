@@ -1,0 +1,736 @@
+/* CSS RESET ---------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* END CSS RESET ---------- */
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham';
+    src: url(./assets/fonts/Gotham-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url(./assets/fonts/Gotham-Bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'source-sans-pro';
+    src: url(./assets/fonts/SourceSansPro-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'source-sans-pro';
+    src: url(./assets/fonts/SourceSansPro-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* something */
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: gotham;
+    font-weight: 100;
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin: 20px 0 20px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.h3-blue {
+    color: #314A72;
+}
+
+.h1bold {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #444444
+}
+
+.p-bold {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    color: #444444
+}
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* NAV-----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+.header1 {
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+}
+.logo {
+    background: url(./assets/img/il-logo.svg);
+    background-repeat: no-repeat;
+    width: 238px;
+    height: 50px;
+    margin: auto 0 auto 2%;
+}
+
+.container {
+    align-content: center;
+    display: block;
+    cursor: pointer;
+    margin: auto 3% auto 0;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: #444444;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+
+  
+/*---------------------------------------------------------------------------------------------*/
+/* NAV DESKTOP SCREEN -------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+.header1 {
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.logo {
+    background: url(./assets/img/il-logo.svg);
+    background-repeat: no-repeat;
+    width: 238px;
+    height: 60px;
+    margin: auto 0 auto 9%;
+}
+
+.container {
+    display: none;
+  }
+
+.nav-links {
+    display: flex;
+    margin: auto 11% auto 0;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.nav-link-current {
+    text-decoration: none;
+    color: #9E3E49;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1rem 1rem;
+}
+
+.nlb {
+    width: fit-content;
+}
+
+.nlb-button {
+    width: fit-content;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #848484;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1rem 1rem;
+}
+
+.nav-link-button {
+    text-decoration: none;
+    background-color: #345079;
+    color: white;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1em 21%;
+}
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 1 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.section1 {
+    height: fit-content;
+    width: 100%;
+}
+
+.main-img {
+    height: 600px;
+    width: 80%;
+    background: url(./assets/img/industries-main.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.main-text {
+    height: fit-content;
+    width: 45%;
+    padding: 4rem;
+    margin: -120px auto 20px;
+    background-color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .main-img {
+        height: 300px;
+        width: 100%;
+        background: url(./assets/img/industries-main.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .main-text {
+        height: fit-content;
+        width: 90%;
+        padding: 2rem 10% 1rem;
+        margin: -55px auto 60px;
+        background-color: white;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.tan-line {
+    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 8%;
+}
+
+
+.button-red {
+    background-image: linear-gradient(to right, #B2595D, #9E3E49);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    width: 210px;
+    border: none;
+    margin-bottom: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-tan {
+    background-image: linear-gradient(to right, #C1B39E, #BCAD96);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    width: 210px;
+    border: none;
+    margin-bottom: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-green {
+    background-image: linear-gradient(to right, #ACD1BC, #95B8A4);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    width: 210px;
+    border: none;
+    margin-bottom: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
+}
+
+.grid-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto 6rem;
+}
+
+.industries-grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 60px 40px;
+}
+
+.industries-card {
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    height: 1fr;
+    justify-content: space-between;
+}
+
+.img-healthcare {
+    background-image: url(./assets/img/healthcare-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-legal {
+    background-image: url(./assets/img/legal-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-government {
+    background-image: url(./assets/img/government-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-insurance {
+    background-image: url(./assets/img/insurance-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-finance {
+    background-image: url(./assets/img/finance-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-manufacturing {
+    background-image: url(./assets/img/manufacturing-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-marketing {
+    background-image: url(./assets/img/manufacturing-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+   
+.img-software {
+    background-image: url(./assets/img/software-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-travel {
+    background-image: url(./assets/img/travel-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-media {
+    background-image: url(./assets/img/media-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-ecommerce {
+    background-image: url(./assets/img/ecommerce-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.img-education {
+    background-image: url(./assets/img/education-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Section 2 ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+
+.section2 {
+
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-gradient {
+    height: fit-content;
+    padding: 8% 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.half-globe {
+    margin: 1.5rem auto;
+}
+
+.white-line {
+    background-color: white;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto 4%;
+}
+
+.button-white {
+    background-color: white;
+    color: #345079;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    border: none;
+    width: 180px;
+}
+
+.carousel-bars-footer {
+    height: 6px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.titles-white {
+    color: white;
+}
+
+.p-white {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* FOOTER ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+.footer-bg {
+    background-color: #F7F7F8;
+    width: 100%;
+    height: fit-content;
+}
+
+.footer {
+    height: fit-content;
+    width: 100%;
+    background-color: #F7F7F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: -187px auto 0;
+}
+
+.contact-info {
+    background-color: white;
+    padding: 40px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.social-container {
+    background-color: white;
+    margin-top: -60px;
+    padding-bottom: 60px;
+}
+
+.social-icons {
+    margin-top: 4em;
+}
+
+.grey-footer {
+    background-color: #F7F7F8;
+}
+
+.footer-logo {
+    margin: 3em 0;
+}
+
+.footer-nav-links {
+    display: none;
+}
+
+.titles-black-footer {
+    color: #444444;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* FOOTER DESKTOP----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1024px) {
+
+.footer-bg {
+    background-color: #F7F7F8;
+    width: 100%;
+    height: 225px;
+}
+
+.footer {
+    height: fit-content;
+    width: 90%;
+    background-color: #F7F7F8;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-info {
+    background-color: #F7F7F8;
+    padding: 40px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.social-container {
+    background-color: #F7F7F8;
+    margin-left:-5%;
+    margin-top: 0;
+}
+
+.social-icons {
+    margin-top: 4em;
+}
+
+.grey-footer {
+    background-color: #F7F7F8;
+}
+
+.footer-logo {
+    margin: 3em 0;
+}
+
+.titles-black-footer {
+    color: #444444;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.footer-nav-links {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: #444444;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1em 0;
+}
+
+}

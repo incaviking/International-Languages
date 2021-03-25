@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322.504" height="322.504" viewBox="0 0 322.504 322.504">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.426" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2595d"/>
+      <stop offset="1" stop-color="#9e3e49"/>
+    </linearGradient>
+    <filter id="Ellipse_153" x="0" y="0" width="322.504" height="322.504" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_732" data-name="Group 732" transform="translate(-150 -4847.086)">
+    <g id="Group_725" data-name="Group 725" transform="translate(-421 3315.086)">
+      <g transform="matrix(1, 0, 0, 1, 571, 1532)" filter="url(#Ellipse_153)">
+        <circle id="Ellipse_153-2" data-name="Ellipse 153" cx="71.252" cy="71.252" r="71.252" transform="translate(90 60)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="_1" data-name="1" transform="translate(276.113 4944.086)" fill="#fff" font-size="72" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="19.952" y="58">1</tspan></text>
+  </g>
+</svg>
