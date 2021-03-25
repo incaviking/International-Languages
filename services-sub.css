@@ -882,6 +882,14 @@ p {
     text-align: center;
 }
 
+.section3-technical {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/technical-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
 .box-gradient {
     padding: 4rem 5%;
     margin: 0 auto;
@@ -1050,9 +1058,17 @@ p {
     text-align: center;
 }
 
-.section3-localization {
+.section3-certified {
     width: 100%;
     background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/certified-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-technical {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/technical-2.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
