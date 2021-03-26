@@ -1,0 +1,13 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="73.725" height="58.885" viewBox="0 0 73.725 58.885">
+  <g id="icon" transform="translate(1 1)">
+    <circle id="Ellipse_152" data-name="Ellipse 152" cx="12.366" cy="12.366" r="12.366" transform="translate(7.086 11.13)" fill="none" stroke="#bcad96" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_8422" data-name="Path 8422" d="M13.972,28.737C6.738,31.3,1,38.272,1,46.273V51.33H38.1V45.766A17.882,17.882,0,0,0,25.869,28.7" transform="translate(-1 5.555)" fill="none" stroke="#bcad96" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_8423" data-name="Path 8423" d="M30.886,18.826a12.366,12.366,0,0,0-23.78,6.418A12.366,12.366,0,0,0,18.878,14.622,12.28,12.28,0,0,0,28.326,19.1a12.49,12.49,0,0,0,2.56-.272Z" transform="translate(0.401 1.306)" fill="none" stroke="#bcad96" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_8424" data-name="Path 8424" d="M8.334,22.47c-4.093,1.966-5.676,6.183-6.6,9.893,4.761-.519,7.42-1.237,10.561-4.192" transform="translate(-0.827 4.08)" fill="none" stroke="#bcad96" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_8425" data-name="Path 8425" d="M15,12.13V1H69.412V50.465H33.549" transform="translate(2.313 -1)" fill="none" stroke="#bcad96" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_82" data-name="Line 82" x2="20" transform="translate(38 7.885)" fill="none" stroke="#bcad96" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_83" data-name="Line 83" x2="25" transform="translate(38 16.885)" fill="none" stroke="#bcad96" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_84" data-name="Line 84" x2="25" transform="translate(38 26.885)" fill="none" stroke="#bcad96" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_85" data-name="Line 85" y1="8.755" x2="8.743" transform="translate(35.17 31.485)" fill="none" stroke="#bcad96" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

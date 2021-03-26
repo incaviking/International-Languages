@@ -198,6 +198,7 @@ p {
 
 @media screen and (min-width: 1024px) {
 
+
 .header1 {
     height: 130px;
     width: 100%;
@@ -205,6 +206,7 @@ p {
     display: flex;
     justify-content: space-between;
     position: absolute;
+    margin: 0 auto;
 }
 
 .logo {
@@ -475,8 +477,8 @@ padding: 0 0 2em 0;
 
     .box1 {
         background: linear-gradient(#314A72 35%, rgba(49, 74, 114, 0) 100%) ;
-
-        width: 600px;
+        width: 44%;
+        max-width: 600px;
         margin: -100px 0 0 10%;
         padding: 50px 50px 70px 50px;
     }

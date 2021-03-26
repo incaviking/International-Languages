@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.344" height="66.775" viewBox="0 0 44.344 66.775">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.08)">
+    <g id="icon" transform="translate(1 0.92)">
+      <path id="Path_8444" data-name="Path 8444" d="M4.343,23.05H1v8.914C1,44.222,9.914,54.251,22.172,54.251S43.344,44.222,43.344,31.964V23.05H40" transform="translate(-1 1.61)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_8445" data-name="Path 8445" d="M38.429,34.528A16.715,16.715,0,1,1,5,34.438V17.724a16.715,16.715,0,0,1,33.429-.178Z" transform="translate(-0.543 -0.92)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_86" data-name="Line 86" y2="6.686" transform="translate(20.058 56.975)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_87" data-name="Line 87" x2="20.058" transform="translate(10.029 64.775)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_88" data-name="Line 88" x2="17.829" transform="translate(12.257 11.288)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_89" data-name="Line 89" x2="17.829" transform="translate(12.257 20.203)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_90" data-name="Line 90" x2="17.829" transform="translate(12.257 29.117)" fill="none" stroke="#345079" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
