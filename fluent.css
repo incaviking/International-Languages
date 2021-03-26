@@ -515,7 +515,7 @@ p {
     width: 100%;
     padding: 25% 0;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
     background: url(./assets/img/fluent-vid.png);
 }
 
@@ -527,9 +527,12 @@ p {
 
 @media screen and (min-width: 1024px) {
 
-    .section2 {
+    .fluent-video {
         height: 100%;
         width: 100%;
+        padding: 25% 0;
+        background-repeat: no-repeat;
+        background-size: 60%;
         background: url(./assets/img/fluent-vid.png);
     }
 
