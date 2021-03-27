@@ -809,6 +809,8 @@ p {
         background-color: #ececec;
         text-align: left;
         position: absolute;
+        top: 68%;
+        left: 65%;
     }
 }
 
