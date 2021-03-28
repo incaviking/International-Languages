@@ -202,6 +202,17 @@ p {
 
 @media screen and (min-width: 1024px) {
 
+.nav-link-current {
+    text-decoration: none;
+    color: #9E3E49;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1rem 1rem;
+}
+
 .header1 {
     height: 130px;
     width: 100%;

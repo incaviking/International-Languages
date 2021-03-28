@@ -208,6 +208,17 @@ p {
     position: absolute;
 }
 
+.nav-link-current {
+    text-decoration: none;
+    color: #9E3E49;
+    font-size: 13px;
+    font-family: gotham;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 2em auto 1em;
+    padding: 1rem 1rem;
+}
+
 .logo {
     background: url(./assets/img/il-logo.svg);
     background-repeat: no-repeat;

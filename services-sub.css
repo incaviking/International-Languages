@@ -353,7 +353,6 @@ p {
     z-index: 2;
 }
 
-
 .green-line1 {
     background: linear-gradient(to right, #ACD1BC, #95B8A4);
     height: 3px;
@@ -890,6 +889,46 @@ p {
     text-align: center;
 }
 
+.section3-cultural {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/cultural-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-proficiency {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/proficiency-testing-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-training {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/training-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-transcription {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/transcription-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-voiceover {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/dubbing-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
 .box-gradient {
     padding: 4rem 5%;
     margin: 0 auto;
@@ -1069,6 +1108,46 @@ p {
 .section3-technical {
     width: 100%;
     background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/technical-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-cultural {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .6)), url("./assets/img/cultural-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-proficiency {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/proficiency-testing-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-training {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/training-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-transcription {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/transcription-2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section3-voiceover {
+    width: 100%;
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/dubbing-2.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1279,6 +1358,17 @@ p {
 
 .green-box {
     background: linear-gradient(to right, #829F8F, #95B7A4);
+    padding: 4rem 2rem;
+    margin: 3rem 5% 3rem 0;
+    position: relative;
+    z-index: 1;
+    width: %;
+    height: 500px;
+    text-align: left;
+}
+
+.blue-box {
+    background: linear-gradient(to right, #345079, #476EA7);
     padding: 4rem 2rem;
     margin: 3rem 5% 3rem 0;
     position: relative;
@@ -1528,6 +1618,17 @@ p {
 
     .green-box {
         background: linear-gradient(to right, #829F8F, #95B7A4);
+        padding: 4rem 2rem;
+        margin: 3rem auto 3rem 10%;
+        position: relative;
+        z-index: 1;
+        width: 60%;
+        height: 500px;
+        text-align: left;
+    }
+
+    .blue-box {
+        background: linear-gradient(to right, #345079, #476EA7);
         padding: 4rem 2rem;
         margin: 3rem auto 3rem 10%;
         position: relative;
@@ -2006,6 +2107,15 @@ p {
     margin: 2rem auto 2rem 0;
 }
 
+.blue-line2 {
+    background: linear-gradient(to right, #345079, #476EA7);
+    height: 3px;
+    width: 250px;
+    margin: 2rem auto 2rem 0;
+}
+
+
+
 .t-blurb-wrapper {
     position: relative;
     margin-bottom: 2rem;
@@ -2102,6 +2212,14 @@ p {
     width: 250px;
     margin: 2rem auto 2rem 0;
 }
+
+.blue-line2 {
+    background: linear-gradient(to right, #345079, #476EA7);
+    height: 3px;
+    width: 250px;
+    margin: 2rem auto 2rem 0;
+}
+
 
 .t-blurb-wrapper {
     position: relative;

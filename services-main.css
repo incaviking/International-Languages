@@ -493,6 +493,17 @@ p {
         z-index: 2;
     }
 
+    .main-text {
+        height: fit-content;
+        width: 47%;
+        padding: 3rem 4rem 6rem;
+        margin: -330px 10% 6rem auto;
+        background-color: white;
+        text-align: left;
+        position: relative;
+        z-index: 2;
+    }
+
     .tan-line {
         background: linear-gradient(to right, #C1B39E, #BCAD96);
         height: 3px;
