@@ -1035,6 +1035,38 @@ p {
         position: relative;
         z-index: 1;
     }
+
+    .blue1-bar {
+        height: 6px;
+        width: 25%;
+        background-color: #345079;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .red-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #B2595D, #9E3E49);
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .tan-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #C1B39E, #BCAD96);
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .green-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #ACD1BC, #95B8A4);
+        display: inline-block;
+        vertical-align: top;
+    }
     
     }
 
