@@ -642,7 +642,7 @@ p {
     background-color: white;
     border-radius: 20px;
     background: url(./assets/img/calendar.png);
-    background-position: center;
+    background-position: left;
     background-size: initial;
     background-repeat: no-repeat;
     position: relative;
