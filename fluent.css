@@ -756,7 +756,6 @@ p {
     height: 100px;
     width: 50%;
     left: 4%;
-    background-color: white;
     border-radius: 20px;
     background: url(./assets/img/billing.png);
     background-position: left;
@@ -821,7 +820,6 @@ p {
         height: 100px;
         width: 50%;
         left: 4%;
-        background-color: white;
         border-radius: 20px;
         background: url(./assets/img/billing.png);
         background-position: left;
@@ -857,7 +855,6 @@ p {
     height: 100px;
     width: 30%;
     left: 4%;
-    background-color: white;
     border-radius: 20px;
     background: url(./assets/img/analytics.png);
     background-position: left;
@@ -911,7 +908,6 @@ p {
         height: 100px;
         width: 50%;
         left: 4%;
-        background-color: white;
         border-radius: 20px;
         background: url(./assets/img/analytics.png);
         background-position: left;
