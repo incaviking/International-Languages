@@ -393,6 +393,10 @@ p {
 /* Section 1 ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+.section1 {
+    height: 100%;
+}
+
 .breadcrumbs {
     display: none;
 }
@@ -457,6 +461,11 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+
+    .section1 {
+        height: 900px;
+    }
+
     .breadcrumbs {
         height: 14px;
         width: 300px;
@@ -511,7 +520,7 @@ p {
     .main-img {
         height: 537px;
         width: 31%;
-        top: 6%;
+        top: 4.5%;
         left: 19%;
         background: url(./assets/img/iphone.png);
         background-position: left;
@@ -589,6 +598,10 @@ p {
 /* Section 2----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+.section2 {
+    height: 100%;
+}
+
 .fluent-video {
     height: 100%;
     width: 100%;
@@ -604,14 +617,17 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+
+    .section2 {
+        height: 900px;
+    }
+
     .fluent-video {
         height: 100%;
         width: 100%;
-        padding: 25% 0;
-        margin-top: 10%;
         background-repeat: no-repeat;
-        background-size: 60%;
-        background-position: center;
+        background-size: 50%;
+        background-position: top;
         background-image: url(./assets/img/fluent-vid.png);
     }
 }
@@ -619,6 +635,10 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 /* Section 3----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
+
+.section3 {
+    height: 100%;
+}
 
 .main-img1 {
     height: 600px;
@@ -671,11 +691,16 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+
+    .section3 {
+        height: 900px;
+    }
+
     .main-img1 {
         height: 934px;
         width: 70%;
         left: 29%;
-        top: 35%;
+        top: 31%;
         background: url(./assets/img/Browser-Template.png);
         background-position: right;
         background-size: contain;
@@ -705,7 +730,7 @@ p {
         height: fit-content;
         width: 30%;
         padding: 2rem 3rem;
-        margin: 12% 10%;
+        margin: 0 10%;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -724,6 +749,10 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
+
+.section4 {
+    height: 100%;
+}
 
 .main-img2 {
     height: 600px;
@@ -777,9 +806,14 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+
+    .section4 {
+        height: 900px;
+    }
+
     .main-img2 {
-        height: 625px;
-        width: 45%;
+        height: 800px;
+        width: 50%;
         background: url(./assets/img/photo1.png);
         background-position: left;
         background-size: contain;
@@ -787,26 +821,28 @@ p {
         position: absolute;
         z-index: 0;
         object-fit: contain;
-        margin-left: 4%;
+        left: 7%;
+        top: 50%;
     }
 
     .box {
-        height: 13%;
-        width: 45%;
+        height: 85%;
+        bottom: 8%;
+        width: 40%;
         background-color: #ecebeb;
-        position: absolute;
-        right: 13%;
+        position: relative;
+        left: 49%;
     }
 
     .main-text2 {
         height: fit-content;
         width: 30%;
-        padding: 0 4rem;
-        margin: 18% 0 9% 0;
+        bottom: 78%;
+        left: 55%;
+        padding: 4%;
         background-color: transparent;
         text-align: left;
         position: relative;
-        left: 50%;
     }
 
     .billing-icon {
@@ -828,6 +864,10 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 /* Section 5----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
+
+.section5 {
+    height: 100%;
+}
 
 .main-img3 {
     height: 600px;
@@ -879,10 +919,15 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+
+    .section5 {
+        height: 900px;
+    }
+
     .main-img3 {
         height: 1000px;
-        width: 61%;
-        left: 38%;
+        width: 70%;
+        left: 31%;
         top: 64%;
         background: url(./assets/img/Browser-Template2.png);
         background-position: right;
@@ -912,12 +957,11 @@ p {
     .main-text3 {
         height: fit-content;
         width: 30%;
-        padding: 2rem 4rem;
-        margin: 17% 10%;
+        padding: 2rem 3rem;
+        margin: 0 10%;
         background-color: transparent;
         text-align: left;
         position: relative;
-        bottom: 23%;
     }
     .sub-header3 {
         font-size: 14px;
@@ -982,6 +1026,46 @@ p {
     color: white;
 }
 
+.carousel-bars-footer {
+    height: 6px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.blue1-bar {
+    height: 6px;
+    width: 25%;
+    background-color: #345079;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.red-bar {
+    height: 6px;
+    width: 25%;
+    background: linear-gradient(to right, #B2595D, #9E3E49);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tan-bar {
+    height: 6px;
+    width: 25%;
+    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.green-bar {
+    height: 6px;
+    width: 25%;
+    background: linear-gradient(to right, #ACD1BC, #95B8A4);
+    display: inline-block;
+    vertical-align: top;
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /* Section 6 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -1034,6 +1118,7 @@ p {
         width: 100%;
         position: relative;
         z-index: 1;
+        display: flex;
     }
 
     .blue1-bar {
