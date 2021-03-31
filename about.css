@@ -138,6 +138,10 @@ h2 {
     margin: 20px 0 20px;
 }
 
+.h2-blue {
+    color: #345079;
+}
+
 h3 {
     font-size: 20px;
     text-transform: none;
@@ -545,6 +549,7 @@ p {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto 1rem;
+    display:
 }
 
 .flex-stats {
@@ -571,8 +576,6 @@ p {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto 1rem;
-    di
-
 }
 
 .flex-highlights {
@@ -1270,6 +1273,8 @@ p {
     margin: 1rem auto 1rem 0;
 }
 
+
+
 .training-image {
     background: url(./assets/img/training.jpg);
     background-position: left;
@@ -1384,109 +1389,6 @@ p {
 
 }
 
-/*---------------------------------------------------------------------------------------------*/
-/* Section 6 ----------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-
-
-.section6a {
-    height: fit-content;
-    width: 100%;
-    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/outreach-process-5.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 2rem 0;
-}
-
-.box-gradient {
-    height: fit-content;
-    padding: 2rem;
-    margin: auto auto;
-    text-align: center;
-}
-
-
-
-.half-globe {
-    margin: 0 auto 1.5rem;
-}
-
-.white-line {
-    background-color: white;
-    height: 3px;
-    width: 50px;
-    margin: 0 auto 4%;
-}
-
-.button-white {
-    background-color: white;
-    color: #345079;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 2rem 0 0;
-    padding: 1em 0;
-    border: none;
-    width: 180px;
-}
-
-
-.titles-white {
-    color: white;
-}
-
-.p-white {
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-/*---------------------------------------------------------------------------------------------*/
-/* Section 6 DESKTOP ----------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-
-@media screen and (min-width: 1024px) {
-   
-    .section6a {
-        height: fit-content;
-        width: 100%;
-        background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/outreach-process-5.jpg");
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 2rem 0;
-    }
-
-    .section6c {
-        height: fit-content;
-        width: 100%;
-        background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/outreach-process-5.jpg");
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 2rem 0 0;
-    }
-    
-   
-    .titles-white {
-        color: white;
-        font-size: 25px;
-    }
-    .box-gradient {
-        height: fit-content;
-        padding: 0;
-        margin: 4rem 20%;
-        text-align: center;
-    }
-
-    
-}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 7 MOBILE ----------------------------------------------------------------------------------*/
@@ -2279,6 +2181,258 @@ p {
     display: inline-block;
     vertical-align: top;
 }
+
+/*---------------------------------------------------------------------------------------------*/
+/* Membership Section ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+.memberships {
+    margin-top: 6rem;
+}
+
+.h1bold6 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.blue-line3 {
+    background: linear-gradient(to right, #4B6893, #345079);
+    height: 5px;
+    width: 80px;
+    margin: 36px auto 2rem;
+}
+
+.flex-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.membership-flexbox {
+    width: 30%;
+    text-align: center;
+    margin: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.org-logo {
+    object-fit: contain;
+    height: 150px;
+}
+
+.org-logo-ncihc {
+    object-fit: contain;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.org-logo-mati {
+    object-fit: contain;
+    height: 150px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.org-logo-ata {
+    object-fit: contain;
+    height: 150px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.org-logo-imia {
+    object-fit: contain;
+    height: 150px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+}
+/*---------------------------------------------------------------------------------------------*/
+/* Testimonial Section ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    .testimonial {
+        background-color: #F7F7F8;
+        margin: 3rem auto;
+        padding: 3rem;
+    }
+
+    .logo-carousel {
+        display: flex;
+        width: 60%;
+        justify-content: space-evenly;
+    }
+
+    .customer-logo {
+        width: 100px;
+        object-fit: contain;
+        margin: 0 2rem;
+    }
+
+}
+/*---------------------------------------------------------------------------------------------*/
+/* CTA section----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+.cta {
+
+
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cta-wrapper {
+    width: 85%;
+    background-color: white;
+    display: block;
+    margin-top: 4rem;
+    align-self: center;
+}
+
+.white-box2 {
+    background-color: white;
+    padding: 40px 8% 8%;
+    position: relative;
+    z-index: 0;
+}
+
+.button-red {
+    background-image: linear-gradient(to right, #B2595D, #9E3E49);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+}
+
+.button-tan {
+    background-image: linear-gradient(to right, #C1B39E, #BCAD96);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+}
+
+.button-green2 {
+    background-image: linear-gradient(to right, #ACD1BC, #95B8A4);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+}
+
+.image-center-contact {
+    width: 85%;
+    margin-left: 8%
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* CTA Section DESKTOP----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1024px) {
+
+.cta {
+
+
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+    margin-left: 7%;
+}
+
+.cta-wrapper {
+
+
+    width: 90%;
+    background-color: white;
+    display: block;
+    margin-top: 4rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-center-contact {
+    width: 90%;
+    margin: 0 auto 0 0
+}
+
+.white-box2 {
+    background-color: white;
+    padding: 40px 0 8%;
+    position: relative;
+    z-index: 0;
+    width: 90%;
+}
+
+.button-red {
+    background-image: linear-gradient(to right, #B2595D, #9E3E49);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 220px;
+    border: none;
+}
+
+.button-tan {
+    background-image: linear-gradient(to right, #C1B39E, #BCAD96);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 220px;
+    border: none;
+}
+
+.button-green2 {
+    background-image: linear-gradient(to right, #ACD1BC, #95B8A4);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1em 0;
+    width: 220px;
+    border: none;
+}
+
+}
+
 
 /*---------------------------------------------------------------------------------------------*/
 /* Contact Form DESTKOP ----------------------------------------------------------------------------------*/
