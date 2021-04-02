@@ -411,49 +411,57 @@ p {
     height: 360px;
     width: 70%;
     position: absolute;
-    bottom: 94%;
-    left: 49%;
+    bottom: 89.4%;
+    left: 43.5%;
     background: url(./assets/img/iphone.png);
-    background-position: bottom;
-    background-size: contain;
+    background-position: center;
+    background-size: 80%;
     background-repeat: no-repeat;
     z-index: 2;
     object-fit: cover;
-    box-shadow: 0px 60px 99px rgba(0, 0, 0, 0.05);
 }
 
 .main-img-translation {
-    height: 330px;
-    width: 100%;
+    height: 250px;
+    width: 97%;
+    margin-top: 25%;
     background: url(./assets/img/macbook.png);
     background-position: center;
-    background-size: 180%;
+    background-size: 168%;
     background-repeat: no-repeat;
     z-index: 2;
     object-fit: cover;
-    margin: 60px auto;
-    box-shadow: 0px 60px 99px rgba(0, 0, 0, 0.05);
 }
 
 .sub-header {
     font-size: 14px;
-    color: #962626;
+    color: transparent;
 }
 
 .main-text {
     height: fit-content;
     width: 90%;
-    padding: 2rem 2rem;
-    margin: -180px auto 4rem 0;
+    padding: 1rem 0rem 2rem 1.5rem;
     background-color: white;
     text-align: left;
 }
 
 .green-line1 {
     background: linear-gradient(to right, #8e1c1c, #962626);
-    height: 3px;
-    width: 160px;
+    height: 6px;
+    width: 100px;
     margin: 0 0 1.5rem 0;
+}
+
+h1 {
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    margin: 0 auto 1.5rem 0;
+}
+
+.h1bold {
+    font-weight: 700;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -518,10 +526,10 @@ p {
     }
 
     .main-img {
-        height: 537px;
-        width: 31%;
-        top: 4.5%;
-        left: 19%;
+        height: 650px;
+        width: 35%;
+        top: 3.6%;
+        left: 17%;
         background: url(./assets/img/iphone.png);
         background-position: left;
         background-size: contain;
@@ -530,7 +538,6 @@ p {
         z-index: 0;
         object-fit: contain;
         margin: 2rem 0 0 0;
-        box-shadow: 0px 60px 99px rgba(0, 0, 0, 0.05);
     }
 
     .main-img-translation {
@@ -546,15 +553,14 @@ p {
         margin: 70px 0 0 0;
         right: 54%;
         top: 2%;
-        box-shadow: 0px 60px 99px rgba(0, 0, 0, 0.05);
     }
 
     .main-text {
         height: fit-content;
         width: 47%;
-        padding: 3rem 6rem 6rem;
+        padding: 0 27rem 0 0;
         margin: 10% 0;
-        left: 48%;
+        left: 59%;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -579,18 +585,34 @@ p {
         text-align: center;
         font-size: 36px;
         margin: 0 auto;
+        padding-left: 10%;
     }
 
-    .h1 {
+    h1 {
         font-weight: 100;
-        text-align: center;
-        font-size: 25px;
-        margin: 0 auto;
+        text-align: left;
+        font-size: 31px;
+        margin: 0 auto 1.5rem 0;
+        padding-right: 10%;
     }
 
     .h1bold {
         font-weight: 700;
         font-size: 35px;
+    }
+
+    .green-line1 {
+        background: linear-gradient(to right, #8e1c1c, #962626);
+        height: 4px;
+        width: 160px;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .sub-header {
+        font-size: 14px;
+        color: #922121;
+        padding-left: 1%;
+        margin: 0 0 30px;
     }
 }
 
@@ -606,8 +628,9 @@ p {
     height: 100%;
     width: 100%;
     padding: 25% 0;
+    margin: 10% 0;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position: center;
     background-image: url(./assets/img/fluent-vid.png);
 }
@@ -641,16 +664,15 @@ p {
 }
 
 .main-img1 {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url(./assets/img/Browser-Template.png);
     background-position: center;
-    background-size: cover;
+    background-size: 110%;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 140px 0;
 }
 
 .calendar-icon {
@@ -666,20 +688,18 @@ p {
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 10px 0;
 }
 
 .main-text1 {
     height: fit-content;
     width: 90%;
-    padding: 2rem 2rem;
-    margin: -180px auto 4rem 0;
+    padding: 0 0 2rem 2rem;
     background-color: transparent;
     text-align: left;
 }
 .sub-header1 {
     font-size: 14px;
-    color: #bcad96;
+    color: transparent;
 }
 .font {
     font-size: 30px;
@@ -755,23 +775,21 @@ p {
 }
 
 .main-img2 {
-    height: 600px;
-    width: 100%;
+    height: 300px;
+    width: 102%;
+    right: 8%;
     background: url(./assets/img/photo1.png);
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 140px 0;
 }
 
 .main-text2 {
     height: fit-content;
     width: 90%;
     padding: 2rem 2rem;
-    margin: 0 0 10px 0;
     background-color: white;
     text-align: left;
     position: relative;
@@ -789,7 +807,6 @@ p {
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 10px 0;
 }
 
 .sub-header2 {
@@ -867,19 +884,19 @@ p {
 
 .section5 {
     height: 100%;
+    margin-bottom: 10%;
 }
 
 .main-img3 {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url(./assets/img/Browser-Template2.png);
     background-position: center;
-    background-size: cover;
+    background-size: 110%;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 140px 0;
 }
 
 .analytics-icon {
@@ -894,14 +911,12 @@ p {
     position: relative;
     z-index: 0;
     object-fit: contain;
-    margin: 0 0 10px 0;
 }
 
 .main-text3 {
     height: fit-content;
     width: 90%;
     padding: 2rem 2rem;
-    margin: -180px auto 35rem 0;
     background-color: white;
     text-align: left;
 }
@@ -1004,7 +1019,7 @@ p {
 .white-line {
     background-color: white;
     height: 3px;
-    width: 150px;
+    width: 50px;
     margin: 0 auto 8%;
 }
 
@@ -1064,6 +1079,10 @@ p {
     background: linear-gradient(to right, #ACD1BC, #95B8A4);
     display: inline-block;
     vertical-align: top;
+}
+
+.titles-white {
+    text-align: center;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1151,6 +1170,10 @@ p {
         background: linear-gradient(to right, #ACD1BC, #95B8A4);
         display: inline-block;
         vertical-align: top;
+    }
+
+    .titles-white {
+        text-align: center;
     }
     
     }
