@@ -326,7 +326,7 @@ p {
 }
 
 .dropdown-link {
-    padding: 2rem;
+    padding: .5rem 2rem;
     text-decoration: none;
     color: #848484;
     font-family: 'source-sans-pro';
