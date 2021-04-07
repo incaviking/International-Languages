@@ -146,7 +146,7 @@ p {
 
 .header1 {
     background-color: white;
-    padding: 20px 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -201,11 +201,14 @@ p {
 
 .header1 {
     height: 130px;
-    width: 100%;
-    background-color: #345079;
+    width: 80%;
+    max-width: 1440px;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     position: absolute;
+    left: 10%;
+    right: 10%;
     margin: 0 auto;
 }
 
@@ -214,7 +217,7 @@ p {
     background-repeat: no-repeat;
     width: 238px;
     height: 60px;
-    margin: auto 0 auto 9%;
+    margin: auto 0;
 }
 
 .container {
@@ -223,8 +226,8 @@ p {
 
 .nav-links {
     display: flex;
-    margin: auto 11% auto 0;
-    justify-content: space-between;
+    margin: auto 0;
+
 
 }
 
@@ -233,7 +236,171 @@ p {
 }
 
 .nlb-button {
+    margin-right: 27px;
+}
 
+.dropdown1 {
+    background-color:white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 1rem;
+    position: absolute;
+    padding: 1rem 0 3rem;
+    transform: translateX(-1rem);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.dropdown2 {
+    background-color:white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+    margin-top: 1rem;
+    position: absolute;
+    padding: 1rem 0 3rem;
+    transform: translateX(-1rem);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translateX(-2rem);
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    height: fit-content;
+    line-height: 1.5;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dropdown-link {
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.dropdown-link:hover {
+    color: #444444;
+}
+
+.nlb:hover > .dropdown1 {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.nlb:hover > .dropdown2 {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.nav-link:hover {
+    color: #f7f7f8;
+}
+
+.nav-icon-interpreting {
+    background-image: url(./assets/icons/interpretation-icon-blue.svg);
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem 1.5rem;
+}
+
+.nav-title-interpreting {
+    color: #345079;
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+
+.nav-icon-translation {
+    background-image: url(./assets/icons/translation-icon-red.svg);
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem 1.5rem;
+}
+
+.nav-title-translation {
+    color: #9E3E49;
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+
+.nav-icon-more {
+    background-image: url(./assets/icons/more-services-icon.svg);
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem 1.5rem;
+}
+
+.nav-title-more {
+    color: #BCAD96;
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+
+.nav-icon-industries {
+    background-image: url(./assets/icons/industries.svg);
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem 1.5rem;
+}
+
+.nav-title-industries {
+    color: #444;
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+
+.nav-icon-about {
+    background-image: url(./assets/icons/il-globe.svg);
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem 1.5rem;
+}
+
+.nav-title-about {
+    color: #444;
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-left: 2rem;
 }
 
 .nav-link {
@@ -271,7 +438,7 @@ p {
 
     width: 100%;
     background-color: #345079;
-    margin-top: 90px;
+    padding-top: 130px;
 }
 
 .splash {
@@ -286,10 +453,13 @@ p {
     object-fit: cover;
 }
 
+.box-buttons-wrapper {
+    margin-top: -8rem;
+}
+
 .box1 {
-    background: linear-gradient(#314A72 10%, rgba(49, 74, 114, 0) 100%) ;
-    height: 346px;
-    margin: -30px 12% 0 0;
+    background: linear-gradient(#314A72 10%, rgba(49, 74, 114, 0) 100%);
+    margin: 0 12% 0 0;
     padding: 8% 8%;
 }
 
@@ -459,7 +629,6 @@ p {
 .carousel-dots {
 position: absolute;
 justify-content: space-evenly;
-padding: 0 0 2em 0;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -470,22 +639,28 @@ padding: 0 0 2em 0;
 @media screen and (min-width: 1024px) {
 
     .section1 {
-        height: 680px;
         width: 100%;
         background-color: #345079;
     }
 
+    .content-wrapper {
+        width: 80%;
+        max-width: 1440px;
+        margin: auto;
+    }
+
     .box1 {
-        background: linear-gradient(#314A72 35%, rgba(49, 74, 114, 0) 100%) ;
-        width: 44%;
-        max-width: 600px;
-        margin: -100px 0 0 10%;
+        background: linear-gradient(#314A72 40%, rgba(49, 74, 114, 0) 90%) ;
+        width: 50%;
+        max-width: 800px;
         padding: 50px 50px 70px 50px;
+        position: relative;
+        z-index: 2;
     }
 
     .splash {
         height: 460px;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         background: url(./assets/img/Video@2x.png);
         background-position: center;
@@ -493,16 +668,17 @@ padding: 0 0 2em 0;
         background-repeat: no-repeat;
         z-index: 1;
         box-shadow: 0px 60px 99px rgba(0, 0, 0, .25);
+        position: relative;
     }
 
     .mobile-buttons-sec1 {
         display: flex;
         flex-direction: row-reverse;
         text-align: right;
- 
-        width: 90%;
+        width: 50%;
         justify-content: right;
-        margin: -160px 0 0;
+        float: right;
+        margin-top: -160px;
     }
 
     .button-outline {
@@ -532,12 +708,13 @@ padding: 0 0 2em 0;
     }
 
     .carousel-dots {
-        width: 87.5%;
+        width: 100%;
         display: flex;
         flex-direction: row-reverse;
         justify-content: right;
-        margin: -160px 0 0 0;
-        position: relative;
+        bottom: 20px;
+        right: 30px;
+        position: absolute;
         z-index: 2;
         }
 
@@ -583,7 +760,7 @@ padding: 0 0 2em 0;
         width: 85%;
         height: 224px;
         position: relative;
-        z-index: 2;
+        z-index: 1;
     }
 
     .grey-box {
