@@ -208,7 +208,6 @@ p {
     justify-content: space-between;
     position: absolute;
     left: 10%;
-    right: 10%;
     margin: 0 auto;
 }
 
@@ -227,8 +226,6 @@ p {
 .nav-links {
     display: flex;
     margin: auto 0;
-
-
 }
 
 .nlb {
@@ -236,7 +233,7 @@ p {
 }
 
 .nlb-button {
-    margin-right: 27px;
+
 }
 
 .dropdown1 {
@@ -422,8 +419,8 @@ p {
     font-family: gotham;
     font-weight: 600;
     line-height: 1em;
-    margin: 2em auto 1em;
-    padding: 1em 21%;
+    margin-left: 1rem;
+    padding: 1em 1rem;
 }
 
 }
