@@ -410,32 +410,56 @@ p {
 }
 
 .tan-line1 {
-    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    background: linear-gradient(to right, #c1b39e, #bcad96);
     height: 6px;
     width: 100px;
     margin: 0 0 1.5rem 0;
+    text-align: left;
 }
 
-h1 {
+.title-text {
     font-weight: bold;
-    font-family: 'gotham';
+    font-family: "gotham";
     color: #484848;
     text-align: left;
     font-size: 25px;
     margin: 0 auto 1rem 0;
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 /* Section 1 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+    .main-text {
+        height: fit-content;
+        width: 100%;
+        padding: 8rem 0rem 1rem 0rem;
+        background-color: white;
+        text-align: -webkit-center;
+    }
 
+    .tan-line1 {
+        background: linear-gradient(to right, #c1b39e, #bcad96);
+        height: 6px;
+        width: 100px;
+        margin: 0 0 1.5rem 0;
+        text-align: center;
+    }
 
+    .title-text {
+        font-weight: bold;
+        font-family: "gotham";
+        color: #484848;
+        text-align: center;
+        font-size: 25px;
+        margin: 0 auto 1rem 0;
+    }
 
-
-
-
+    p {
+        padding: 0 29%;
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 2 ----------------------------------------------------------------------------------*/
@@ -457,7 +481,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -472,7 +496,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -480,8 +504,41 @@ h1 {
 /* Section 2 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
+    .blog-wrapper {
+        height: 100%;
+        padding: 0;
+    }
 
+    .grid-container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto 0;
+    }
+
+    .industries-grid {
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 60px 40px;
+    }
+
+    .blog-text {
+        margin-bottom: 10%;
+        padding: 0;
+    }
+
+    .blog-image1 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels_photo_407237.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 3 ----------------------------------------------------------------------------------*/
@@ -503,7 +560,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -522,7 +579,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -530,6 +587,21 @@ h1 {
 /* Section 3 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .blog-wrapper1 {
+        height: 100%;
+        padding: 0;
+    }
+
+    .blog-image2 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-1692693.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4 ----------------------------------------------------------------------------------*/
@@ -551,7 +623,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -570,7 +642,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -578,6 +650,22 @@ h1 {
 /* Section 4 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .blog-wrapper2 {
+        height: 100%;
+        padding: 0;
+    }
+
+    .blog-image3 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-1078741.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 5 ----------------------------------------------------------------------------------*/
@@ -592,14 +680,13 @@ h1 {
     height: 270px;
     width: 100%;
     background-position: top;
-    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(./assets/img/pexels-photo-256381.png);
 }
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -618,7 +705,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -626,7 +713,22 @@ h1 {
 /* Section 5 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
+    .blog-wrapper3 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .blog-image4 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./assets/img/pexels-photo-256381.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 6 ----------------------------------------------------------------------------------*/
@@ -648,7 +750,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -663,7 +765,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -671,8 +773,22 @@ h1 {
 /* Section 6 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
-
+    .blog-wrapper4 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .blog-image5 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels_photo_407237.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 7 ----------------------------------------------------------------------------------*/
@@ -694,7 +810,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -713,7 +829,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -721,6 +837,22 @@ h1 {
 /* Section 7 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .blog-wrapper5 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .blog-image6 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-1692693.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 8 ----------------------------------------------------------------------------------*/
@@ -742,7 +874,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -761,7 +893,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -769,6 +901,22 @@ h1 {
 /* Section 8 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .blog-wrapper6 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .blog-image7 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-1078741.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 9 ----------------------------------------------------------------------------------*/
@@ -790,7 +938,7 @@ h1 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -809,17 +957,30 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
-
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 9 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
-
+    .blog-wrapper7 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .blog-image8 {
+        height: 450px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-256381.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 10 ----------------------------------------------------------------------------------*/
@@ -832,9 +993,9 @@ h1 {
 }
 
 .button-blue {
-    background-color:  #345079;
+    background-color: #345079;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
@@ -843,11 +1004,30 @@ h1 {
     width: 85%;
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 /* Section 10 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .blog-wrapper8 {
+        height: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    
+    .button-blue {
+        background-color: #345079;
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 2rem 0;
+        padding: 1em 22%;
+        border: none;
+        width: 85%;
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* FOOTER ----------------------------------------------------------------------------------*/
@@ -872,7 +1052,7 @@ h1 {
 .red-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #B2595D, #9E3E49);
+    background: linear-gradient(to right, #b2595d, #9e3e49);
     display: inline-block;
     vertical-align: top;
 }
@@ -880,7 +1060,7 @@ h1 {
 .tan-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    background: linear-gradient(to right, #c1b39e, #bcad96);
     display: inline-block;
     vertical-align: top;
 }
@@ -888,7 +1068,7 @@ h1 {
 .green-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #ACD1BC, #95B8A4);
+    background: linear-gradient(to right, #acd1bc, #95b8a4);
     display: inline-block;
     vertical-align: top;
 }
@@ -952,6 +1132,46 @@ h1 {
 
 @media screen and (min-width: 1024px) {
 
+    .carousel-bars-footer {
+        height: 6px;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+    }
+    
+    .blue1-bar {
+        height: 6px;
+        width: 25%;
+        background-color: #345079;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .red-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #b2595d, #9e3e49);
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .tan-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #c1b39e, #bcad96);
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .green-bar {
+        height: 6px;
+        width: 25%;
+        background: linear-gradient(to right, #acd1bc, #95b8a4);
+        display: inline-block;
+        vertical-align: top;
+    }
+    
     .footer-bg {
         background-color: white;
         width: 100%;
