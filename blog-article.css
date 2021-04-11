@@ -432,7 +432,7 @@ p {
 
 h3 {
     font-weight: bold;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #484848;
     text-align: left;
     font-size: 20px;
@@ -440,13 +440,51 @@ h3 {
     line-height: 30px;
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 /* Section 1 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
+    .article-banner {
+        height: 900px;
+        width: 100%;
+        background-image: url(./assets/img/pexels-photo-1692693@2x.png);
+        background-repeat: no-repeat;
+        background-size: 88%;
+        background-position: center;
+        margin-top: 10%;
+    }
 
+    .article-wrapper {
+        height: fit-content;
+        width: 100%;
+        padding: 5rem 33rem 1rem 5rem;
+        background-color: white;
+        text-align: left;
+        position: absolute;
+        top: 19%;
+        margin-left: 23%;
+    }
+
+    .article-text1 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Source Sans Pro", sans-serif;
+        color: #6b6a6a;
+        margin-bottom: 5%;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-family: "source-sans-pro";
+        color: #484848;
+        text-align: left;
+        font-size: 25px;
+        margin: 0 auto 1rem 0;
+        line-height: 30px;
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 2 ----------------------------------------------------------------------------------*/
@@ -457,12 +495,10 @@ h3 {
     text-align: center;
 }
 
-
-
 .button-blue {
-    background-color:  #345079;
+    background-color: #345079;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
@@ -471,14 +507,30 @@ h3 {
     width: 85%;
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 /* Section 2 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
-
-
+    .section2 {
+        height: 130px;
+        text-align: left;
+        padding: 0 38%;
+    }
+    
+    .button-blue {
+        background-color: #345079;
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 2rem 0;
+        padding: 1em 22%;
+        border: none;
+        width: 85%;
+    }
+}
 
 
 /*---------------------------------------------------------------------------------------------*/
@@ -502,7 +554,7 @@ h3 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -521,7 +573,7 @@ h3 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -529,6 +581,43 @@ h3 {
 /* Section 3 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
+    .articles-container {
+        background-color: #f7f7f7;
+        height: 740px;
+    }
+
+    .grid-container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto 0;
+    }
+
+    .industries-grid {
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 60px 40px;
+    }
+
+    .blog-wrapper2 {
+        height: 580px;
+        padding: 6% 0 0 0;
+        background-color: #f7f7f7;
+    }
+
+    .blog-image3 {
+        height: 337px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-1078741.png);
+    }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4 ----------------------------------------------------------------------------------*/
@@ -552,7 +641,7 @@ h3 {
 
 .h2bold {
     font-size: 17px;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
@@ -571,7 +660,7 @@ h3 {
     font-weight: bold;
     font-size: 15px;
     float: right;
-    font-family: 'source-sans-pro';
+    font-family: "source-sans-pro";
     color: #6b6a6a;
 }
 
@@ -579,9 +668,24 @@ h3 {
 /* Section 4 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
+    .blog-wrapper3 {
+        height: 580px;
+        padding: 6% 0 0 0;
+        background-color: #f7f7f7;
+    }
+    
+    .blog-image4 {
+        height: 337px;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./assets/img/pexels-photo-256381.png);
+    }
 
-
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* FOOTER ----------------------------------------------------------------------------------*/
@@ -606,7 +710,7 @@ h3 {
 .red-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #B2595D, #9E3E49);
+    background: linear-gradient(to right, #b2595d, #9e3e49);
     display: inline-block;
     vertical-align: top;
 }
@@ -614,7 +718,7 @@ h3 {
 .tan-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #C1B39E, #BCAD96);
+    background: linear-gradient(to right, #c1b39e, #bcad96);
     display: inline-block;
     vertical-align: top;
 }
@@ -622,7 +726,7 @@ h3 {
 .green-bar {
     height: 6px;
     width: 25%;
-    background: linear-gradient(to right, #ACD1BC, #95B8A4);
+    background: linear-gradient(to right, #acd1bc, #95b8a4);
     display: inline-block;
     vertical-align: top;
 }
@@ -685,6 +789,13 @@ h3 {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
+    .carousel-bars-footer {
+        height: 6px;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+    }
 
     .footer-bg {
         background-color: white;
