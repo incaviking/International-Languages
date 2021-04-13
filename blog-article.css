@@ -402,6 +402,7 @@ p {
     display: none;
 }
 
+
 .article-banner {
     height: 300px;
     width: 100%;
@@ -446,6 +447,57 @@ h3 {
 
 @media screen and (min-width: 1024px) {
 
+    .breadcrumbs {
+        height: 14px;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: relative;
+        z-index: 3;
+        margin-left: 10%;
+        margin-top: 130px;
+        margin-bottom: -40px;
+    }
+
+    .home-icon {
+        height: 100%;
+        width: 30px;
+        background: url(./assets/icons/Home.svg);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .arrow {
+        height: 100%;
+        width: 12px;
+        background: url(./assets/icons/Angle-right.svg);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .breadcrumb-link {
+        text-decoration: none;
+        color: #848484;
+        font-family: "source-sans-pro";
+        font-size: 14px;
+        bottom: 0;
+        width: fit-content;
+        height: 100%;
+        flex-grow: 1;
+    }
+
+    .current-page {
+        color: #848484;
+        font-family: "source-sans-pro";
+        font-size: 14px;
+        bottom: 0;
+        width: fit-content;
+        height: 100%;
+        line-height: 1rem;
+        flex-grow: 1;
+    }
+
     .article-banner {
         height: 900px;
         width: 100%;
@@ -453,13 +505,13 @@ h3 {
         background-repeat: no-repeat;
         background-size: 88%;
         background-position: center;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
     .article-wrapper {
         height: fit-content;
         width: 100%;
-        padding: 5rem 33rem 1rem 5rem;
+        padding: 5rem 38rem 1rem 5rem;
         background-color: white;
         text-align: left;
         position: absolute;
@@ -612,11 +664,13 @@ h3 {
     .blog-image3 {
         height: 337px;
         width: 100%;
+        margin-bottom: 5%;
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(./assets/img/pexels-photo-1078741.png);
     }
+    
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -679,6 +733,7 @@ h3 {
     .blog-image4 {
         height: 337px;
         width: 100%;
+        margin-bottom: 5%;
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
