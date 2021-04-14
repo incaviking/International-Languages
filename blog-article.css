@@ -447,6 +447,10 @@ h3 {
 
 @media screen and (min-width: 1024px) {
 
+    .section1 {
+        height: 1700px;
+    }
+
     .breadcrumbs {
         height: 14px;
         width: 300px;
@@ -515,7 +519,7 @@ h3 {
         background-color: white;
         text-align: left;
         position: absolute;
-        top: 19%;
+        top: 22%;
         margin-left: 23%;
     }
 
