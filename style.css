@@ -198,16 +198,20 @@ p {
 
 @media screen and (min-width: 1024px) {
 
+.header-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    max-width: 1440px;
+}
 
 .header1 {
     height: 130px;
-    width: 80%;
-    max-width: 1440px;
+    width: 100%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    left: 10%;
     margin: 0 auto;
 }
 
