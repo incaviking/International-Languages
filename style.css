@@ -653,7 +653,7 @@ p {
     font-size: 14px;
     font-weight: 700;
     margin: 2rem auto 5%;
-    padding: 4% 0;
+    padding: 1rem 3rem;
     width: 100%;
     border: none;
     justify-content: center;
@@ -1065,11 +1065,10 @@ p {
 .white-box {
     background-color: white;
     padding: 80px 8% 8%;
-    margin: -525px 0 10rem 0;
+    margin: -525px 0 6rem 0;
     position: relative;
     z-index: 1;
     width: 40%;
-
 }
 
 .more-services-box {
@@ -1174,7 +1173,7 @@ p {
     width: 80%;
     max-width: 1440px;
     background-color: #f7f7f8;
-    padding: 5rem 0 12rem;
+    padding: 5rem 0 8rem;
     margin: auto;
     position: relative;
     z-index: 0;
@@ -1186,6 +1185,7 @@ p {
     width: 80%;
     margin: 0 auto;
 }
+
 .mobile-buttons-sec3 {
     display: flex;
     flex-direction: row-reverse;
@@ -1215,11 +1215,11 @@ p {
 }
 
 .icon-grid {
-    width: 35%;
+    width: 37%;
+    max-width: 400px;
     flex-direction: row;
-    height: 300px;
     align-content: center;
-    margin: -43% 0 0 5%;
+    margin: -42% 0 0 3%;
 }
 
 .icon-text {
@@ -1397,7 +1397,7 @@ p {
 
 .greybar1 {
     width: 15vw;
-    height: 5px;
+    height: 4px;
     background-color: #ededef;
     margin: 1rem 0 13px 0;
     position: relative;
@@ -1406,14 +1406,14 @@ p {
 
   .greybar2 {
     width: 18vw;
-    height: 5px;
+    height: 4px;
     background-color: #EDEDEF;
     margin: 5px 0 13px 0;
   }
 
   .greybar3 {
     width: 12vw;
-    height: 5px;
+    height: 4px;
     background-color: #EDEDEF;
     margin: 5px 0 13px 0;
   }
