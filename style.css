@@ -212,6 +212,7 @@ p {
     justify-content: space-between;
     position: absolute;
     margin: 0 auto;
+    padding: 0;
 }
 
 .logo {
@@ -603,7 +604,7 @@ p {
     width: 25%;
     background-color: #345079;
     display: inline-block;
-    margin: 0 0 50%;
+    vertical-align: top;
 }
 
 .red-bar {
@@ -611,7 +612,6 @@ p {
     width: 25%;
     background: linear-gradient(to right, #B2595D, #9E3E49);
     display: inline-block;
-    margin: 0 0 50%;
     vertical-align: top;
 }
 
@@ -620,7 +620,6 @@ p {
     width: 25%;
     background: linear-gradient(to right, #C1B39E, #BCAD96);
     display: inline-block;
-    margin: 0 0 50%;
     vertical-align: top;
 }
 
@@ -629,7 +628,6 @@ p {
     width: 25%;
     background: linear-gradient(to right, #ACD1BC, #95B8A4);
     display: inline-block;
-    margin: 0 0 50%;
     vertical-align: top;
 }
 
@@ -655,6 +653,8 @@ p {
         width: 80%;
         max-width: 1440px;
         margin: auto;
+        padding-top: 130px;
+        padding-bottom: 0;
     }
 
     .box-buttons-wrapper {
@@ -717,6 +717,7 @@ p {
         padding: 1em 3rem;
         text-decoration: none;
         display: inline-block;
+        width: auto;
     }
 
     .button-green {
@@ -1010,6 +1011,7 @@ p {
     font-weight: 700;
     padding: 1em 3rem;
     height: 48px;
+    width: auto;
     text-decoration: none;
     display: inline-block;
 }
@@ -1345,15 +1347,25 @@ p {
 
 
 .section5 {
-    width: 100%;
+    width: 84%;
     background-color: white;
     display: block;
+    margin: auto;
 }
 
 .section5b {
     width: 100%;
     position: relative;
     z-index: 1;
+    margin: 1.5rem 0 0 0;
+}
+
+.blog-image-home-1 {
+        width: 100%;
+        height: 200px;
+        background-image: url(./assets/img/insights-1.jpg);
+        background-size: cover;
+        background-position: center;
 }
 
 .section5-title {
@@ -1368,7 +1380,7 @@ p {
 
 .greybox2 {
     background-color: #F7F7F8;
-    margin: 40px 8%;
+    margin: 1.5rem 0;
     padding: 16% 8%;
 }
 
@@ -1383,7 +1395,7 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 2em 0 1em;
+    margin: 2em 0 0;
     padding: 1em 35%;
 }
 
@@ -1396,14 +1408,26 @@ p {
 }
 
 .left-arrow {
-    display: inline-block;
-    margin-right: -2em;
+    display: none;
 }
 
 .right-arrow {
-    display: inline-block;
-    margin-left: -2em;
+    display: none;
+}
 
+.arrow-container {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.left-arrow2 {
+    display: inline-block;
+}
+
+.right-arrow2 {
+    display: inline-block;
 }
 
 .container3 {
@@ -1458,6 +1482,7 @@ p {
     width: 55%;
     position: relative;
     z-index: 1;
+    margin: 0;
 }
 
 .blog-image-home-1 {
@@ -1466,7 +1491,6 @@ p {
     background-image: url(./assets/img/insights-1.jpg);
     background-size: cover;
     background-position: center;
-    background-color: teal;
 }
 
 .section5-title {
@@ -1569,7 +1593,14 @@ p {
 .right-arrow {
     display: inline-block;
     margin-left: 0;
+}
 
+.left-arrow2 {
+    display: none;
+}
+
+.right-arrow2 {
+    display: none;
 }
 
 }
@@ -1582,24 +1613,23 @@ p {
 .section6 {
 
 
-    width: 100%;
+    width: 86%;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    margin: auto auto 2rem;
 }
 
 .section6a {
-    width: 85%;
+    width: 100%;
     background-color: white;
     display: block;
-    margin-top: 4rem;
-    align-self: center;
+    margin-top: 2rem;
 }
 
 .white-box2 {
     background-color: white;
-    padding: 40px 8% 8%;
+    padding: 2rem 0 0;
     position: relative;
     z-index: 0;
 }
@@ -1640,9 +1670,12 @@ p {
     border: none;
 }
 
+.image-center-contact1 {
+    width: 100%;
+}
+
 .image-center-contact {
-    width: 85%;
-    margin-left: 8%
+    width: 100%;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1657,34 +1690,42 @@ p {
     background-color: white;
     display: flex;
     flex-direction: row;
-    align-content: left;
-    margin: auto;
+    margin: 0 auto 3rem;
+    justify-content: space-between;
 }
 
 .section6a {
-
-
-    width: 90%;
-    background-color: white;
-    display: block;
-    margin-top: 4rem;
-    align-self: center;
+    width: 30%;
     display: flex;
+    margin-top: 0;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.image-center-contact1 {
+    width: 100%;
+    margin: 0 auto 0 0;
+    height: 250px;
+    object-fit: contain;
+}
+
 .image-center-contact {
-    width: 90%;
-    margin: 0 auto 0 0
+    width: 100%;
+    margin: 0 auto 0 0;
+    height: 250px;
+    object-fit: cover;
 }
 
 .white-box2 {
     background-color: white;
-    padding: 40px 0 8%;
+    padding: 2rem 0 0;
     position: relative;
     z-index: 0;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .button-red {
@@ -1734,7 +1775,7 @@ p {
 
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee.png");
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1781,7 +1822,7 @@ p {
 .section7 {
     height: fit-content;
     width: 100%;
-    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee.png");
+    background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1836,6 +1877,8 @@ p {
 .footer-bg {
     background-color: #F7F7F8;
     width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .footer {
@@ -1871,7 +1914,8 @@ p {
 }
 
 .footer-logo {
-    margin: 3em 0;
+    margin: 2rem 0 0;
+    opacity: .5;
 }
 
 .footer-nav-links {
@@ -1884,6 +1928,30 @@ p {
     font-weight: 700;
     text-align: center;
     padding-top: 10px;
+}
+
+.footer-links-2 {
+    width: 84%;
+    display: block;
+    margin: 2rem auto 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #848484;
+    display: block;
+    margin: 1rem 0;
+}
+
+.footer-link-small {
+    font-size: 12px;
+    color: #848484;
+    text-decoration: none;
+    transform: translateY(3px);
+    font-family: 'source-sans-pro';
+    margin: 0 1rem;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1903,7 +1971,6 @@ p {
     background-color: #F7F7F8;
     width: 100%;
     margin: 0 auto;
-    border: yellow solid 1px;
     padding-bottom: 2rem;
 }
 
@@ -1942,6 +2009,7 @@ p {
 
 .footer-logo {
     margin: 3em 0;
+    opacity: 1;
 }
 
 .titles-black-footer {
@@ -1971,7 +2039,7 @@ p {
 }
 
 .footer-links-2 {
-    width: 25%;
+    width: 30%;
     display: flex;
     margin: 2rem auto 1rem;
     text-align: center;
@@ -1981,6 +2049,8 @@ p {
 .footer-text {
     font-size: 12px;
     color: #848484;
+    display: inline-block;
+    margin: 0;
 }
 
 .footer-link-small {
