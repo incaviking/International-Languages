@@ -1064,7 +1064,7 @@ p {
 
 .white-box {
     background-color: white;
-    padding: 80px 8% 8%;
+    padding: 80px 3rem 8% 8%;
     margin: -525px 0 6rem 0;
     position: relative;
     z-index: 1;
@@ -1073,7 +1073,7 @@ p {
 
 .more-services-box {
     background-image: linear-gradient(to right, #ACD1BC, #95B8A4);
-    padding: 5em 6em;
+    padding: 5rem 8% 5rem 8%;
     width: 60%;
     margin: -6% 0 0 0;
     position: relative;
