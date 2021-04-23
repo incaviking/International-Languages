@@ -195,6 +195,75 @@ p {
 
 /* NAV DESKTOP SCREEN -------------------------------------*/
 
+@media screen and (min-width: 1171px) {
+
+    .nlb-dynamic {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1170px) and (min-width: 1024px)  {
+
+    .nlb1 {
+        display: none;
+    }
+
+    .nlb-dynamic {
+        display: auto;
+    }
+
+    .dropdown-big {
+        background-color:white;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, .15);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 1500px;
+        margin-top: 1rem;
+        position: absolute;
+        padding: 1rem 0 3rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s ease;
+    }
+
+    .dropdown-big2 {
+        width: 30%;
+        padding: 0rem 0 3rem;
+    }
+
+    .nlb-dynamic:hover > .dropdown-big {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .nlb-dynamic:hover > .dropdown-big2 {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .nav-menu-big {
+        display: none;
+        width: 780px;
+        transform: translateX(-343px);
+        padding: 2rem;
+        margin-top: 1rem;
+        transition: all 0.4s ease;
+    }
+
+    .nlb-dynamic:hover > .nav-menu-big {
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        pointer-events: all;
+        position: absolute;
+        background-color: white;
+    }
+
+
+}
+
 @media screen and (min-width: 1024px) {
 
 .header-wrapper {
@@ -249,7 +318,7 @@ p {
     width: 300px;
     margin-top: 1rem;
     position: absolute;
-    padding: 1rem 0 3rem;
+    padding: 1rem 2rem 3rem;
     transform: translateX(-1rem);
     opacity: 0;
     pointer-events: none;
@@ -265,7 +334,7 @@ p {
     width: 450px;
     margin-top: 1rem;
     position: absolute;
-    padding: 1rem 0 3rem;
+    padding: 1rem 2rem 3rem;
     transform: translateX(-1rem);
     opacity: 0;
     pointer-events: none;
@@ -291,7 +360,7 @@ p {
 }
 
 .dropdown-link {
-    padding: .5rem 2rem;
+    padding: .5rem 0rem;
     text-decoration: none;
     color: #848484;
     font-family: 'source-sans-pro';
@@ -302,6 +371,11 @@ p {
 
 .dropdown-link:hover {
     color: #444444;
+}
+
+.nlb1:hover > .dropdown1 {
+    opacity: 1;
+    pointer-events: all;
 }
 
 .nlb:hover > .dropdown1 {
@@ -324,7 +398,7 @@ p {
     height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2rem 2rem 1.5rem;
+    margin: 2rem 0rem 1.5rem;
 }
 
 .nav-title-interpreting {
@@ -333,7 +407,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 3rem;
-    margin-left: 2rem;
+    margin-left: 0;
 }
 
 .nav-icon-translation {
@@ -341,7 +415,7 @@ p {
     height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2rem 2rem 1.5rem;
+    margin: 2rem 0 1.5rem;
 }
 
 .nav-title-translation {
@@ -350,7 +424,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 3rem;
-    margin-left: 2rem;
+    margin-left: 0;
 }
 
 .nav-icon-more {
@@ -358,7 +432,7 @@ p {
     height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2rem 2rem 1.5rem;
+    margin: 2rem 0 1.5rem;
 }
 
 .nav-title-more {
@@ -367,7 +441,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 3rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
 
 .nav-icon-industries {
@@ -375,7 +449,7 @@ p {
     height: 25px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2rem 2rem 1.5rem;
+    margin: 2rem 0rem 1.5rem;
 }
 
 .nav-title-industries {
@@ -384,7 +458,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 3rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
 
 .nav-icon-about {
@@ -392,7 +466,7 @@ p {
     height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2rem 2rem 1.5rem;
+    margin: 2rem 0rem 1.5rem;
 }
 
 .nav-title-about {
@@ -401,7 +475,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 3rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
 
 .nav-link {
@@ -428,6 +502,8 @@ p {
 }
 
 }
+
+
 
 /*---------------------------------------------------------------------------------------------*/
 /* SECTION 1----------------------------------------------------------------------------------*/
