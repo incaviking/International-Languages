@@ -1305,12 +1305,6 @@ p {
     padding: 16% 8%;
 }
 
-.mobile-buttons-sec4 {
-    text-align: left;
-    width: 240px;
-    margin: 3rem 0 0 0;
-}
-
 .button-outline3 {
     background-color: transparent;
     color: white;
@@ -1318,11 +1312,12 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 0 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 1rem 2rem;
-    width: 240px;
-    height: 48px;
+    width: 100%;
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -1368,12 +1363,6 @@ p {
     z-index: 2;
 }
 
-.mobile-buttons-sec4 {
-    text-align: left;
-    width: 100%;
-    margin: 3rem 0 0 0;
-}
-
 .button-outline3 {
     background-color: transparent;
     color: white;
@@ -1381,7 +1370,7 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 0 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 1em 4rem;
     width: 240px;
     height: 48px;
