@@ -206,6 +206,13 @@ table {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'ss glyphish';
+    src: url(./assets/fonts/ss-glyphish-outlined.otf);
+    font-style: normal;
+    font-weight: 700;
+    }
+
 /* something */
 
 h1 {
@@ -244,9 +251,8 @@ p {
     font-size: 16px;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    line-height: 2em;
+    line-height: 1.75rem;
     color: #444444;
-    margin-bottom: 10%;
 }
 
 .p-bold {
@@ -255,6 +261,13 @@ p {
     font-weight: 700;
     line-height: 1em;
     color: #444444;
+}
+
+.glyphish-icon {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    transform: translateY(6px)
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -395,7 +408,6 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 .section1 {
-    height: 2070px;
 }
 
 .breadcrumbs {
@@ -419,15 +431,15 @@ p {
     padding: 3rem 0rem 1rem 1.5rem;
     background-color: white;
     text-align: left;
-    position: absolute;
+    position: relative;
     top: 6%;
 }
 
 .article-text1 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Source Sans Pro", sans-serif;
-    color: #6b6a6a;
+    color: #848484;
     margin-bottom: 10%;
 }
 
@@ -448,7 +460,7 @@ h3 {
 @media screen and (min-width: 1024px) {
 
     .section1 {
-        height: 1700px;
+
     }
 
     .breadcrumbs {
@@ -461,7 +473,7 @@ h3 {
         z-index: 3;
         margin-left: 10%;
         margin-top: 130px;
-        margin-bottom: -40px;
+        margin-bottom: 0;
     }
 
     .home-icon {
@@ -503,31 +515,30 @@ h3 {
     }
 
     .article-banner {
-        height: 900px;
-        width: 100%;
+        height: 600px;
+        width: 80%;
         background-image: url(./assets/img/pexels-photo-1692693@2x.png);
         background-repeat: no-repeat;
-        background-size: 88%;
+        background-size: cover;
         background-position: center;
-        margin-top: 2%;
+        margin: auto;
     }
 
     .article-wrapper {
         height: fit-content;
-        width: 100%;
-        padding: 5rem 38rem 1rem 5rem;
-        background-color: white;
+        width: 70%;
+        padding: 5rem 5rem 1rem 5rem;
         text-align: left;
-        position: absolute;
-        top: 22%;
-        margin-left: 23%;
+        position: relative;
+        margin: -310px 0 0 23%;
+        border: 1px red solid;
     }
 
     .article-text1 {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         font-family: "Source Sans Pro", sans-serif;
-        color: #6b6a6a;
+        color: #848484;
         margin-bottom: 5%;
     }
 
@@ -552,15 +563,15 @@ h3 {
 }
 
 .button-blue {
-    background-color: #345079;
+    background-image: linear-gradient(to right, #4B6893, #345079);
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin: 2rem 0;
-    padding: 1em 22%;
+    padding: 1em 3rem;
     border: none;
-    width: 85%;
+    display: inline-block;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -568,23 +579,16 @@ h3 {
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
-
-    .section2 {
-        height: 130px;
-        text-align: left;
-        padding: 0 38%;
-    }
     
     .button-blue {
-        background-color: #345079;
+        background-image: linear-gradient(to right, #4B6893, #345079);
         color: white;
         font-family: "Source Sans Pro", sans-serif;
         font-size: 14px;
         font-weight: 700;
         margin: 2rem 0;
-        padding: 1em 22%;
+        padding: 1rem 3rem;
         border: none;
-        width: 85%;
     }
 }
 
