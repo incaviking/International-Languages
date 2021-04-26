@@ -14,14 +14,15 @@
 <body>
 <!----------------------- Nav ------------------------>
 
-<div class="header1">
-    <a href="./index.html" class="logo"></a>
-    <div class="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-    <div class="nav-links">
+<div class="header-wrapper">
+    <div class="header1">
+        <a href="./index.html" class="logo"></a>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="nav-links">
             <div class="nlb">
                 <a href="./Interpreting.html" class="nav-link-current">INTERPRETING</a>
                 <ul class="dropdown1">
@@ -105,26 +106,29 @@
                 </ul>
             </div>
         </div>
+    </div>
 </div>
           
 
 <!----------------------- Section 1 ------------------------>
-
+<div class="page-wrapper">
 <div class="section1"></div>
 <div class="breadcrumbs">
     <a href="./index.html" class="home-icon"></a>
     <div class="arrow"></div>
-    <a href="./industries.html" class="breadcrumb-link">Services</a>
+    <a href="./services.html" class="breadcrumb-link">Services</a>
     <div class="arrow"></div>
     <p class="current-page">Interpreting</p>
 </div>
-<div class="main-img"></div>
-<div class="main-text">
-    <h3 class="sub-header">INTERPRETING SERVICES</h3>
-    <h1><span class="h1bold">interpreting</span> your world</h1>
-    <div class="green-line1"></div>
-    <p>About one in five people living in the US speak a language other than English at home. With the rise of languages of lesser diffusion and new refugee populations, the need for qualified and certified interpreters continues to rise. We are here to help you serve a diverse population through our skilled team of interpreters. 
-        </p>
+<div class="main-section-wrapper">
+    <div class="main-img"></div>
+    <div class="main-text">
+        <h3 class="sub-header">INTERPRETING SERVICES</h3>
+        <h1><span class="h1bold">interpreting</span> your world</h1>
+        <div class="green-line1"></div>
+        <p>About one in five people living in the US speak a language other than English at home. With the rise of languages of lesser diffusion and new refugee populations, the need for qualified and certified interpreters continues to rise. We are here to help you serve a diverse population through our skilled team of interpreters. 
+            </p>
+    </div>
 </div>
 
 <!----------------------- Section 2 ------------------------>
@@ -135,7 +139,7 @@
         <div class="on-site"></div>
         <h2>On-Site Interpreting</h2>
         <p class="card-text">Our interpreters travel to the location you need for in person services.
-        </p><br>
+        </p>
         <div class="learn-more"><a href="./on-site-interpreting.html" class="services-link">Learn More</a><div class="arrow-right"></div></div>
     </div>
     <div class="services-card">
@@ -148,7 +152,7 @@
     <div class="services-card">
         <div class="vri"></div>
         <h2>Video Remote Interpreting</h2>
-        <p class="card-text">Our interpreters safely connect you and your client using high quality video conferencing  technology.
+        <p class="card-text">Our interpreters connect you and your client using high quality video conferencing  technology.
             </p>
             <div class="learn-more"><a href="./vri.html" class="services-link">Learn More</a><div class="arrow-right"></div></div>
     </div>
@@ -169,6 +173,7 @@
 </div>
 </div>
 </section>
+</div>
 
 <!-----------------------Section 3------------------------>
 
@@ -325,37 +330,41 @@
 
 <!-----------------------Footer------------------------>
 
-<section class="footer-bg">
-    <div class="footer">
-        <div class="contact-info">
-            <h2 class="titles-black-footer">+1 855 220 0908</h2>
-            <p>services@itlanguages.com</p>
+<div class="footer-wrapper-grey">
+    <section class="footer-bg">
+        <div class="footer">
+            <div class="contact-info">
+                <h2 class="titles-black-footer">+1 855 220 0908</h2>
+                <p>services@itlanguages.com</p>
+            </div>
+            <div class= "social-container">
+                <img src="./assets/icons/social-icons.svg" alt="social" class="social-icons">
+            </div>
+            <div class="grey-footer">
+                    <img src="./assets/icons/logo-black.svg" alt="social" class="footer-logo">
+            </div>
         </div>
-        <div class= "social-container">
-            <img src="./assets/icons/social-icons.svg" alt="social" class="social-icons">
+        <div class="footer-nav-links">
+                <a href="./Interpreting.html" alt="interpreting" class="footer-nav-link">INTERPRETING</a>
+
+                <a href="./Translation.html" alt="translation" class="footer-nav-link">TRANSLATION</a>
+
+                <a href="./more-services.html" alt="more services" class="footer-nav-link">MORE</a>
+
+                <a href="./about.html" alt="about us" class="footer-nav-link">ABOUT</a>
+
+                <a href="#" alt="blog" class="footer-nav-link">BLOG</a>
+
+                <a href="#" alt="contact" class="footer-nav-link">CONTACT</a>
+
         </div>
-        <div class="grey-footer">
-                <img src="./assets/icons/logo-black.svg" alt="social" class="footer-logo">
+        <div class="footer-links-2">
+            <p class="footer-text">© 2021 Lakeside Ventures, Inc.</p>
+            <a href="#" alt="privacy policy" class="footer-link-small">Privacy Policy</a>
+            <a href="#" alt="terms of use" class="footer-link-small">Terms of Use</a>
         </div>
-    </div>
-    <ul class="footer-nav-links">
-            <li>
-                <a href="Services" class="footer-nav-link">INTERPRETING</a>
-            </li>
-            <li>
-                <a href="Industries" class="footer-nav-link">TRANSLATION</a>
-            </li>
-            <li>
-                <a href="About" class="footer-nav-link">MORE</a>
-            </li>
-            <li>
-                <a href="Blog" class="footer-nav-link">ABOUT</a>
-            </li>
-            <li>
-                <a href="Contact" class="footer-nav-link">CONTACT</a>
-            </li>
-        </ul>
-</section>
+    </section>
+</div>
 </body>
 
 </html>
