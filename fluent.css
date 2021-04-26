@@ -407,7 +407,7 @@ p {
     font-size: 25px;
 }
 
-.main-img {
+/* .main-img {
     height: 360px;
     width: 70%;
     position: absolute;
@@ -419,7 +419,7 @@ p {
     background-repeat: no-repeat;
     z-index: 2;
     object-fit: cover;
-}
+} */
 
 .main-img-translation {
     height: 250px;
@@ -471,7 +471,7 @@ h1 {
 @media screen and (min-width: 1024px) {
 
     .section1 {
-        height: 900px;
+        height: auto;
     }
 
     .breadcrumbs {
@@ -526,40 +526,36 @@ h1 {
     }
 
     .main-img {
-        height: 800px;
-        width: 38%;
-        top: 3.3%;
-        left: 19.8%;
+        height: 547px;
+        width: 547px;
         background: url(./assets/img/iphone.png);
-        background-position: left;
         background-size: contain;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         z-index: 0;
         object-fit: contain;
-        margin: 2rem 0 0 0;
+        margin-left: 20.5%;
+        margin-top: -639px;
     }
 
     .main-img-translation {
-        height: 800px;
-        width: 75%;
+        height: 851px;
+        width: 1277px;
         background: url(./assets/img/macbook.png);
         background-position: center;
-        background-size: 150%;
+        background-size: 130%;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         z-index: 0;
         object-fit: contain;
-        margin: 30px 0 0 0;
-        right: 45%;
-        top: 2%;
+        margin: -110px 0 0 -388px;
     }
 
     .main-text {
         height: fit-content;
         width: 47%;
-        padding: 0 27rem 0 0;
-        margin: 10% 0;
+        padding-right: 13%;
+        margin: -505px 0 0 0;
         left: 59%;
         background-color: transparent;
         text-align: left;
@@ -642,15 +638,14 @@ h1 {
 @media screen and (min-width: 1024px) {
 
     .section2 {
-        height: 900px;
+        height: auto;
     }
 
     .fluent-video {
-        height: 100%;
-        width: 100%;
+        height: 460px;
+        width: 761px;
+        margin: 0 auto;
         background-repeat: no-repeat;
-        background-size: 50%;
-        background-position: top;
         background-image: url(./assets/img/fluent-vid.png);
     }
 }
@@ -713,22 +708,21 @@ h1 {
 @media screen and (min-width: 1024px) {
 
     .section3 {
-        height: 900px;
+        height: auto;
     }
 
     .main-img1 {
-        height: 934px;
-        width: 70%;
-        left: 29%;
-        top: 31%;
+        height: 793px;
+        width: 991px;
+        left: 37%;
         background: url(./assets/img/Browser-Template.png);
         background-position: right;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         z-index: 0;
         object-fit: contain;
-        margin: 0 0 80px 0;
+        margin: -100px 0 0 0;
     }
 
     .calendar-icon {
@@ -749,8 +743,8 @@ h1 {
     .main-text1 {
         height: fit-content;
         width: 30%;
-        padding: 2rem 3rem;
-        margin: 0 10%;
+        padding: 2rem 1rem;
+        margin: -600px 0 0 160px;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -825,21 +819,21 @@ h1 {
 @media screen and (min-width: 1024px) {
 
     .section4 {
-        height: 900px;
+        height: auto;
     }
 
     .main-img2 {
-        height: 800px;
-        width: 50%;
+        height: 449.22px;
+        width: 660px;
         background: url(./assets/img/photo1.png);
         background-position: left;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         z-index: 0;
         object-fit: contain;
         left: 7%;
-        top: 50%;
+        margin-top: 15%;
     }
 
     .box {
@@ -852,11 +846,11 @@ h1 {
     }
 
     .main-text2 {
+        margin: -450px 0 0 0;
         height: fit-content;
         width: 30%;
-        bottom: 78%;
         left: 55%;
-        padding: 4%;
+        padding: 6% 7%;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -936,7 +930,7 @@ h1 {
 @media screen and (min-width: 1024px) {
 
     .section5 {
-        height: 900px;
+        height: auto;
     }
 
     .main-img3 {
@@ -948,7 +942,7 @@ h1 {
         background-position: right;
         background-size: contain;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         z-index: 0;
         object-fit: contain;
         margin: 0 0 366px 0;
@@ -973,7 +967,7 @@ h1 {
         height: fit-content;
         width: 30%;
         padding: 2rem 3rem;
-        margin: 0 10%;
+        margin: -1070px 10% 13%;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -1093,7 +1087,7 @@ h1 {
 
     .section6 {
     
-        height: 620px;
+        height: auto;
         width: 100%;
         background-image: linear-gradient(rgba(75, 104, 147, .90), rgba(52, 80, 121, .84)), url("./assets/img/fluent-banner.png");
         background-position: center;
