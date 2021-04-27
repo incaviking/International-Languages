@@ -581,12 +581,13 @@ h3 {
 @media screen and (min-width: 1024px) {
     
     .button-blue {
+        width: fit-content;
         background-image: linear-gradient(to right, #4B6893, #345079);
         color: white;
         font-family: "Source Sans Pro", sans-serif;
         font-size: 14px;
         font-weight: 700;
-        margin: 2rem 0;
+        margin: 3rem 0;
         padding: 1rem 3rem;
         border: none;
     }
