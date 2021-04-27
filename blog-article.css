@@ -408,6 +408,7 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 .section1 {
+    height: auto;
 }
 
 .breadcrumbs {
@@ -460,6 +461,7 @@ h3 {
 @media screen and (min-width: 1024px) {
 
     .section1 {
+        height: auto;
 
     }
 
