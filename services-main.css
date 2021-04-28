@@ -641,6 +641,7 @@ p {
         max-width: 1440px;
         position: relative;
         margin: 0 auto;
+        border: 1px solid red;
     }
 
     .breadcrumbs {
@@ -3424,6 +3425,7 @@ p {
         width: 100%;
         background-color:  #f7f7f8;
         margin: 0 auto;
+        border: 1px solid red;
     }
     
     .footer-bg {
@@ -3443,6 +3445,7 @@ p {
         justify-content: space-between;
         text-align: center;
         margin: 0 auto;
+        border: 1px solid red;
     }
     
     .contact-info {
