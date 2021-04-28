@@ -722,10 +722,10 @@ p {
     .blog-image3 {
         height: 450px;
         width: 100%;
-        background-position: top;
-        background-size: cover;
+        background-position: center;
+        background-size: contain;
         background-repeat: no-repeat;
-        background-image: url(./assets/img/pexels-photo-1078741.png);
+        background-image: url(./assets/img/court_pandemic.jpg);
     }
 }
 
