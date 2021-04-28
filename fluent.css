@@ -554,11 +554,9 @@ h1 {
     }
 
     .main-text {
-        min-width: 50%;
         height: fit-content;
-        width: 47%;
-        margin: -505px 0 0 0;
-        left: 60%;
+        width: 40%;
+        margin: -505px 0 0 60%;
         background-color: transparent;
         text-align: left;
         position: relative;
@@ -690,7 +688,6 @@ h1 {
 .main-text1 {
     height: fit-content;
     width: 90%;
-    padding: 0 0 2rem 2rem;
     background-color: transparent;
     text-align: left;
 }
@@ -718,15 +715,13 @@ h1 {
     .main-img1 {
         height: 793px;
         width: 991px;
-        left: 37%;
         background: url(./assets/img/Browser-Template.png);
-        background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
         z-index: 0;
         object-fit: contain;
-        margin: -100px 0 0 0;
+        margin: -100px 0 0 45%;
     }
 
     .calendar-icon {
@@ -747,7 +742,6 @@ h1 {
     .main-text1 {
         height: fit-content;
         width: 30%;
-        padding: 2rem 1rem;
         margin: -600px 0 0 0;
         background-color: transparent;
         text-align: left;
@@ -787,7 +781,6 @@ h1 {
 .main-text2 {
     height: fit-content;
     width: 90%;
-    padding: 2rem 2rem;
     background-color: white;
     text-align: left;
     position: relative;
@@ -852,12 +845,11 @@ h1 {
 
     .main-text2 {
         min-width: 40%;
-        margin: -450px 0 0 0;
+        margin: -450px 0 0 60%;
         height: fit-content;
         width: 30%;
-        left: 55%;
-        padding: 6% 3%;
-        background-color: transparent;
+        padding: 6% 0;
+        background-color: #F7F7F8;
         text-align: left;
         position: relative;
     }
@@ -916,7 +908,6 @@ h1 {
 .main-text3 {
     height: fit-content;
     width: 90%;
-    padding: 2rem 2rem;
     background-color: white;
     text-align: left;
 }
@@ -942,16 +933,14 @@ h1 {
     }
 
     .main-img3 {
-        height: 1000px;
-        width: 70%;
-        left: 31%;
-        background: url(./assets/img/Browser-Template2.png);
-        background-position: center;
+        height: 793px;
+        width: 991px;
+        background-image: url(./assets/img/Browser-Template2.png);
         background-repeat: no-repeat;
         position: relative;
         z-index: 0;
         object-fit: contain;
-        margin: 0 0 366px 0;
+        margin: 0 0 530px 45%;
     }
 
     .analytics-icon {
@@ -972,8 +961,7 @@ h1 {
     .main-text3 {
         height: fit-content;
         width: 30%;
-        padding: 2rem 3rem;
-        margin: -1070px 0 13%;
+        margin: -1070px 0 25%;
         background-color: transparent;
         text-align: left;
         position: relative;
