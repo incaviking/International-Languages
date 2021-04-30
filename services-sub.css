@@ -556,17 +556,18 @@ p {
 
 .section1 {
     width: 100%;
+    height: 633px;
 }
 
     
 .main-img {
-    height: 400px;
-    width: 100%;
+    height: 180px;
+    width: 75%;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
     object-fit: cover;
-    margin: 4rem 0;
+    margin: 5.5rem 17.5%;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
@@ -588,13 +589,22 @@ p {
 
 .main-text {
     height: fit-content;
-    width: 90%;
+    width: 85%;
     padding: 2rem 2rem;
-    margin: -250px auto 4rem 0;
+    margin: -125px auto 0 0;
     background-color: white;
     text-align: left;
     position: relative;
     z-index: 2;
+}
+
+.h1bold {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.h1-mobile {
+    font-size: 25px;
 }
 
 .green-line1 {
@@ -620,6 +630,7 @@ p {
 
     .section1 {
         width: 100%;
+        height: 660px;
     }
 
     .breadcrumbs {
@@ -691,6 +702,15 @@ p {
         z-index: 2;
     }
 
+    .h1bold {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    
+    .h1-mobile {
+        font-size: 36px;
+    }
+
     .tan-line {
         background: linear-gradient(to right, #C1B39E, #BCAD96);
         height: 3px;
@@ -711,18 +731,6 @@ p {
         margin: 0 auto;
     }
 
-    .h1 {
-        font-weight: 100;
-        text-align: center;
-        font-size: 25px;
-        margin: 0 auto;
-    }
-
-    .h1bold {
-        font-weight: 700;
-        font-size: 25px;
-    }
-
 }
 
 
@@ -735,14 +743,19 @@ p {
 /*---------------------------------------------------------------------------------------------*/
 
 
-
+.page-wrapper-grey {
+    width: 100%;
+    position: relative;
+    background-color: #F7F7F8;
+    margin: 0 auto;
+}
 
 .benefits {
     background-color: #F7F7F8;
     height: fit-content;
-    width: 100%;
-    padding: 12rem 0 12rem;
-    margin-top: -160px;
+    width: 90%;
+    padding: 26rem 0 6rem;
+    margin: -300px auto 0;
     text-align: center;
 }
 
@@ -920,7 +933,6 @@ p {
 
 .benefits {
     background-color: #F7F7F8;
-    height: fit-content;
     width: 80%;
     max-width: 1440px;
     padding: 20rem 0 6rem;
@@ -1226,7 +1238,7 @@ p {
 .titles-bold {
     font-weight: 700;
     line-height: 1.25em;
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Source Sans Pro';
     color: #345079;
 }
@@ -1472,12 +1484,15 @@ p {
 /* Section Types of Interpreting Situations MOBILE----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
-
+.interpreting-situations {
+    display: none;
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section Types of Interpreting Situations DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
 
 .interpreting-situations {
     width: 100%;
@@ -1561,16 +1576,18 @@ p {
 }
 
 
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4 ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
 .green-check {
     background: url(./assets/icons/green-check.svg) no-repeat center center;
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
-    margin-right: auto;
+    background-size: contain;
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
 }
 
 .process-1 {
@@ -1661,11 +1678,22 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 90%;
+    width: 85%;
     height: 200px;
     position: relative;
     z-index: 2;
-    margin: 0 auto 0 0;
+    margin: 0 15% 0 0;
+}
+
+.image-secondary2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 85%;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+    margin: 0 15% 0 0;
 }
 
 .grey-box {
@@ -1681,8 +1709,19 @@ p {
 
 .grey-box1 {
     background-color: #F7F7F8;
-    padding: 6rem 2rem 4rem;
-    margin: -30px auto 0;
+    padding: 3rem 2rem 4rem;
+    margin: -40px auto 0;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: fit-content;
+    text-align: left;
+}
+
+.grey-box2 {
+    background-color: #F7F7F8;
+    padding: 3rem 2rem 4rem;
+    margin: -40px auto 0;
     position: relative;
     z-index: 1;
     width: 90%;
@@ -1702,23 +1741,25 @@ p {
 }
 
 .green-box {
-    background: linear-gradient(to right, #829F8F, #95B7A4);
+    background: linear-gradient(to right, #B2595D, #9E3E49);
     padding: 4rem 2rem;
-    margin: 3rem 5% 3rem 0;
+    margin: 3rem 0 3rem 0;
     position: relative;
     z-index: 1;
     height: 500px;
     text-align: left;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
 .blue-box {
     background: linear-gradient(to right, #345079, #476EA7);
     padding: 4rem 2rem;
-    margin: 3rem 5% 3rem 0;
+    margin: 3rem 0 3rem 0;
     position: relative;
     z-index: 1;
     height: 500px;
     text-align: left;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
 .icon {
@@ -1877,8 +1918,7 @@ p {
     width: 100%;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 5%;
+    grid-gap: 30px;
 }
 
 .services-card2 {
@@ -1952,7 +1992,7 @@ p {
         margin: 0 auto 3rem 0;
         position: relative;
         z-index: 1;
-        width: 60%;
+        width: 70%;
         height: 500px;
         text-align: left;
         box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
@@ -1961,23 +2001,25 @@ p {
     .green-box {
         background: linear-gradient(to right, #829F8F, #95B7A4);
         padding: 4rem 2rem;
-        margin: 3rem auto 3rem 10%;
+        margin: 0 auto 3rem 0;
         position: relative;
         z-index: 1;
-        width: 60%;
+        width: 70%;
         height: 500px;
         text-align: left;
+        box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
     }
 
     .blue-box {
         background: linear-gradient(to right, #345079, #476EA7);
         padding: 4rem 2rem;
-        margin: 3rem auto 3rem 10%;
+        margin: 0 auto 3rem 0;
         position: relative;
         z-index: 1;
-        width: 60%;
+        width: 70%;
         height: 500px;
         text-align: left;
+        box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
     }
 
     .green-line {
@@ -2062,10 +2104,32 @@ p {
         padding: 2rem 0 0;
     }
 
+    .image-secondary2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 55%;
+        height: 450px;
+        position: relative;
+        z-index: 2;
+        margin: 1rem 45% 0 0;
+        padding: 2rem 0 0;
+    }
+
     .grey-box1 {
         background-color: #F7F7F8;
         padding: 4rem 8% 6rem 10%;
-        margin: -500px 0 1rem 50%;
+        margin: -500px 0 6rem 50%;
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        text-align: left;
+    }
+
+    .grey-box2 {
+        background-color: #F7F7F8;
+        padding: 4rem 8% 6rem 10%;
+        margin: -460px 0 6rem 50%;
         position: relative;
         z-index: 1;
         width: 50%;
@@ -2473,8 +2537,8 @@ p {
 
 .aag-box {
     background-color: white;
-    padding: 4rem 2rem 0;
-    margin: -33rem 0 0 3rem;
+    padding: 2.5rem 2rem 0;
+    margin: -32.5rem 0 0 5%;
     position: relative;
     z-index: 1;
     width: 95%;
@@ -2510,7 +2574,7 @@ p {
 }
 
 .section7-title {
-    width: 100%;
+    width: 46%;
     margin-left: 0%;
     text-justify: auto;
 }
@@ -2697,9 +2761,9 @@ p {
 @media screen and (min-width: 1024px) {
 
     .section8 {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        padding-top: 50px;
+        padding: 50px 0 0;
     }
 
     .tan-line {
@@ -2727,11 +2791,11 @@ p {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 55%;
+        width: 60%;
         height: 500px;
         position: relative;
         z-index: 2;
-        margin: 8rem 0 0 0;
+        margin: 3rem 0 0 0;
         padding: 2rem 0 0;
     }
 
@@ -2752,7 +2816,7 @@ p {
         margin: -600px 0 200px auto;
         position: relative;
         z-index: 1;
-        width: 50%;
+        width: 45%;
         height: fit-content;
         text-align: left;
     }
@@ -2897,7 +2961,7 @@ p {
 .form {
     font-size: 1rem;
     width: 100%;
-    margin: 3rem auto 8rem;
+    margin: 3rem auto 0rem;
     position: relative;
     height: fit-content;
     text-align: left;
@@ -3227,7 +3291,7 @@ label {
 
 .send-button-white {
     position: relative;
-    margin: 0 0 0 auto;
+    margin: -3rem 0 0 auto;
     width: 150px;
     height: 50px;
     text-align: center;
