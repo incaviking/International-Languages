@@ -329,7 +329,7 @@ p {
 }
 
 .logo {
-    background: url(./assets/icons/white-logo.svg);
+    background: url(./assets/img/il-logo.svg);
     background-repeat: no-repeat;
     width: 238px;
     height: 60px;
@@ -625,7 +625,6 @@ p {
     text-align: left;
 }
 
-
 .green-line1 {
     background: linear-gradient(to right, #ACD1BC, #95B8A4);
     height: 3px;
@@ -751,7 +750,7 @@ p {
         margin: 0 auto;
     }
 
-    .h1 {
+    h1 {
         font-weight: 100;
         text-align: center;
         font-size: 25px;
