@@ -383,7 +383,6 @@ p {
         margin: 0 auto;
         position: relative;
         width: 80%;
-        max-width: 1440px;
     }
 
     .header1 {
@@ -806,7 +805,6 @@ p {
     .blog-wrapper {
         height: 100%;
         padding: 0;
-        margin: 0 0 3% 0;
     }
 
     .grid-container {
@@ -926,7 +924,6 @@ p {
     background-image: url(./assets/img/court_pandemic.jpg);
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -1019,7 +1016,6 @@ p {
     background-repeat: no-repeat;
     background-image: url(./assets/img/blogpic1.png);
 }
-
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 6 DESKTOP----------------------------------------------------------------------------------*/
@@ -1282,19 +1278,21 @@ p {
 }
 
 .footer-bg {
-    background-color: #f7f7f8;
+    background-color: #F7F7F8;
     width: 100%;
-    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .footer {
-    height: fit-content;
+
     width: 100%;
-    background-color: #f7f7f8;
+    background-color: #F7F7F8;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+
 }
 
 .contact-info {
@@ -1315,11 +1313,12 @@ p {
 }
 
 .grey-footer {
-    background-color: #f7f7f8;
+    background-color: #F7F7F8;
 }
 
 .footer-logo {
-    margin: 3em 0;
+    margin: 2rem 0 0;
+    opacity: .5;
 }
 
 .footer-nav-links {
@@ -1334,78 +1333,72 @@ p {
     padding-top: 10px;
 }
 
+.footer-links-2 {
+    width: 84%;
+    display: block;
+    margin: 2rem auto 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #848484;
+    display: block;
+    margin: 1rem 0;
+}
+
+.footer-link-small {
+    font-size: 12px;
+    color: #848484;
+    text-decoration: none;
+    transform: translateY(3px);
+    font-family: 'source-sans-pro';
+    margin: 0 1rem;
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /* FOOTER DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
-    .carousel-bars-footer {
-        height: 6px;
+    .footer-wrapper-grey {
         width: 100%;
-        position: absolute;
-        z-index: 1;
-        display: flex;
-    }
-
-    .blue1-bar {
-        height: 6px;
-        width: 25%;
-        background-color: #345079;
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .red-bar {
-        height: 6px;
-        width: 25%;
-        background: linear-gradient(to right, #b2595d, #9e3e49);
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .tan-bar {
-        height: 6px;
-        width: 25%;
-        background: linear-gradient(to right, #c1b39e, #bcad96);
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .green-bar {
-        height: 6px;
-        width: 25%;
-        background: linear-gradient(to right, #acd1bc, #95b8a4);
-        display: inline-block;
-        vertical-align: top;
+        background-color: #f7f7f8;
+        margin: 0 auto;
+        border: 1px solid red;
     }
 
     .footer-bg {
         background-color: #f7f7f8;
         width: 100%;
         margin: 0 auto;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     .footer {
-        width: 100%;
+        width: 80%;
+        max-width: 1440px;
         background-color: #f7f7f8;
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         justify-content: space-between;
         text-align: center;
+        margin: 0 auto;
+        border: 1px solid red;
     }
 
     .contact-info {
-        background-color: white;
+        background-color: #f7f7f8;
         padding: 40px 0;
         position: relative;
         z-index: 0;
     }
 
     .social-container {
-        background-color: white;
-        margin-top: -60px;
-        padding-bottom: 60px;
+        background-color: #f7f7f8;
+        margin-left: -5%;
+        margin-top: 0;
     }
 
     .social-icons {
@@ -1417,149 +1410,55 @@ p {
     }
 
     .footer-logo {
-        margin: 2rem 0 0;
-        opacity: 0.5;
-    }
-
-    .footer-nav-links {
-        display: none;
+        margin: 3em 0;
+        opacity: 1;
     }
 
     .titles-black-footer {
         color: #444444;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 700;
+        text-align: right;
+    }
+
+    .footer-nav-links {
+        display: block;
+        margin: auto auto;
+        justify-content: space-between;
         text-align: center;
-        padding-top: 10px;
+    }
+
+    .footer-nav-link {
+        text-decoration: none;
+        color: #444444;
+        font-size: 13px;
+        font-family: gotham;
+        font-weight: 600;
+        line-height: 1em;
+        padding: 0 1rem;
+        display: inline-block;
     }
 
     .footer-links-2 {
-        width: 84%;
         display: block;
         margin: 2rem auto 1rem;
         text-align: center;
-        justify-content: space-between;
     }
 
     .footer-text {
         font-size: 12px;
         color: #848484;
-        display: block;
-        margin: 1rem 0;
+        display: inline-block;
+        margin: 0 1rem;
     }
 
     .footer-link-small {
         font-size: 12px;
         color: #848484;
         text-decoration: none;
-        transform: translateY(3px);
+        transform: translateY(0px);
         font-family: "source-sans-pro";
+        display: inline-block;
         margin: 0 1rem;
-    }
-
-    /*---------------------------------------------------------------------------------------------*/
-    /* FOOTER DESKTOP----------------------------------------------------------------------------------*/
-    /*---------------------------------------------------------------------------------------------*/
-
-    @media screen and (min-width: 1024px) {
-        .footer-wrapper-grey {
-            width: 100%;
-            background-color: #f7f7f8;
-            margin: 0 auto;
-            border: 1px solid red;
-        }
-
-        .footer-bg {
-            background-color: #f7f7f8;
-            width: 100%;
-            margin: 0 auto;
-            padding-bottom: 1rem;
-        }
-
-        .footer {
-            width: 80%;
-            max-width: 1440px;
-            background-color: #f7f7f8;
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-            text-align: center;
-            margin: 0 auto;
-            border: 1px solid red;
-        }
-
-        .contact-info {
-            background-color: #f7f7f8;
-            padding: 40px 0;
-            position: relative;
-            z-index: 0;
-        }
-
-        .social-container {
-            background-color: #f7f7f8;
-            margin-left: -5%;
-            margin-top: 0;
-        }
-
-        .social-icons {
-            margin-top: 4em;
-        }
-
-        .grey-footer {
-            background-color: #f7f7f8;
-        }
-
-        .footer-logo {
-            margin: 3em 0;
-            opacity: 1;
-        }
-
-        .titles-black-footer {
-            color: #444444;
-            font-size: 1rem;
-            font-weight: 700;
-            text-align: right;
-        }
-
-        .footer-nav-links {
-            display: block;
-            margin: auto auto;
-            justify-content: space-between;
-            text-align: center;
-        }
-
-        .footer-nav-link {
-            text-decoration: none;
-            color: #444444;
-            font-size: 13px;
-            font-family: gotham;
-            font-weight: 600;
-            line-height: 1em;
-            padding: 0 1rem;
-            display: inline-block;
-        }
-
-        .footer-links-2 {
-            display: block;
-            margin: 2rem auto 1rem;
-            text-align: center;
-        }
-
-        .footer-text {
-            font-size: 12px;
-            color: #848484;
-            display: inline-block;
-            margin: 0 1rem;
-        }
-
-        .footer-link-small {
-            font-size: 12px;
-            color: #848484;
-            text-decoration: none;
-            transform: translateY(0px);
-            font-family: "source-sans-pro";
-            display: inline-block;
-            margin: 0 1rem;
-        }
     }
 }
