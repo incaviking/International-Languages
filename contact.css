@@ -156,7 +156,7 @@ h3 {
     text-transform: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    margin: 0 0 20px;
+    margin: 0 0 1rem;
 }
 
 .h3-blue {
@@ -524,7 +524,7 @@ p {
 
 .nav-link {
     text-decoration: none;
-    color: #848484;
+    color: white;
     font-size: 13px;
     font-family: gotham;
     font-weight: 600;
@@ -535,7 +535,7 @@ p {
 
 .nav-link-current {
     text-decoration: none;
-    color: #9E3E49;
+    color: white;
     font-size: 13px;
     font-family: gotham;
     font-weight: 600;
@@ -562,15 +562,9 @@ p {
 
 
 /*---------------------------------------------------------------------------------------------*/
-/* Section 1 ----------------------------------------------------------------------------------*/
+/* Contact Header ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
-
-
-.section1 {
-    width: 100%;
-    background-image: 
-}
 
 .contact-header {
     height: fit-content;
@@ -578,7 +572,7 @@ p {
     background-image: linear-gradient(to right, rgba(149, 183, 164, .90), rgba(52, 80, 121, .84)), url("./assets/img/milwaukee-2.jpg");
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 600px;
     margin: -150px auto 0;
     position: relative;
 }
@@ -608,7 +602,7 @@ p {
 
 .sub-header {
     font-size: 14px;
-    color: #9E3E49;
+    color: #95B8A4;
 }
 
 .sub-header-tan {
@@ -654,18 +648,19 @@ p {
         margin: 0 auto;
     }
 
-    .section1 {
+    .contact-header {
         height: fit-content;
         width: 100%;
+        background-image: linear-gradient(to right, rgba(52, 80, 121, .84), rgba(149, 183, 164, .90)), url("./assets/img/milwaukee-2.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 680px;
+        margin: -150px auto 0;
+        position: relative;
     }
 
     .breadcrumbs {
-        height: 14px;
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        vertical-align: baseline;
-        margin-bottom: 1.5rem;
+        display: none;
     }
     
     .home-icon {
@@ -721,10 +716,9 @@ p {
     }
 
     .main-text {
-        height: fit-content;
-        width: 60%;
-        padding: 3rem 4rem 6rem;
-        margin: -400px 0 6rem 0;
+        width: 50%;
+        padding: 3rem 4rem 4rem;
+        margin: -400px 0 0 0;
         background-color: white;
         text-align: left;
         position: relative;
@@ -766,6 +760,22 @@ p {
 }
 
 
+/*---------------------------------------------------------------------------------------------*/
+/* Contact Form ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+.contact-buttons {
+    width: 50%;
+    margin: 2rem auto 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Contact Form ----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+
 
 
 
@@ -782,7 +792,7 @@ p {
     height: fit-content;
     width: 100%;
     padding: 6rem 0 2rem;
-    margin: -160px auto 0;
+    margin: 0 auto 0;
     text-align: center;
 }
 
@@ -910,7 +920,7 @@ p {
     height: fit-content;
     width: 100%;
     padding: 6rem 0 2rem;
-    margin-top: -160px;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -1220,6 +1230,18 @@ p {
     line-height: 1.5;
 }
 
+.button-white {
+    background-color: white;
+    color: #345079;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    border: none;
+    width: 180px;
+    display: block;
+}
 
 }
 
@@ -1664,7 +1686,7 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 2rem auto 0;
+    margin: 0;
     padding: 1em 3rem;
     text-decoration: none;
     position: relative;
@@ -1759,21 +1781,7 @@ p {
         clear: both;
     }
 
-    .button-outline-tan {
-        background-color: transparent;
-        color: #BCAD96;
-        border: 2px solid #BCAD96;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        margin: 2rem auto 0;
-        padding: 1em 3rem;
-        text-decoration: none;
-        position: relative;
-        display: inline-block;
-        width: auto;
-        text-align: center;
-    }
+
 
 }
 
@@ -2186,6 +2194,9 @@ p {
 /* Contact Form MOBILE ----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 
+.form-wrapper {
+    
+}
 
 .contact-form-bg {
     background-color: #F7F7F8;
@@ -2228,6 +2239,18 @@ p {
     width: 180px;
 }
 
+.button-outline-tan {
+    background-color: transparent;
+    color: #BCAD96;
+    border: 2px solid #BCAD96;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: .5rem 0 1.5rem;
+    padding: 1em 0;
+    width: 180px;
+}
+
 .button-outline-green {
     background-color: transparent;
     color: #95B7A4;
@@ -2240,8 +2263,20 @@ p {
     width: 180px;
 }
 
+.button-outline-blue7 {
+    background-color: transparent;
+    color: #345079;
+    border: 2px solid #345079;
+    font-size: 14px;
+    font-weight: 700;
+    margin: .5rem 0 1.5rem;
+    padding: 1em 0;
+    width: 180px;
+}
+
+
 .chat-icon {
-    background-image: url(./assets/icons/start-chat-icon.svg);
+    background-image: url(./assets/icons/chat-tan.svg);
     height: 14px;
     width: 30px;
     background-repeat: no-repeat;
@@ -2250,8 +2285,18 @@ p {
     transform: translateY(3px)
 }
 
-.chat-icon-green {
-    background-image: url(./assets/icons/chat-green.svg);
+.call-green {
+    background-image: url(./assets/icons/call-green.svg);
+    height: 14px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: auto 0;
+    transform: translateY(3px)
+}
+
+.write-blue {
+    background-image: url(./assets/icons/write-blue.svg);
     height: 14px;
     width: 30px;
     background-repeat: no-repeat;
@@ -2975,15 +3020,16 @@ p {
         width: 100%;
         background-color: white;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         margin: 6rem auto 3rem;
-        justify-content: space-between;
+        justify-content: left;
     }
     
     .section6a {
-        width: 30%;
+        width: 27%;
         display: flex;
-        margin-top: 0;
+        margin: 2rem 2rem;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -3059,12 +3105,14 @@ p {
 
 @media screen and (min-width: 1024px) {
 
+
+
     .contact-form-bg {
         background-color: #F7F7F8;
         background-repeat: no-repeat;
         height: fit-content;
         width: 100%;
-        padding: 6rem 0 0;
+        padding: 10rem 0 0;
         text-align: center;
         overflow: hidden;
         position: relative;
@@ -3108,7 +3156,7 @@ p {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 14px;
         font-weight: 700;
-        margin: .5rem auto 1.5rem;
+        margin: .5rem 0 1.5rem;
         padding: 1em 0;
         width: 180px;
     }
@@ -3126,7 +3174,7 @@ p {
     }
 
     .chat-icon {
-        background-image: url(./assets/icons/start-chat-icon.svg);
+        background-image: url(./assets/icons/chat-tan.svg);
         height: 14px;
         width: 30px;
         background-repeat: no-repeat;
@@ -3135,8 +3183,8 @@ p {
         transform: translateY(3px)
     }
 
-    .chat-icon-green {
-        background-image: url(./assets/icons/chat-green.svg);
+    .call-green {
+        background-image: url(./assets/icons/call-green.svg);
         height: 14px;
         width: 30px;
         background-repeat: no-repeat;
@@ -3144,6 +3192,7 @@ p {
         padding: auto 0;
         transform: translateY(3px)
     }
+
 
     .form {
         font-size: 1rem;
