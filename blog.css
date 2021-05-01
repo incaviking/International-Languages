@@ -245,7 +245,6 @@ p {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     line-height: 1.5em;
-    color: #444444;
 }
 
 .p-bold {
@@ -639,7 +638,7 @@ p {
 .main-text {
     height: fit-content;
     width: 95%;
-    padding: 8rem 0rem 1rem 1.5rem;
+    padding: 8rem 0rem 2.5rem 1.5rem;
     background-color: white;
     text-align: left;
 }
@@ -657,7 +656,7 @@ p {
     font-family: "gotham";
     color: #484848;
     text-align: left;
-    font-size: 25px;
+    font-size: 26px;
     margin: 0 auto 1rem 0;
 }
 
@@ -760,16 +759,16 @@ p {
 
 .blog-wrapper {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image1 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels_photo_407237.png);
+    background-image: url(./assets/img/CarCrash2016.jpg);
 }
 
 .h2bold {
@@ -778,7 +777,7 @@ p {
     font-weight: bold;
     line-height: 1.5em;
     color: #444444;
-    margin-bottom: 10%;
+    margin: 10% 0;
 }
 
 .blog-text {
@@ -794,6 +793,11 @@ p {
     color: #6b6a6a;
 }
 
+.author-text {
+    font-size: 14px;
+    color: #848484;
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /* Section 2 DESKTOP----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -802,11 +806,11 @@ p {
     .blog-wrapper {
         height: 100%;
         padding: 0;
+        margin: 0 0 3% 0;
     }
 
     .grid-container {
         width: 100%;
-        max-width: 1200px;
         margin: 3% auto 0;
     }
 
@@ -852,29 +856,20 @@ p {
 
 .blog-wrapper1 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image2 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-1692693.png);
-}
-
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
+    background-image: url(./assets/img/img1.jpeg);
 }
 
 .share-bar {
-    margin-bottom: 10%;
+    height: auto;
 }
 
 .share-text {
@@ -919,30 +914,18 @@ p {
 
 .blog-wrapper2 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image3 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-1078741.png);
+    background-image: url(./assets/img/court_pandemic.jpg);
 }
 
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
-.share-bar {
-    margin-bottom: 10%;
-}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 4 DESKTOP----------------------------------------------------------------------------------*/
@@ -978,28 +961,16 @@ p {
 
 .blog-wrapper3 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image4 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-256381.png);
-}
-
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
-.share-bar {
-    margin-bottom: 10%;
+    background-image: url(./assets/img/blogpic4.png);
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1037,26 +1008,18 @@ p {
 
 .blog-wrapper4 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image5 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels_photo_407237.png);
+    background-image: url(./assets/img/blogpic1.png);
 }
 
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 6 DESKTOP----------------------------------------------------------------------------------*/
@@ -1093,29 +1056,16 @@ p {
 
 .blog-wrapper5 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image6 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-1692693.png);
-}
-
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
-.share-bar {
-    margin-bottom: 10%;
+    background-image: url(./assets/img/blogpic2.png);
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1153,29 +1103,16 @@ p {
 
 .blog-wrapper6 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image7 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-1078741.png);
-}
-
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
-.share-bar {
-    margin-bottom: 10%;
+    background-image: url(./assets/img/blogpic3.png);
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1213,29 +1150,16 @@ p {
 
 .blog-wrapper7 {
     height: 100%;
-    padding: 0 7%;
+    padding: 0 7% 10%;
 }
 
 .blog-image8 {
-    height: 270px;
+    height: 201px;
     width: 100%;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/pexels-photo-256381.png);
-}
-
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
-.share-bar {
-    margin-bottom: 10%;
+    background-image: url(./assets/img/blogpic4.png);
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -1274,7 +1198,7 @@ p {
 .blog-wrapper8 {
     height: 100%;
     text-align: center;
-    margin-bottom: 10%;
+    padding: 0 7% 10%;
 }
 
 .button-blue {
