@@ -90,6 +90,13 @@ table {
     font-weight: 700;
     }
 
+    @font-face {
+        font-family: 'ss glyphish';
+        src: url(./assets/fonts/ss-glyphish-outlined.otf);
+        font-style: normal;
+        font-weight: 700;
+        }
+
 
 h1 {
     font-size: 30px;
@@ -137,6 +144,12 @@ p {
     font-weight: 700;
     line-height: 1em;
     color: #444444
+}
+
+.ss-glyphish {
+    font-size: 16px;
+    font-family: 'ss glyphish';
+    color: #848484;
 }
 
 
@@ -900,7 +913,7 @@ p {
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
         line-height: 1em;
-        color: #444444
+        color: #444444;
         margin-bottom: 1.5em;
     }
 
