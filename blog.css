@@ -986,7 +986,7 @@ p {
     .blog-image4 {
         height: 343px;
         width: 100%;
-        background-position: top;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(./assets/img/blogpic4.png);
@@ -1034,7 +1034,7 @@ p {
     .blog-image5 {
         height: 343px;
         width: 100%;
-        background-position: top;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(./assets/img/blogpic1.png);
@@ -1081,7 +1081,7 @@ p {
     .blog-image6 {
         height: 343px;
         width: 100%;
-        background-position: top;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(./assets/img/blogpic2.png);
@@ -1128,7 +1128,7 @@ p {
     .blog-image7 {
         height: 343px;
         width: 100%;
-        background-position: top;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(./assets/img/blogpic3.png);
@@ -1175,7 +1175,7 @@ p {
     .blog-image8 {
         height: 343px;
         width: 100%;
-        background-position: top;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(./assets/img/blogpic4.png);
