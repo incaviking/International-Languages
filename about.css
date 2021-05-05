@@ -597,7 +597,7 @@ p {
     height: 300px;
     width: 100%;
     background: url(./assets/img/about-main.jpg);
-    background-position: center;
+    background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 2;
@@ -722,7 +722,8 @@ p {
     .main-text {
         height: fit-content;
         width: 60%;
-        padding: 3rem 4rem 6rem;
+        min-width: 630px;
+        padding: 3rem 4rem 6rem 3rem;
         margin: -400px 0 6rem 0;
         background-color: white;
         text-align: left;
@@ -752,14 +753,14 @@ p {
 
     h1 {
         font-weight: 100;
-        text-align: center;
-        font-size: 25px;
-        margin: 0 auto;
+        text-align: left;
+        font-size: 36px;
+        margin: 2rem auto;
     }
 
     .h1bold {
         font-weight: 700;
-        font-size: 25px;
+        font-size: 36px;
     }
 
 }
@@ -1138,7 +1139,8 @@ p {
 
 .h1bold {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 36px;
+    text-align: left;
 }
 
 .box-gradient-green {
