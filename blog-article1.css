@@ -267,7 +267,7 @@ p {
     display: inline-block;
     width: 19px;
     height: 19px;
-    transform: translateY(6px)
+    vertical-align: text-bottom;
 }
 
 /*---------------------------------------------------------------------------------------------*/

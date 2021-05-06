@@ -840,6 +840,13 @@ p {
         font-size: 14px;
         color: #848484;
     }
+
+    .glyphish-icon {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        vertical-align: text-bottom;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------*/
