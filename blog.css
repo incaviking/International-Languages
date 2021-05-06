@@ -847,6 +847,15 @@ p {
         height: 19px;
         vertical-align: text-bottom;
     }
+
+    .blog-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 500px;
+        white-space: nowrap;
+        margin-bottom: 10%;
+        line-height: 28px;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------*/

@@ -931,6 +931,15 @@ h3 {
         background-repeat: no-repeat;
         background-image: url(./assets/img/blogpic3.png);
     }
+
+    .blog-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 500px;
+        white-space: nowrap;
+        margin-bottom: 10%;
+        line-height: 28px;
+    }
     
 }
 
@@ -961,10 +970,6 @@ h3 {
     line-height: 1.5em;
     color: #444444;
     margin: 2.5rem 0 1.5rem 0;
-}
-
-.blog-text {
-    margin-bottom: 10%;
 }
 
 .share-bar {
