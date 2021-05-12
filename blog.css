@@ -662,7 +662,6 @@ p {
         width: 80%;
         position: relative;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .section1 {
@@ -1394,7 +1393,6 @@ p {
         justify-content: space-between;
         text-align: center;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .contact-info {

@@ -639,7 +639,6 @@ p {
     width: 100%;
     position: relative;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .section1 {
@@ -699,7 +698,6 @@ h3 {
         width: 80%;
         position: relative;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .section1 {
@@ -1163,7 +1161,6 @@ h3 {
         justify-content: space-between;
         text-align: center;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .contact-info {
