@@ -846,7 +846,7 @@ p {
         display: inline-block;
         width: 19px;
         height: 19px;
-        vertical-align: text-bottom;
+        transform: translateY(8px);
     }
 
     .blog-text {
