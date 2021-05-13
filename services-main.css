@@ -307,7 +307,7 @@ p {
 .header1 {
     height: 130px;
     width: 100%;
-    background-color: red;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     position: relative;
