@@ -856,15 +856,6 @@ h3 {
     background-image: url(./assets/img/blogpic3.png);
 }
 
-.h2bold {
-    font-size: 17px;
-    font-family: "source-sans-pro";
-    font-weight: bold;
-    line-height: 1.5em;
-    color: #444444;
-    margin-bottom: 10%;
-}
-
 .blog-text {
     margin-bottom: 10%;
 }
@@ -968,6 +959,9 @@ h3 {
     line-height: 1.5em;
     color: #444444;
     margin: 2.5rem 0 1.5rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .share-bar {

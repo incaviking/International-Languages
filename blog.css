@@ -833,6 +833,8 @@ p {
         line-height: 1.5em;
         color: #444444;
         margin: 2rem 0;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     .author-text {
@@ -912,6 +914,9 @@ p {
         line-height: 1.5em;
         color: #444444;
         margin: 2rem 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
