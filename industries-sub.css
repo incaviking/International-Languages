@@ -1188,18 +1188,19 @@ h1 {
 
 
 .customer-logo1 {
-    background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/childrens-wi-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
-
+    background-size: contain;
+    margin: auto;
 }
 
 .customer-logo2 {
-    background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/magellan-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
+    background-size: contain;
+    margin: auto;
 }
 
 .customer-logo3 {
@@ -1210,11 +1211,271 @@ h1 {
 }
 
 .customer-logo4 {
-    background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/ariens-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
+    background-size: contain;
+    margin: auto;
 }
+
+.customer-logo5 {
+    background: url(./assets/img/MPS-logo-RGB.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo6 {
+    background: url(./assets/img/molina-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo7 {
+    background: url(./assets/img/dhs-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo8 {
+    background: url(./assets/img/Outagamie-County-Logo.gif) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo9 {
+    background: url(./assets/img/kenosha-county-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo10 {
+    background: url(./assets/img/marquette-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo11 {
+    background: url(./assets/img/UWM-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo12 {
+    background: url(./assets/img/gehl-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo13 {
+    background: url(./assets/img/packers-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo14 {
+    background: url(./assets/img/johnson-controls-logo.svg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo15 {
+    background: url(./assets/img/united-way-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo16 {
+    background: url(./assets/img/belling-health-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo17 {
+    background: url(./assets/img/catapult-learning-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo18 {
+    background: url(./assets/img/uwgb-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo19 {
+    background: url(./assets/img/prevea-health-logo.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo20 {
+    background: url(./assets/img/tnt-crust-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo21 {
+    background: url(./assets/img/boumatic-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo22 {
+    background: url(./assets/img/fabio-perini-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo23 {
+    background: url(./assets/img/thedacare-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo24 {
+    background: url(./assets/img/stvincent-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo25 {
+    background: url(./assets/img/tmg-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo26 {
+    background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo27 {
+    background: url(./assets/img/milwaukee-county-courts-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo28 {
+    background: url(./assets/img/quarles-and-brady-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo29 {
+    background: url(./assets/img/calumet-sheriffs-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo30 {
+    background: url(./assets/img/green-bay-school-district.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo31 {
+    background: url(./assets/img/wi-doa-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo32 {
+    background: url(./assets/img/milwaukee-county-hhs.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo33 {
+    background: url(./assets/img/aflac-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo34 {
+    background: url(./assets/img/wisconsin-mutual-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo35 {
+    background: url(./assets/img/mhs-health-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo36 {
+    background: url(./assets/img/community-care-logo.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+
+
 
 /*---------------------------------------------------------------------------------------------*/
 /* Section 5 DESKTOP ----------------------------------------------------------------------------------*/
@@ -1238,21 +1499,22 @@ h1 {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-auto-rows: 1fr;
         grid-gap: 80px;
+        align-items: center;
     }
 
     .customer-logo1 {
-        background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/childrens-wi-logo.png) no-repeat center center;
         width: 100%;
         height: 200px;
-        object-fit: contain;
-    
+        background-size: contain;
     }
     
     .customer-logo2 {
-        background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/magellan-logo.png) no-repeat center center;
         width: 100%;
-        height: 200px;
-        object-fit: contain;
+        height: 180px;
+        background-size: contain;
+        margin: auto;
     }
     
     .customer-logo3 {
@@ -1263,10 +1525,234 @@ h1 {
     }
     
     .customer-logo4 {
-        background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/ariens-logo.png) no-repeat center center;
         width: 100%;
         height: 200px;
-        object-fit: contain;
+        background-size: contain;
+    }
+
+    .customer-logo5 {
+        background: url(./assets/img/MPS-logo-RGB.jpeg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo6 {
+        background: url(./assets/img/molina-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo7 {
+        background: url(./assets/img/dhs-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo8 {
+        background: url(./assets/img/Outagamie-County-Logo.gif) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo9 {
+        background: url(./assets/img/kenosha-county-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo10 {
+        background: url(./assets/img/marquette-logo.png) no-repeat center center;
+        width: 90%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo11 {
+        background: url(./assets/img/UWM-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo12 {
+        background: url(./assets/img/gehl-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo13 {
+        background: url(./assets/img/packers-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo14 {
+        background: url(./assets/img/johnson-controls-logo.svg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo15 {
+        background: url(./assets/img/united-way-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo16 {
+        background: url(./assets/img/belling-health-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo17 {
+        background: url(./assets/img/catapult-learning-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+    
+    .customer-logo18 {
+        background: url(./assets/img/uwgb-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo19 {
+        background: url(./assets/img/prevea-health-logo.jpeg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo20 {
+        background: url(./assets/img/tnt-crust-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo21 {
+        background: url(./assets/img/boumatic-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo22 {
+        background: url(./assets/img/fabio-perini-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo23 {
+        background: url(./assets/img/thedacare-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo24 {
+        background: url(./assets/img/stvincent-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo25 {
+        background: url(./assets/img/tmg-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo26 {
+        background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo27 {
+        background: url(./assets/img/milwaukee-county-courts-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo28 {
+        background: url(./assets/img/quarles-and-brady-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo29 {
+        background: url(./assets/img/calumet-sheriffs-logo.png) no-repeat center center;
+        width: 60%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo30 {
+        background: url(./assets/img/green-bay-schools-logo.jpeg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo31 {
+        background: url(./assets/img/wi-doa-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo32 {
+        background: url(./assets/img/milwaukee-county-hhs-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo33 {
+        background: url(./assets/img/aflac-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo34 {
+        background: url(./assets/img/wisconsin-mutual-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo35 {
+        background: url(./assets/img/mhs-health-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo36 {
+        background: url(./assets/img/community-care-logo.jpeg) no-repeat center center;
+        width: 80%;
+        height: 200px;
+        background-size: contain;
     }
     
 .blue-line {

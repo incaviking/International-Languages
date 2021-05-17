@@ -1870,6 +1870,14 @@ h1 {
     margin: auto;
 }
 
+.customer-logo26 {
+    background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
 
 
 .image-secondary {
@@ -2424,6 +2432,13 @@ h1 {
 
     .customer-logo25 {
         background: url(./assets/img/tmg-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo26 {
+        background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
         width: 100%;
         height: 200px;
         background-size: contain;
