@@ -251,6 +251,7 @@ p {
     z-index: 3;
     width: 100%;
     top: 0;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 .logo {
     background: url(./assets/img/il-logo.svg);
@@ -377,6 +378,7 @@ p {
         position: relative;
         margin: 0 auto;
         padding: 0;
+        box-shadow: none;
     }
 
     .logo {
@@ -608,27 +610,79 @@ p {
 }
 
 .breadcrumbs {
-    display: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-top: 6.5rem;
+    margin-left: 5%;
 }
 
+.home-icon {
+    height: 16px;
+    width: 16px;
+    background: url(./assets/icons/Home.svg);
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: .5rem;
+}
+
+.home-text {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.arrow {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.current-page {
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-2px);
+    }
 
 .article-banner {
-    height: 260px;
+    height: 200px;
     width: 100%;
     background-image: url(./assets/img/services-header.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -20px;
+    background-position: center;
+    margin: .5rem auto 90px;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
 .article-wrapper {
     height: fit-content;
-    width: 92%;
-    padding: 3rem 0rem 1rem 1.5rem;
+    width: 90%;
+    padding: 2rem 1rem 1rem 1.5rem;
     background-color: white;
     text-align: left;
     position: relative;
-    margin: -75px 0 0 0;
+    margin: -7.5rem 0 0 0;
 }
 
 .article-text1 {
@@ -766,7 +820,7 @@ p {
 .titles-black {
     color: #444444;
     font-size: 20px;
-    margin: 0 0 3rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .red-line {

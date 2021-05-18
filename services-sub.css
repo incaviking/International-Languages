@@ -187,6 +187,7 @@ p {
     z-index: 3;
     width: 100%;
     top: 0;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 .logo {
     background: url(./assets/img/il-logo.svg);
@@ -317,6 +318,7 @@ p {
     position: relative;
     margin: 0 auto;
     padding: 0;
+    box-shadow: none;
 }
 
 .logo {
@@ -556,7 +558,7 @@ p {
 
 .section1 {
     width: 100%;
-    height: 633px;
+    height: 380px;
 }
 
     
@@ -567,12 +569,72 @@ p {
     position: relative;
     z-index: 0;
     object-fit: cover;
-    margin: 5.5rem 17.5%;
+    margin: 1rem 17.5% 5.5rem;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
 .breadcrumbs {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin: 6.5rem 0 0 5%;
+}
+
+.home-icon {
+    height: 16px;
+    width: 16px;
+    background: url(./assets/icons/Home.svg);
+    background-repeat: no-repeat;
     display: none;
+    margin-right: .5rem;
+}
+
+.home-text {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.arrow {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.arrow1 {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.current-page {
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-2px);
 }
 
 .h1light2 {
@@ -589,13 +651,26 @@ p {
 
 .main-text {
     height: fit-content;
-    width: 85%;
+    width: 95%;
     padding: 2rem 2rem;
-    margin: -125px auto 0 0;
+    margin: 0 auto -2rem 0;
     background-color: white;
     text-align: left;
     position: relative;
     z-index: 2;
+    transform: translate(-6%, -6rem)
+}
+
+.main-text-2line {
+    height: fit-content;
+    width: 95%;
+    padding: 2rem 2rem;
+    margin: 0 auto -2rem 0;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    transform: translate(-6%, -6rem)
 }
 
 h1 {
@@ -637,7 +712,7 @@ h1 {
 
     .section1 {
         width: 100%;
-        height: 660px;
+        height: 680px;
     }
 
     .breadcrumbs {
@@ -646,7 +721,7 @@ h1 {
         position: relative;
         z-index: 1;
         vertical-align: baseline;
-        margin-bottom: 1.5rem;
+        margin: 0 0 1.5rem 0;
     }
     
     .home-icon {
@@ -660,6 +735,16 @@ h1 {
     }
     
     .arrow {
+        height: 100%;
+        width: 7px;
+        background: url(./assets/icons/Angle-right.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 1.5rem;
+        transform: translateY(1px);
+    }
+
+    .arrow1 {
         height: 100%;
         width: 7px;
         background: url(./assets/icons/Angle-right.svg);
@@ -702,11 +787,24 @@ h1 {
         height: fit-content;
         width: 600px;
         padding: 4rem 4rem;
-        margin: -250px auto 6rem 0;
+        margin: -250px auto -1rem 0;
         background-color: white;
         text-align: left;
         position: relative;
         z-index: 2;
+        transform: translate(0, -7rem);
+    }
+
+    .main-text-2line {
+        height: fit-content;
+        width: 600px;
+        padding: 4rem 4rem;
+        margin: -250px auto -3.5rem 0;
+        background-color: white;
+        text-align: left;
+        position: relative;
+        z-index: 2;
+        transform: translate(0, -9.5rem);
     }
 
     h1 {
@@ -768,8 +866,8 @@ h1 {
     background-color: #F7F7F8;
     height: fit-content;
     width: 90%;
-    padding: 26rem 0 6rem;
-    margin: -300px auto 0;
+    padding: 0 0 6rem;
+    margin: 0 auto 0;
     text-align: center;
 }
 
@@ -959,13 +1057,13 @@ h1 {
     background-color: #F7F7F8;
     width: 80%;
     max-width: 1440px;
-    padding: 20rem 0 6rem;
+    padding: 0 0 6rem;
     margin: auto;
     text-align: center;
 }
 
 .benefits-title {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 

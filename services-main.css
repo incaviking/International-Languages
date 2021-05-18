@@ -596,6 +596,16 @@ p {
     transform: translateY(-2.5px);
 }
 
+.arrow1 {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
 .breadcrumb-link {
     text-decoration: none;
     color: #848484;
@@ -612,7 +622,7 @@ p {
     font-size: 14px;
     display: inline-block;
     transform: translateY(-2px);
-    }
+}
 
 .h1light2 {
     font-weight: 100;
@@ -641,7 +651,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
-    margin: 90px auto;
+    margin: .5rem auto 90px;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 
 }
@@ -654,7 +664,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
-    margin: 90px auto;
+    margin: .5rem auto 90px;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 
 }
