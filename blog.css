@@ -382,18 +382,62 @@ p {
     .header-wrapper {
         margin: 0 auto;
         position: relative;
-        width: 80%;
     }
 
-    .header1 {
-        height: 130px;
+    header {
         width: 100%;
-        background-color: transparent;
+        background-color: #fff;
         display: flex;
         justify-content: space-between;
-        position: relative;
+        position: fixed;
         margin: 0 auto;
         padding: 0;
+        z-index: 10000;
+        transition: 0.6s;
+        padding: 40px 170px;
+    }
+    
+    header .logo {
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    }
+    
+    header ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header ul li {
+        position: relative;
+        list-style: none;
+    }
+    
+    header ul li a {
+        position: relative;
+        margin: 0 15px;
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 500px;
+        transition: 0.6s;
+    }
+    
+    header.sticky {
+        padding: 5px 170px;
+        background: #fff;
+    }
+    
+    header.sticky .logo,
+    header.sticky ul li a {
+        color: #000;
     }
 
     .logo {
@@ -666,7 +710,7 @@ p {
 
     .section1 {
         width: 100%;
-        margin: 0 auto;
+        margin: 170px auto;
     }
 
     .breadcrumbs {
