@@ -380,10 +380,10 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-    .header-wrapper {
+    /* .header-wrapper {
         margin: 0 auto;
         position: relative;
-    }
+    } */
 
     header {
         width: 100%;
@@ -395,11 +395,11 @@ p {
         padding: 0;
         z-index: 10000;
         transition: 0.6s;
-        padding: 40px 170px;
+        padding: 1% 10%;
     }
     
     header.sticky {
-        padding: 5px 170px;
+        padding: 5px 10%;
         background: #fff;
         top: 0;
         box-shadow: 0 60px 99px rgb(0 0 0 / 5%);
@@ -416,6 +416,7 @@ p {
         width: 238px;
         height: 60px;
         margin: auto 0;
+        flex: none;
     }
 
     .container {
@@ -680,7 +681,7 @@ p {
 
     .section1 {
         width: 100%;
-        margin: 170px auto;
+        margin: 100px auto;
     }
 
     .breadcrumbs {
