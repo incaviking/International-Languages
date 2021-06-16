@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="contact.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -175,33 +179,54 @@
         </div>
         <p class="contact-description">Or use our request form to start a language services request.</p>
         <div class="form-wrapper">
-            <div class="form">
+            <div class="form contact-form">
                 <div class="field1">
-                    <input type="text" name="name" autocomplete="off" required />
+                    <input id="contact-form-name" type="text" name="name" autocomplete="off" required />
                     <label for="name" class="label-name">
                         <span class="content-name">Name</span>
                     </label>
                 </div>  
                 <div class="field2">
-                    <input type="text" name="name" autocomplete="off" required />
+                    <input id="contact-form-email" type="text" name="name" autocomplete="off" required />
                     <label for="name" class="label-name">
                         <span class="content-name">Email</span>
                     </label>
                 </div>  
                 <div class="field3">
-                    <input type="text" name="name" autocomplete="off" required />
+                    <input id="contact-form-langs" type="text" name="name" autocomplete="off" required />
                     <label for="name" class="label-name">
                         <span class="content-name">Language(s)</span>
                     </label>
                 </div>  
                 <div class="field4">
-                    <input type="text" name="name" autocomplete="off" required />
+                    <select id="contact-form-service">
+                        <option value="0">Service Requested</option>
+                        <option>Interpreting</option>
+                        <option>-- On Site Interpreting</option>
+                        <option>-- Over-the-Phone Interpreting</option>
+                        <option>-- Video Remote Interpreting</option>
+                        <option>-- Escort Interpreting</option>
+                        <option>-- Conference Interpreting</option>
+                        <option>Translation</option>
+                        <option>-- Document Translation</option>
+                        <option>-- Web Localization</option>
+                        <option>-- Desktop Publishing</option>
+                        <option>-- Certified & Sworn Translation</option>
+                        <option>-- Technical Translations</option>
+                        <option>More Services</option>
+                        <option>-- Interpreter Proficiency Testing</option>
+                        <option>-- Training & Workshops</option>
+                        <option>-- Cultural Presentations</option>
+                        <option>-- Transcription & Subtitling</option>
+                        <option>-- Foreign Language Voiceovers</option>
+                    </select>
+                    <!--<input type="text" name="name" autocomplete="off" required />
                     <label for="name" class="label-name">
                         <span class="content-name">Service Requested</span>
-                    </label>
+                    </label> -->
                 </div>  
                 <div class="field5">
-                    <input type="text" name="name" autocomplete="off" required />
+                    <input id="contact-form-message" type="text" name="name" autocomplete="off" required />
                     <label for="name" class="label-name">
                         <span class="content-name">Leave us a message</span>
                     </label>
@@ -218,7 +243,7 @@
                         <input type="radio" id="email" name="contact-type" value="email">
                         <label for="email">Email</label>
                     </div>
-                    <div class="send-button">Send</div>
+                    <div id="contact-send-btn" class="send-button">Send</div>
                 </div>
             </div>
         </div>
@@ -350,3 +375,34 @@
 </body>
 
 </html>
+
+<script>
+    function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+    $("#contact-send-btn").click(function() {
+        var params = {
+            name: $('#contact-form-name').val(),
+            email: $('#contact-form-email').val(),
+            langs: $('#contact-form-langs').val(),
+            service: $('#contact-form-service').val(),
+            message: $('#contact-form-message').val(),
+            reach: $('input[name="contact-type"]').filter(':checked').val()
+        };
+        
+        if (!params.name) {
+            alert('Invalid name');
+            return;
+        }
+
+        if (!isEmail(params.email)) {
+            alert('Invalid email');
+            return;
+        }
+
+        $.post("https://us-central1-international-languages-c74b0.cloudfunctions.net/contactUs", params, function() {
+            alert('sent');
+        });
+    })
+</script>

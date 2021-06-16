@@ -1,0 +1,24 @@
+{
+  "name": "international-languages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "simple-autoreload-server": "^0.2.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:watch": "npx autoreload-server -w \"**/**.{html,css,js}\" ./ 8008",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incaviking/International-Languages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incaviking/International-Languages/issues"
+  },
+  "homepage": "https://github.com/incaviking/International-Languages#readme"
+}
