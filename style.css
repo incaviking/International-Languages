@@ -90,13 +90,6 @@ table {
     font-weight: 700;
     }
 
-    @font-face {
-        font-family: 'ss glyphish';
-        src: url(./assets/fonts/ss-glyphish-outlined.otf);
-        font-style: normal;
-        font-weight: 700;
-        }
-
 
 h1 {
     font-size: 30px;
@@ -144,12 +137,6 @@ p {
     font-weight: 700;
     line-height: 1em;
     color: #444444
-}
-
-.ss-glyphish {
-    font-size: 16px;
-    font-family: 'ss glyphish';
-    color: #848484;
 }
 
 
@@ -279,61 +266,22 @@ p {
 
 @media screen and (min-width: 1024px) {
 
-header {
+.header-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    max-width: 1440px;
+}
+
+.header1 {
     height: 130px;
     width: 100%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     margin: 0 auto;
     padding: 0;
-    z-index: 10000;
-    transition: 0.6s;
-    padding: 40px 100px;
-}
-
-header .logo {
-    position: relative;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.6s;
-}
-
-header ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header ul li {
-    position: relative;
-    list-style: none;
-}
-
-header ul li a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 500px;
-    transition: 0.6s;
-}
-
-header.sticky {
-    padding: 5px 100px;
-    background: #fff;
-}
-
-header.sticky .logo,
-header.sticky ul li a {
-    color: #000;
 }
 
 .logo {

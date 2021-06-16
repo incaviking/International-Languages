@@ -182,6 +182,7 @@ p {
     z-index: 3;
     width: 100%;
     top: 0;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 .logo {
     background: url(./assets/img/il-logo.svg);
@@ -312,6 +313,7 @@ p {
     position: relative;
     margin: 0 auto;
     padding: 0;
+    box-shadow: none;
 }
 
 .logo {
@@ -558,7 +560,68 @@ p {
 }
 
 .breadcrumbs {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-top: 6.5rem;
+    margin-left: 5%;
+}
+
+.home-icon {
+    height: 16px;
+    width: 16px;
+    background: url(./assets/icons/Home.svg);
+    background-repeat: no-repeat;
     display: none;
+    margin-right: .5rem;
+}
+
+.home-text {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.arrow {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.arrow1 {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.current-page {
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-2px);
 }
 
 .h1light2 {
@@ -575,7 +638,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
-    margin: 90px auto;
+    margin: .5rem auto 90px;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 
 }
@@ -588,7 +651,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
-    margin: 90px auto;
+    margin: .5rem auto 90px;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 
 }
@@ -601,7 +664,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
-    margin: 90px auto;
+    margin: .5rem auto 90px;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 
 }
@@ -641,7 +704,6 @@ p {
         max-width: 1440px;
         position: relative;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .breadcrumbs {
@@ -650,9 +712,19 @@ p {
         position: relative;
         z-index: 1;
         vertical-align: baseline;
-        margin-bottom: 1.5rem;
+        margin: 0 0 1.5rem 0;
     }
     
+    .home-text {
+        text-decoration: none;
+        color: #848484;
+        font-family: 'source-sans-pro';
+        font-size: 14px;
+        display: none;
+        margin-right: .5rem;
+        transform: translateY(-2px);
+    }
+
     .home-icon {
         height: 100%;
         width: 16px;
@@ -660,7 +732,6 @@ p {
         background-repeat: no-repeat;
         display: inline-block;
         margin-right: 1.5rem;
-        
     }
     
     .arrow {
@@ -689,7 +760,7 @@ p {
         font-size: 14px;
         display: inline-block;
         transform: translateY(-2px);
-    }
+        }
     
     .main-section-wrapper {
         position: relative;
@@ -3425,7 +3496,6 @@ p {
         width: 100%;
         background-color:  #f7f7f8;
         margin: 0 auto;
-        border: 1px solid red;
     }
     
     .footer-bg {
@@ -3445,7 +3515,6 @@ p {
         justify-content: space-between;
         text-align: center;
         margin: 0 auto;
-        border: 1px solid red;
     }
     
     .contact-info {

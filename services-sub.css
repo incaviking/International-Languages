@@ -187,6 +187,7 @@ p {
     z-index: 3;
     width: 100%;
     top: 0;
+    box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 .logo {
     background: url(./assets/img/il-logo.svg);
@@ -317,6 +318,7 @@ p {
     position: relative;
     margin: 0 auto;
     padding: 0;
+    box-shadow: none;
 }
 
 .logo {
@@ -556,7 +558,7 @@ p {
 
 .section1 {
     width: 100%;
-    height: 633px;
+    height: 380px;
 }
 
     
@@ -567,12 +569,72 @@ p {
     position: relative;
     z-index: 0;
     object-fit: cover;
-    margin: 5.5rem 17.5%;
+    margin: 1rem 17.5% 5.5rem;
     box-shadow: 0px 60px 99px rgba(0, 0, 0, .05);
 }
 
 .breadcrumbs {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin: 6.5rem 0 0 5%;
+}
+
+.home-icon {
+    height: 16px;
+    width: 16px;
+    background: url(./assets/icons/Home.svg);
+    background-repeat: no-repeat;
     display: none;
+    margin-right: .5rem;
+}
+
+.home-text {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.arrow {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.arrow1 {
+    height: 10px;
+    width: 7px;
+    background: url(./assets/icons/Angle-right.svg);
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: .5rem;
+    transform: translateY(-2.5px);
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    margin-right: .5rem;
+    transform: translateY(-2px);
+}
+
+.current-page {
+    color: #848484;
+    font-family: 'source-sans-pro';
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-2px);
 }
 
 .h1light2 {
@@ -589,13 +651,33 @@ p {
 
 .main-text {
     height: fit-content;
-    width: 85%;
+    width: 95%;
     padding: 2rem 2rem;
-    margin: -125px auto 0 0;
+    margin: 0 auto -2rem 0;
     background-color: white;
     text-align: left;
     position: relative;
     z-index: 2;
+    transform: translate(-6%, -6rem)
+}
+
+.main-text-2line {
+    height: fit-content;
+    width: 95%;
+    padding: 2rem 2rem;
+    margin: 0 auto -2rem 0;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    transform: translate(-6%, -6rem)
+}
+
+h1 {
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    margin: 0 auto 1rem;
 }
 
 .h1bold {
@@ -630,7 +712,7 @@ p {
 
     .section1 {
         width: 100%;
-        height: 660px;
+        height: 680px;
     }
 
     .breadcrumbs {
@@ -639,7 +721,7 @@ p {
         position: relative;
         z-index: 1;
         vertical-align: baseline;
-        margin-bottom: 1.5rem;
+        margin: 0 0 1.5rem 0;
     }
     
     .home-icon {
@@ -653,6 +735,16 @@ p {
     }
     
     .arrow {
+        height: 100%;
+        width: 7px;
+        background: url(./assets/icons/Angle-right.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 1.5rem;
+        transform: translateY(1px);
+    }
+
+    .arrow1 {
         height: 100%;
         width: 7px;
         background: url(./assets/icons/Angle-right.svg);
@@ -695,11 +787,31 @@ p {
         height: fit-content;
         width: 600px;
         padding: 4rem 4rem;
-        margin: -250px auto 6rem 0;
+        margin: -250px auto -1rem 0;
         background-color: white;
         text-align: left;
         position: relative;
         z-index: 2;
+        transform: translate(0, -7rem);
+    }
+
+    .main-text-2line {
+        height: fit-content;
+        width: 600px;
+        padding: 4rem 4rem;
+        margin: -250px auto -3.5rem 0;
+        background-color: white;
+        text-align: left;
+        position: relative;
+        z-index: 2;
+        transform: translate(0, -9.5rem);
+    }
+
+    h1 {
+        font-weight: 100;
+        text-align: left;
+        font-size: 36px;
+        margin: 0 auto 1rem;
     }
 
     .h1bold {
@@ -754,10 +866,20 @@ p {
     background-color: #F7F7F8;
     height: fit-content;
     width: 90%;
-    padding: 26rem 0 6rem;
+    padding: 0 0 6rem;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.benefits-translation {
+    background-color: #F7F7F8;
+    height: fit-content;
+    width: 90%;
+    padding: 20rem 0 6rem;
     margin: -300px auto 0;
     text-align: center;
 }
+
 
 .process {
     background-color: white;
@@ -935,13 +1057,13 @@ p {
     background-color: #F7F7F8;
     width: 80%;
     max-width: 1440px;
-    padding: 20rem 0 6rem;
+    padding: 0 0 6rem;
     margin: auto;
     text-align: center;
 }
 
 .benefits-title {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -1228,6 +1350,7 @@ p {
 .titles-white-big {
     color: white;
     font-size: 36px;
+    text-align: center;
 }
 
 .h1bold-big {
@@ -1647,18 +1770,19 @@ p {
 
 
 .customer-logo1 {
-    background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/childrens-wi-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
-
+    background-size: contain;
+    margin: auto;
 }
 
 .customer-logo2 {
-    background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/magellan-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
+    background-size: contain;
+    margin: auto;
 }
 
 .customer-logo3 {
@@ -1669,11 +1793,190 @@ p {
 }
 
 .customer-logo4 {
-    background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
-    width: 100%;
+    background: url(./assets/img/ariens-logo.png) no-repeat center center;
+    width: 50%;
     height: 100px;
-    object-fit: contain;
+    background-size: contain;
+    margin: auto;
 }
+
+.customer-logo5 {
+    background: url(./assets/img/MPS-logo-RGB.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo6 {
+    background: url(./assets/img/molina-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo7 {
+    background: url(./assets/img/dhs-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo8 {
+    background: url(./assets/img/Outagamie-County-Logo.gif) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo9 {
+    background: url(./assets/img/kenosha-county-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo10 {
+    background: url(./assets/img/marquette-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo11 {
+    background: url(./assets/img/UWM-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo12 {
+    background: url(./assets/img/gehl-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo13 {
+    background: url(./assets/img/packers-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo14 {
+    background: url(./assets/img/johnson-controls-logo.svg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo15 {
+    background: url(./assets/img/united-way-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo16 {
+    background: url(./assets/img/belling-health-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo17 {
+    background: url(./assets/img/catapult-learning-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo18 {
+    background: url(./assets/img/uwgb-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo19 {
+    background: url(./assets/img/prevea-health-logo.jpeg) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo20 {
+    background: url(./assets/img/tnt-crust-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo21 {
+    background: url(./assets/img/boumatic-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo22 {
+    background: url(./assets/img/fabio-perini-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo23 {
+    background: url(./assets/img/thedacare-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo24 {
+    background: url(./assets/img/stvincent-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo25 {
+    background: url(./assets/img/tmg-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+.customer-logo26 {
+    background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
+    width: 50%;
+    height: 100px;
+    background-size: contain;
+    margin: auto;
+}
+
+
 
 .image-secondary {
     background-position: center;
@@ -2052,22 +2355,23 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-auto-rows: 1fr;
         grid-gap: 80px;
+        align-items: center;
     }
 
 
     .customer-logo1 {
-        background: url(./assets/img/childrens-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/childrens-wi-logo.png) no-repeat center center;
         width: 100%;
         height: 200px;
-        object-fit: contain;
-    
+        background-size: contain;
     }
     
     .customer-logo2 {
-        background: url(./assets/img/magellan-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/magellan-logo.png) no-repeat center center;
         width: 100%;
-        height: 200px;
-        object-fit: contain;
+        height: 180px;
+        background-size: contain;
+        margin: auto;
     }
     
     .customer-logo3 {
@@ -2078,11 +2382,167 @@ p {
     }
     
     .customer-logo4 {
-        background: url(./assets/img/marquette-logo@2x.png) no-repeat center center;
+        background: url(./assets/img/ariens-logo.png) no-repeat center center;
         width: 100%;
         height: 200px;
-        object-fit: contain;
+        background-size: contain;
     }
+
+    .customer-logo5 {
+        background: url(./assets/img/MPS-logo-RGB.jpeg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo6 {
+        background: url(./assets/img/molina-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo7 {
+        background: url(./assets/img/dhs-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo8 {
+        background: url(./assets/img/Outagamie-County-Logo.gif) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo9 {
+        background: url(./assets/img/kenosha-county-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo10 {
+        background: url(./assets/img/marquette-logo.png) no-repeat center center;
+        width: 90%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo11 {
+        background: url(./assets/img/UWM-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo12 {
+        background: url(./assets/img/gehl-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo13 {
+        background: url(./assets/img/packers-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo14 {
+        background: url(./assets/img/johnson-controls-logo.svg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo15 {
+        background: url(./assets/img/united-way-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo16 {
+        background: url(./assets/img/belling-health-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo17 {
+        background: url(./assets/img/catapult-learning-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+    
+    .customer-logo18 {
+        background: url(./assets/img/uwgb-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo19 {
+        background: url(./assets/img/prevea-health-logo.jpeg) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo20 {
+        background: url(./assets/img/tnt-crust-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo21 {
+        background: url(./assets/img/boumatic-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo22 {
+        background: url(./assets/img/fabio-perini-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo23 {
+        background: url(./assets/img/thedacare-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo24 {
+        background: url(./assets/img/stvincent-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo25 {
+        background: url(./assets/img/tmg-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .customer-logo26 {
+        background: url(./assets/img/rockwell-automation-logo.png) no-repeat center center;
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+
 
     .services-grid2 {
         display: grid;
@@ -2575,7 +3035,7 @@ p {
 }
 
 .section7-title {
-    width: 46%;
+    width: 100%;
     margin-left: 0%;
     text-justify: auto;
 }
