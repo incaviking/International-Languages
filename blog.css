@@ -399,7 +399,7 @@ p {
     }
     
     header.sticky {
-        padding: 5px 10%;
+        padding: 20px 10%;
         background: #fff;
         top: 0;
         box-shadow: 0 60px 99px rgb(0 0 0 / 5%);
