@@ -3233,7 +3233,7 @@ p {
     }
 
     .field1 {
-        height: 50px;
+        height: 62px;
         display: block;
         position: relative;
         overflow: hidden;
@@ -3299,7 +3299,7 @@ p {
 
 
     .field2 {
-        height: 50px;
+        height: 62px;
         display: block;
         position: relative;
         overflow: hidden;
@@ -3354,7 +3354,7 @@ p {
 
 
     .field3 {
-        height: 50px;
+        height: 62px;
         display: block;
         position: relative;
         overflow: hidden;
@@ -3409,7 +3409,7 @@ p {
 
 
     .field4 {
-        height: 50px;
+        height: 62px;
         display: block;
         position: relative;
         overflow: hidden;
@@ -3463,23 +3463,24 @@ p {
     }
 
     .field5 {
-        height: 100px;
+        height: 136px;
         display: block;
         position: relative;
         overflow: hidden;
         grid-area: field5;
     }
 
-    .field5 input {
+    .field5 textarea {
         width: 100%;
         height: 100%;
         color: #444444;
         background: rgba(219, 219, 219, .5);
-        padding-left: 15px;
+        padding: 30px 15px 15px 15px;
         border: none;
         outline: none;
         font-family: 'source-sans-pro';
         font-size: 16px;
+        overflow: hidden;
     }
 
     .field5 label {
@@ -3503,20 +3504,18 @@ p {
         transition: transform 0.3s ease;
     }
 
-    .field5 input:focus + .label-name .content-name, 
-    .field5 input:valid + .label-name .content-name {
+    .field5 textarea:focus + .label-name .content-name {
         transform: translateY(-400%);
         font-size: 14px;
         color: #345079;
     }
 
-    .field5 input:focus + .label-name::after, 
-    .field5 input:valid + .label-name::after {
+    .field5 textarea:focus + .label-name::after {
         transform: translate(0%)
     }
 
     .field6 {
-        height: 50px;
+        height: 62px;
         display: flex;
         flex-direction: row;
         position: relative;
