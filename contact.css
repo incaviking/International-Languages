@@ -3523,6 +3523,37 @@ p {
         grid-area: field6;
     }
 
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+    .field6 .loader {
+        border: 4px solid #f3f3f3; /* Light grey */
+        border-top: 4px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: spin 2s linear infinite;
+        position: relative;
+        left: 21px;
+        bottom: 6px;
+    }
+
+    #contact-send-btn {
+        margin-top: 7px;
+    }
+
+    #contact-send-btn.disabled {
+        opacity: .7;
+        pointer-events: none;
+    }
+
+    #contact-send-btn-loader {
+        margin-top: 7px;
+        display: none;
+    }
+
     .phone {
         width: 200px;
         align-self: center;
