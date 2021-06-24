@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="services-sub.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -223,24 +227,24 @@
 
     <div class="page-wrapper">
     
-    <section class="interpreting-situations">
+    <section id="situations-wrapper" class="interpreting-situations">
         <div class="situations">
             <h1 class="small-h1">Enabling communication in <span class="h1-small-bold">any situation</span></h2>
             <div class="green-line3"></div>
-            <h2 class="situation-selected">HOME VISITS</h2>
-            <h2 class="situation">COMPANY TRAININGS</h2>
-            <h2 class="situation">COMMUNITY EVENTS</h2>
-            <h2 class="situation">HOSPITALS & CLINICS</h2>
-            <h2 class="situation">COURTROOMS</h2>
-            <h2 class="situation">ATTORNEY OFFICES</h2>
-            <h2 class="situation">GOV'T AGENCIES</h2>
+            <h2 id="situation-header-1" class="situation selected">HOME VISITS</h2>
+            <h2 id="situation-header-2" class="situation">COMPANY TRAININGS</h2>
+            <h2 id="situation-header-3" class="situation">COMMUNITY EVENTS</h2>
+            <h2 id="situation-header-4" class="situation">HOSPITALS & CLINICS</h2>
+            <h2 id="situation-header-5" class="situation">COURTROOMS</h2>
+            <h2 id="situation-header-6" class="situation">ATTORNEY OFFICES</h2>
+            <h2 id="situation-header-7" class="situation">GOV'T AGENCIES</h2>
         </div>
         <div class="green-box-situation">
-            <h2 class="h2-white">Interpreter Home Visits</h2>
-            <p class="p-white2">We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.
+            <h2 id="situations-header" class="h2-white">Interpreter Home Visits</h2>
+            <p id="situations-body" class="p-white2">We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.
                 </p>
         </div>
-        <div class="situation-image"></div>
+        <div id="situation-image" class="situation-image"></div>
     </section>
 
 
@@ -455,6 +459,71 @@ window.intercomSettings = {
     app_id: APP_ID
   };
 (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+<script>
+    var slides = [
+        {
+            header: $('#situation-header-1'),
+            image: '/assets/img/home-visit.jpg',
+            headerText: 'Interpreter Home Visits',
+            bodyText: 'We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-2'),
+            image: '/assets/img/blogpic2.png',
+            headerText: 'Company Trainings',
+            bodyText: 'NUM2 know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-3'),
+            image: '/assets/img/home-visit.jpg',
+            headerText: 'Community Events',
+            bodyText: 'NUM 3 We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-4'),
+            image: '/assets/img/blogpic2.png',
+            headerText: 'Hospitals & Clinics',
+            bodyText: 'NUM 4We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-5'),
+            image: '/assets/img/home-visit.jpg',
+            headerText: 'Courtrooms',
+            bodyText: 'NUM 5 We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-6'),
+            image: '/assets/img/blogpic2.png',
+            headerText: 'Attorney Offices',
+            bodyText: 'NUM 6 We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        },
+        {
+            header: $('#situation-header-7'),
+            image: '/assets/img/home-visit.jpg',
+            headerText: 'Govt Agencies',
+            bodyText: 'NUM 7 We know that a certain set of protocols are needed to successfully and smoothly complete a home visit appointment. Bridging cultural beliefs and traditions, our interpreters are skilled in creating a secure in-home environment where all parties feel comfortable.'
+        }
+    ];
+    var nextSlide = 0;
+    var allSituationHeaders = $('#situations-wrapper h2.situation');
+    var situationImage = $('#situation-image');
+    var situationHeader = $('#situations-header');
+    var situationBody = $('#situations-body');
+
+    var SLIDE_DURATION_SEC = 3; // period in seconds
+
+    function doNextSlide() {
+        console.log('next slide', nextSlide);
+        allSituationHeaders.removeClass('selected');
+        slides[nextSlide].header.addClass('selected');
+        situationImage.css('background-image', "url(" + slides[nextSlide].image + ")");
+        situationHeader.html(slides[nextSlide].headerText);
+        situationBody.html(slides[nextSlide].bodyText);
+
+        nextSlide = (nextSlide + 1) % 7;
+    }
+    setInterval(doNextSlide, SLIDE_DURATION_SEC * 1000);
 </script>
 </body>
 
