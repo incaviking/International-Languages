@@ -344,10 +344,12 @@ p {
 }
 
 .nlb {
+    height: auto;
 
 }
 
 .nlb-button {
+    height: auto;
 
 }
 
@@ -565,9 +567,9 @@ p {
 
 }
 
-.page-wrapper {
+/* .page-wrapper {
 
-}
+} */
 
 .breadcrumbs {
     display: inline-block;

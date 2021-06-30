@@ -429,13 +429,14 @@ p {
     margin: auto 0;
 }
 
-.nlb {
+/* .nlb {
+    height: auto;
 
 }
 
 .nlb-button {
-
-}
+    height: auto;
+} */
 
 .dropdown1 {
     background-color:white;

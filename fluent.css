@@ -270,12 +270,14 @@ p {
     width: 100%;
     top: 0;
 }
+
 .logo {
     background: url(./assets/img/il-logo.svg);
     background-repeat: no-repeat;
     width: 238px;
-    height: 50px;
-    margin: auto 0 auto 2%;
+    height: 60px;
+    margin: auto 0;
+    flex: none;
 }
 
 .container {
@@ -358,22 +360,20 @@ p {
     
     .container {
         display: none;
-      }
+    }
     
     .nav-links {
         display: flex;
-        margin: auto 11% auto 0;
-        justify-content: space-between;
-        width: 600px;
+        margin: auto 0;
     }
     
-    .nlb {
+    /* .nlb {
         height: fit-content;
     }
     
     .nlb-button {
-    
-    }
+        height: auto;
+    } */
     
     .dropdown1 {
         background-color:white;
@@ -411,7 +411,12 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        transform: translateX(-2rem)
+        transform: translateX(-2rem);
+        float: left;
+        width: 50%;
+        padding-left: 30px;
+        height: fit-content;
+        line-height: 1.5;
     }
     
     .column-container {
