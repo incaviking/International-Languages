@@ -15,7 +15,7 @@
 <body>
     <!----------------------- Nav ------------------------>
 
-    <div class="header1">
+    <header>
         <a href="./index.html" class="logo"></a>
         <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
@@ -107,7 +107,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        }
+        )</script>
 
 
     <!----------------------- Section 1 ------------------------>

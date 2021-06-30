@@ -15,8 +15,8 @@
 <body>
     <!----------------------- Nav ------------------------>
 
-    <div class="header-wrapper">
-        <div class="header1">
+    <!-- <div class="header-wrapper"> -->
+        <header>
             <a href="./index.html" class="logo"></a>
             <div class="container" onclick="myFunction(this)">
                 <div class="bar1"></div>
@@ -140,10 +140,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        </div>
-
-
+        </header>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function () {
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            }
+            )</script>
 
 
     <!-----------------------Section 1------------------------>
@@ -152,7 +155,7 @@
 
         <div class="section1">
             <div class="breadcrumbs">
-                <a href="./index.html" class="home-text">Home</a>
+                <a href="./index.html" class="home-text"></a>
                 <a href="./index.html" class="home-icon"></a>
                 <div class="arrow"></div>
                 <a href="#" class="breadcrumb-link">Services</a>
